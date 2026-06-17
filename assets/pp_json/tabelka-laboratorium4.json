@@ -1,0 +1,108 @@
+{
+  "sectionTitle": "Laboratorium 4",
+  "paragraphs":
+  [
+    {
+      "type":"description",
+      "title": "Temat",
+      "contents":
+      [
+        "Obsługa środowiska Linux"
+      ]
+    },
+    {
+      "type":"description",
+      "title": "Przygotowanie",
+      "contents":
+      [
+        {
+          "description": "Przygotowanie: nauczenie się i <strong>przećwiczenie w terminalu</strong> komend Linux ze stron:",
+          "type": "ul",
+          "contents": [
+              {
+                  "text": "podstawowe komendy",
+                  "url": "https://www.astrouw.edu.pl/~jskowron/pracownia/komendy/"
+              },
+              {
+                  "text": "grep, xargs, find, tar, top, aliasy",
+                  "url": "https://docs.google.com/presentation/d/1BYZ0_vOu6gc3SM9YknHprdiZZNBPgQYxqzSmNJvYrCo/edit?usp=sharing"
+              },
+              {
+                  "text": "chmod",
+                  "url": "https://docs.google.com/presentation/d/1RFWiAv3tpwhqrgC9JH4OJbIXYXAOBGf3-EZebONloTA/edit?usp=sharing"
+              }
+          ]
+        },
+        {
+          "text":"Przygotowanie do laboratorium",
+          "url": "https://docs.google.com/document/d/1JO1nxSoJUryrUR6r7LtHNf3IHl2sqAUkgElGCKcok48/edit?usp=sharing"
+        }
+      ]
+    },  
+    {
+      "type":"ol",
+      "title": "Przebieg laboratorium",
+      "contents":
+      [
+        "Kartkówka z komend Linux",
+        {
+          "text": "Wykonywanie listy zadań",
+          "icon": "ti-pencil",
+          "url": "https://docs.google.com/document/d/1gk_JkGEE16_4eFqEu3067X_AoxDh2RDi-1kDOD47kNc/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+        "title": "Zadanie domowe",
+        "type": "ol",
+        "contents": [
+                                  
+            {
+                "text":"Przesłanie dokończonego kodu w ciągu 7 dni na ePortal.",
+                "icon": "ti-export"
+            },
+            {
+              "text": "Wykonanie przygotowania do następnego laboratorium.",
+              "icon": "ti-settings"
+            }
+        ]
+    },
+    {
+      "type": "comment",
+            "title": "",
+            "old_title": "Tutorial", 
+      "contents": [
+        {
+          "text": "Tydzień 9",
+          "url": "https://docs.google.com/document/d/1jTMxIi-2WsvbLhNYmI4VNQI7LwNoB7WqmFvYlStcYy0/edit?usp=sharing",
+          "icon": "ti-clipboard",
+          "description" : "struktury"
+        },
+        {
+          "text": "Tydzień 10",
+          "url": "https://docs.google.com/document/d/1p5NjhySWsciguozwSJCPozOy7OWxV_QI17iLwgAO1sE/edit?usp=sharing",
+          "icon": "ti-clipboard",
+          "description": "wskaźniki na struktury i dynamiczne alokowanie"
+        }
+      ]
+    },
+    {
+        "title": "Wskazówki",
+        "type": "description",
+        "contents": [
+            {
+                "icon": "ti-light-bulb",
+                "text": "Zadania najwygodniej wykonywać w terminalu na swoim systemie Linux jednak następnie należy przetestować efekty działania programu na Diablo i Panamincie"
+            },
+            {
+                "icon": "ti-light-bulb",
+                "text": "Połączyć do Diablo i Panaminta można się za pomocą ssh i w tych środowiskach testować skrypty"
+            },
+            {
+                "icon": "ti-light-bulb",
+                "text": "Korzystając z poleceń poznanych na wykładzie i w prezentacji oraz z zasobów internetowych proszę krok po kroku tworzyć skrypty"
+            }
+        ]
+    }
+  ]
+}

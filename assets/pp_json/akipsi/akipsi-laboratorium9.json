@@ -1,0 +1,33 @@
+{
+  "sectionTitle": "Laboratorium 9",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Przeszukiwanie przestrzeni stanów."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [ 
+       
+        {
+          "text": "<a href='https://docs.google.com/document/d/1nU4UWMtLcKJxfyK_odSpGv7oWj3-eWx4lTxNtAEIxLg/edit?usp=sharing' target='_blank'>Lista zadań nr 9</a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

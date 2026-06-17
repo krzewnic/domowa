@@ -1,0 +1,107 @@
+{
+    "sectionTitle": "Materiały",
+    "paragraphs": [
+        {
+            "title": "Tutorial",
+            "type": "description",
+            "contents": [
+                {
+                    "text": "Tydzień 1",
+                    "icon": "ti-clipboard",
+                    "url": "https://docs.google.com/document/d/1njsEct86TZ1XJDcBAHyudc3H0FmnSJftmYJEeIzW4bA/edit?usp=sharing",
+                    "description": "zmienne, wypisywanie, wczytywanie, napisy"
+                },
+                {
+                    "text": "Tydzień 2",
+                    "icon": "ti-clipboard",
+                    "description": "instrukcja warunkowa, pętle, liczby pseudolosowe",
+                    "url": "https://docs.google.com/document/d/1x4FNU5ytGLHs2opgQGUWgkTjEzX8A96KM5BNt6qnLAA/edit?usp=sharing"
+                },
+                {
+                    "text": "Tydzień 3",
+                    "url": "https://docs.google.com/document/d/1Ezt0JiEngDM2Dkq4G8e_ShAsP6VZ1ItMvPKFssFAPhQ/edit?usp=sharing",
+                    "description": "typy danych, ciągi znaków, funkcje",
+                    "icon": "ti-clipboard"
+                },
+                {
+                    "text": "Tydzień 4",
+                    "url": "https://docs.google.com/document/d/1DbpO_SmBa8EUs80VOIDH99IeMBYoiv5QgWILH96ovSg/edit?usp=sharing",
+                    "description": "funkcje, operacje i/o, strumienie danych, argumenty wywołania programu",
+                    "icon": "ti-clipboard"
+                },
+                {
+                    "text": "Tydzień 5",
+                    "url": "https://docs.google.com/document/d/1ZWVHg2agLagXBgKQEoAjOpGir3-Qb4VJNV5JxIli9D8/edit?usp=sharing",
+                    "icon": "ti-clipboard",
+                    "description": "tablice, rekurencja"
+                },
+                {
+                    "text": "Tydzień 6",
+                    "url": "https://docs.google.com/document/d/1oglynna3CWG_-Ot27I9boU12L5yyC4Oe30X1WEIIZNw/edit?usp=sharing",
+                    "icon": "ti-clipboard",
+                    "description": "tablice wielowymiarowe"
+                },
+                {
+                    "text": "Tydzień 7",
+                    "description": "wskaźniki",
+                    "icon": "ti-clipboard",
+                    "url": "https://docs.google.com/document/d/1JyZgLFy7nTRKA5wZ1JzlM6GWPK02GejnbpLgln2_sfo/edit?usp=sharing"
+                },
+                {
+                    "text": "Tydzień 8",
+                    "description": "Wskaźniki i dynamiczne alokowanie pamięci",
+                    "icon": "ti-clipboard",
+                    "url": "https://docs.google.com/document/d/1m-c2He82g8m2YbeF9BWIcLbRLTWyQRkdM3KZo5TOo_M/edit?usp=sharing"
+                },
+                {
+                    "text": "Tydzień 9",
+                    "url": "https://docs.google.com/document/d/1jTMxIi-2WsvbLhNYmI4VNQI7LwNoB7WqmFvYlStcYy0/edit?usp=sharing",
+                    "icon": "ti-clipboard",
+                    "description": "struktury"
+                },
+                {
+                    "text": "Tydzień 10",
+                    "url": "https://docs.google.com/document/d/1p5NjhySWsciguozwSJCPozOy7OWxV_QI17iLwgAO1sE/edit?usp=sharing",
+                    "icon": "ti-clipboard",
+                    "description": "wskaźniki na struktury i dynamiczne alokowanie"
+                },
+                {
+                    "text": "Tydzień 11",
+                    "url": "https://docs.google.com/document/d/1QvbrhFT9AZOVA3P0H8d-4pW3CmRYg9vvk-x8bfMP0R8/edit?usp=sharing",
+                    "icon": "ti-clipboard",
+                    "description": "listy, stosy"
+                },
+                {
+                    "text": "Tydzień 12",
+                    "url": "https://docs.google.com/document/d/1jcxGjfIJA7dXvy9o1oJmcvHIbnmH2Jz8_W-qu2AydKg/edit?usp=sharing",
+                    "icon": "ti-clipboard",
+                    "description": "wskaźniki na wskaźnik na wskaźnik"
+                },
+                {
+                    "text": "Tydzień 13",
+                    "url": "https://docs.google.com/document/d/1Qt1HfCupaAGC3UHRkUeiBFSdv-b3PIQsdsSsHG52pUo/edit?usp=sharing",
+                    "icon": "ti-clipboard",
+                    "description": "podział na moduły"
+                },
+                {
+                    "text": "Tydzień 14",
+                    "url": "https://docs.google.com/document/d/1yrIx0aCtYWM34Ugq9dzdL9BClSr8oYRMzinoOFXZh3g/edit?usp=sharing",
+                    "icon": "ti-clipboard",
+                    "description": "inne tematy"
+                }
+                
+            ]
+        },
+        {
+            "title": "Materiały dodatkowe",
+            "type": "description",
+            "contents": [
+                {
+                    "text": "Wskaźniki i tablice",
+                    "url": "https://docs.google.com/presentation/d/1FkylN2Cxza9l88-8DrX-rr7fFS24qbqmkCT1mwF9qKw/edit?usp=sharing",
+                    "icon": "ti-hand-point-right"
+                }
+            ]
+        }
+    ]
+}

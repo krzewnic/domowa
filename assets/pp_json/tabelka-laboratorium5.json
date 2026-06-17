@@ -1,0 +1,151 @@
+{
+  "sectionTitle": "Laboratorium 5",
+  "paragraphs":
+  [
+    {
+      "type":"description",
+      "title": "Temat",
+      "contents":
+      [
+        "Tablice dynamiczne, wielowymiarowe oraz struktury. Podział programu na moduły. "
+      ]
+    },
+    {
+      "type": "description",
+      "title": "Przygotowanie",
+      "contents" :[
+        {
+          "text": "Przygotowanie do laboratorium - Plansza",
+          "url": "https://docs.google.com/document/d/1zuZxNZMFSrRCj71fp6L-i8gh3v-pOrV-yrkN11_itZE/edit?usp=sharing",
+          "icon": "ti-view-grid"
+        },
+        {
+            "text": "Zapoznanie się z dokumentem <a href='https://docs.google.com/document/d/1Acm-QCkvG7-k5FsjjptKjp2ZY1ZO5iAWSQIw3wqYGpY/edit?usp=sharing'>Wskazówki do zadania</a>",          
+            "icon": "ti-eye"
+        }
+      ]
+    },
+    {
+        "type": "ol",
+        "title": "Przebieg laboratorium",
+        "contents": [
+            {
+                "description": "Wykonywanie zadań dla swojej grupy",
+                "type": "description",
+                "contents": [
+                    {
+                        "text": "GR_1",
+                        "url": "https://docs.google.com/document/d/1Rb3MvjUInsPYXshKIq26zFkjxRqGhcvj8U636u6xIJw/edit?usp=sharing",
+                        "icon": "ti-image"
+                    },
+                    {
+                        "text": "GR_2",
+                        "url": "https://docs.google.com/document/d/1fQH5NaNpBtoQAeowMAHPm5Zm_UwbLSdpfO7HAKvMUnc/edit?usp=sharing",
+                        "icon": "ti-car"
+                    },
+                    {
+                        "text": "GR_3",
+                        "url": "https://docs.google.com/document/d/1y1ax293a7GVGC2FAOajshL_3sB2yJTGwvZWPjXAAwwU/edit?usp=sharing",
+                        "icon": "ti-music"
+                    },
+                    {
+                        "text": "GR_4",
+                        "url": "https://docs.google.com/document/d/1V4OwQyPCR47RVdro8nlIC7XOOCLJXIYjDsQxIlEasRc/edit?usp=sharing",
+                        "icon": "ti-panel"
+                    },
+                    {
+                        "text": "GR_5",
+                        "url": "https://docs.google.com/document/d/1pJmfG0cvBmVbsLGTaED0RbG236mUMza_pwIAI2LoQ5g/edit?usp=sharing",
+                        "icon": "ti-mouse"
+                    },
+                    {
+                        "text": "GR_6",
+                        "url": "https://docs.google.com/document/d/1upsgsBwbib17yeCMLoNgVqtOzZmFeA0j-psIs5so2pE/edit?usp=sharing",
+                        "icon": "ti-anchor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Zadanie domowe",
+        "type": "ol",
+        "contents": [
+                                  
+            {
+                "text":"Przesłanie dokończonego kodu w ciągu 7 dni na ePortal.",
+                "icon": "ti-export"
+            },
+            {
+              "text": "Wykonanie przygotowania do następnego laboratorium.",
+              "icon": "ti-settings"
+            }
+        ]
+    },
+    {
+      "type": "comment",
+            "title": "",
+            "old_title": "Tutorial", 
+      "contents": [
+        {
+          "text": "Tydzień 11",
+          "url": "https://docs.google.com/document/d/1QvbrhFT9AZOVA3P0H8d-4pW3CmRYg9vvk-x8bfMP0R8/edit?usp=sharing",
+          "icon": "ti-clipboard",
+          "description" : "listy, stosy"
+        },
+        {
+          "text": "Tydzień 12",
+          "url": "https://docs.google.com/document/d/1jcxGjfIJA7dXvy9o1oJmcvHIbnmH2Jz8_W-qu2AydKg/edit?usp=sharing",
+          "icon": "ti-clipboard",
+          "description": "wskaźniki na wskaźnik na wskaźnik"
+        }
+      ]
+    },
+    {
+        "type": "ol",
+        "title": "Zadanie z poprzedniego roku",
+        "contents": [
+            {
+                "icon": "ti-move",
+                "url": "https://docs.google.com/document/d/1g9PpD5Fpaa8v8Xrll7x4ZYf6vzI-KUWnSYYGSJRa8P8/edit?usp=sharing",
+                "text": "Forma ruchoma"
+            },
+            {
+                "icon": "ti-angle-double-down",
+                "url": "https://docs.google.com/document/d/1homW_Yg_qRPkDZoUr02YviDk7bm0kJvODZWvxFbpi-4/edit?usp=sharing",
+                "text": "Spadające piaski"
+            },
+            {
+                "icon": "ti-anchor",
+                "url": "https://docs.google.com/document/d/1mLRE6S1yX3AARO9kxhma8nkB0QJgvCAWg_9aqLW9L1M/edit?usp=sharing",
+                "text": "Bitwa na morzu"
+            },
+            {
+                "icon": "ti-shine",
+                "url": "https://docs.google.com/document/d/1ZgxbDS5Xh8RGBFzIU-iJAHRpKL7vvaRbrJcEO38AnaM/edit?usp=sharing",
+                "text": "Gra w życie"
+            },
+            {
+                "icon": "ti-crown",
+                "url": "https://docs.google.com/document/d/1duP50xOc0m-Ul0pI8H3Ln7YwbUOz05Dz5KtM7bDFEF8/edit?usp=sharing",
+                "text": "Konik szachowy"
+            },
+            {
+                "icon": "ti-pencil-alt",
+                "url": "https://docs.google.com/document/d/1UMAuj1AVXU9oCIOGks-UXpH53e9rJ46CVxUjLgYLdmM/edit?usp=sharing",
+                "text": "Krzyżówka"
+            },
+            {
+                "icon": "ti-cloud",
+                "url": "https://docs.google.com/document/d/1nAKBSe_hlSH1eDoabxmwL8RtLjjOtPAO9eBRhqThKOU/edit?usp=drive_link",
+                "text": "Drzewa"
+            },
+            {
+                "icon": "ti-basketball",
+                "url": "https://docs.google.com/document/d/110U6sz16rqzq9xCgMcOu5sbmsO1w8Tw8xF5WZ-ChGcQ/edit?usp=drive_link",
+                "text": "Odbijanie piłeczki"
+            }
+        ]
+    }
+  ]
+}

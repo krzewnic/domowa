@@ -1,0 +1,15 @@
+{
+    "questions":
+    [
+        {
+            "question" : "Czy należy wykonać wszystkie zadania i przygotowywać się do wszystkich ćwiczeń?",
+            "answer": "Tak, należy wykonać wszystkie zadania i przygotowywać się do wszystkich ćwiczeń. Programowanie jest bardzo potrzebną i poszukiwaną na rynku pracy umiejętnością. Jej nabycie jest trudne i wymaga systematycznej pracy. Omijanie jakiegokolwiek etapu może prowadzić do luki w wiedzy, co utrudni zrozumienie kolejnych tematów, realizację bardziej zaawansowanych projektów oraz kontynuację nauki na kolejnych semestrach."
+        }, 
+        {
+            "question":"Czy trzeba wysyłać / przedstawiać usprawiedliwienia?",
+            "answer":"W przypadku jednej dozwolonej nieobecności w semestrze, dokuemtny formalne (jeśli istnieją), należy zatrzymać dla siebie - nie należy ich przesyłać ani mi przedstawiać. W przypadku poważniejszych sytuacji wymagany jest stały kontakt, gdyż każda tego typu sprawa jest prowadzona indywidualnie. Zależnie od sytuacji indywidualnej, może być potrzebna zgoda dziekana lub usprawiedliwienie."
+        }
+
+
+    ]
+}

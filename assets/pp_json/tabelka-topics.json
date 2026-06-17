@@ -1,0 +1,53 @@
+{
+    "topics":
+    [
+        {
+            "title": "Informacje",
+            "json": "./assets/pp_json/tabelka-infos.json"
+        },
+        {
+            "title": "Laboratorium 0 - Zasady pracy w laboratorium. Narzędzia.",
+            "json": "./assets/pp_json/tabelka-laboratorium0.json"
+        },
+        {
+            "title": "Laboratorium 1 - Zaczynamy kodować",
+            "json": "./assets/pp_json/tabelka-laboratorium1.json"
+        },
+        {
+            "title": "Laboratorium 2 - Czego można dowiedzieć się z danych?",        
+            "json": "./assets/pp_json/tabelka-laboratorium2.json"
+        },
+        {
+            "title": "Laboratorium 3 - W labiryncie",        
+            "json": "./assets/pp_json/tabelka-laboratorium3.json"
+        },
+        {
+            "title": "Laboratorium 4 - Praca z uniksowym interpreterem poleceń",        
+            "json": "./assets/pp_json/tabelka-laboratorium4.json"
+        },
+        {
+            "title": "Laboratorium 5 - Tajemnicza plansza",        
+            "json": "./assets/pp_json/tabelka-laboratorium5.json"
+        },
+        {
+            "title": "Laboratorium 6 - Do czego może nam się przydać stos?",        
+            "json": "./assets/pp_json/tabelka-laboratorium6.json"
+        },
+        {
+            "title": "Laboratorium 7 - Wyszukiwanie przybliżone",        
+            "json": "./assets/pp_json/tabelka-laboratorium7.json"
+        },  {
+        "title": "Tutorial",        
+        "json": "./assets/pp_json/tabelka-tutorial.json"
+    }
+    ],
+    "old" : {
+        "title": "Tutorial",        
+        "json": "./assets/pp_json/tabelka-tutorial.json"
+    },
+    "old2":  {
+           
+            "title": "Zakres materiału obowiązującego na kolejne ćwiczenia i laboratoria",        
+            "json": "./assets/pp_json/tabelka-zakres.json"
+        }
+}

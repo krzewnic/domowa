@@ -1,0 +1,32 @@
+{
+  "sectionTitle": "Laboratorium 4",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Haszowanie."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [  
+        {
+          "text": "<a href='https://docs.google.com/document/d/1ZHbCBDCUuB1sGM6g1jfnw_myoWLA4NRPacOPXGNCfDA/edit?usp=sharing' target='_blank'>Lista zadań nr 4</a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

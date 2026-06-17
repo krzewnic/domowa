@@ -1,0 +1,71 @@
+{
+    "topics":
+    [
+        {
+            "title": "Regulamin",
+            "json": "./assets/pp_json/akipsi/akipsi-regulamin.json"
+        },
+        {
+            "title": "Laboratorium 0 – Zasady pracy w laboratorium. Narzędzia.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium0.json"
+        },
+        {
+            "title": "Laboratorium 1 – Przypomnienie składni języka Python.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium1.json"
+        },
+        {
+            "title": "Laboratorium 2 – Przegląd kolekcji.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium2.json"
+        },
+        {
+            "title": "Laboratorium 3 – Algorytmy sortowania.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium3.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 4 – Haszowanie.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium4.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 5 – Drzewa.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium5.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 6 – Programowanie dynamiczne.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium6.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 7 – Grafy.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium7.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 8 – Grafy. Szukanie dróg w grafach.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium8.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 9 – Przeszukiwanie przestrzeni stanów.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium9.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 10 i 11 – Funkcja heurystyczna do oceny pozycji w warcabach.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium10.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 12 i 13 – Użycie sieci neuronowych do rozpoznawania ręcznie pisanych cyfr.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium12.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 14 – Podsumowanie semestru. Prezentacje zadań. Poprawy.",
+            "json": "./assets/pp_json/akipsi/akipsi-laboratorium14.json",
+            "hidden": true
+        }
+    ]
+}

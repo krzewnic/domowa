@@ -1,0 +1,104 @@
+{
+  "sectionTitle": "Laboratorium 0",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Organizacja pracy. Regulamin laboratorium. Kompilacja i uruchomienie programów."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Omówienie <a href='https://kcir.pwr.edu.pl/~krzewnicka/?page=pplab-regulamin' target='_blank'>regulaminu i systemu oceniania.</a>",
+          "icon": "ti-book"
+        },
+        {
+          "text": "<a href='https://docs.google.com/document/d/1qJkQW-n6zrf03gWP39Q9uLVrm5W-KS5mChvs4XnCj90/edit?usp=sharing' target='_blank'>Zadanie wstępne. Kompilowanie programu.</a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Przygotowanie środowiska z systemem Linux do prac domowych (wirtualna maszyna lub komputer wyposażony w system Linux albo WSL - Windows Subsystem for Linux).",
+          "icon": "ti-wand"
+        },
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        },
+        {
+          "type": "ul",
+          "description": "Dogłębne zapoznanie się z następującymi materiałami:",
+          "contents": [
+            {
+              "text": "<a href='https://kcir.pwr.edu.pl/~krzewnicka/?page=pplab-regulamin'>regulamin laboratorium</a>",
+              "icon": "ti-book"
+            },
+            {
+              "text": "<a href='https://kcir.pwr.edu.pl/~krzewnicka/?page=pplab-regulamin#faq'>często zadawane pytania</a>",
+              "icon": "ti-book"
+            },
+            {
+              "text": "Zakładka Informacje",
+              "icon": "ti-receipt"
+            }
+          ]
+        },
+        {
+          "text": "Wykonanie przygotowania do następnego laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    },
+    {
+        "title": "Wskazówki",
+        "type": "description",
+        "contents": [
+            {
+                "text": "Często testuj swój kod. Należy uruchamiać kompilator po dopisaniu małej ilości kodu i na bieżąco usuwać błędy. Dzięki temu wiadomo, które zmiany spowodowały błąd.",
+                "icon": "ti-light-bulb"
+            },
+            {
+              "text": "Nie ograniczaj się do czytania kodu. Jeśli uczysz się programować miej zawsze kompilator w pogotowiu i testuj, zmieniaj, eksperymentuj.",
+              "icon": "ti-light-bulb"
+            },
+            {
+                "text": "Nie spiesz się: Błędy w języku C mogą być trudne do zdiagnozowania, więc pracuj nad swoim kodem cierpliwie i systematycznie. Małe kroki i częste testy pomogą Ci łatwiej wyłapać ewentualne błędy.",
+                "icon": "ti-light-bulb"
+            }
+        ]
+    }
+  ],
+  "commented": [
+    {
+      "title": "Tutorial i wskazówki",
+      "type": "description",
+      "contents": [
+        {
+          "text": "Tydzień 1",
+          "icon": "ti-clipboard",
+          "url": "https://docs.google.com/document/d/1njsEct86TZ1XJDcBAHyudc3H0FmnSJftmYJEeIzW4bA/edit?usp=sharing",
+          "description": "zmienne, wypisywanie, wczytywanie, napisy"
+        },
+        {
+          "text": "Tydzień 2",
+          "icon": "ti-clipboard",
+          "description": "instrukcja warunkowa, pętle, liczby pseudolosowe",
+          "url": "https://docs.google.com/document/d/1x4FNU5ytGLHs2opgQGUWgkTjEzX8A96KM5BNt6qnLAA/edit?usp=sharing"
+        },
+        {
+          "text": "<a href='https://docs.google.com/document/d/1uYHA8mTrE7cDfqKfzByJPxW4DiOIBxPUr64Uo2YN3sY/edit?usp=sharing'>Praca z Visual Studio Code</a>",
+          "icon": "ti-book"
+        }
+      ]
+    }
+  ]
+}

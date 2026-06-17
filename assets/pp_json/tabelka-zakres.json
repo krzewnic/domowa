@@ -1,0 +1,586 @@
+{
+    "sectionTitle": "Zakres materiału obowiązującego na kolejne ćwiczenia i laboratoria",
+    "paragraphs": [
+        {
+            "visibility": "hidden",
+            "type": "description",
+            "contents": [
+                {
+                    "text": "Lab 0 - regulamin",
+                    "url": "https://docs.google.com/presentation/d/12BfqS5_toXKkFRDvXTj5onLFAQV6bn7XBHib2jyHpSg/edit?usp=sharing"
+                },
+                {
+                    "text": "Cw 0 - regulamin",
+                    "url": "https://docs.google.com/presentation/d/1b-mRHDF01XTN_jI1F687XHo7LvDScSj4N46-qkJRXt8/edit?usp=sharing"
+                },
+                {
+                    "text": "Cw 1 - kolokwia",
+                    "url": "https://docs.google.com/presentation/d/1xdGgF2kbcYK3M6T_tEqhyd7ICEauTlMlv59lcMcpcsE/edit?usp=sharing"
+                },
+                {
+                    "text": "Po co nam to drzewo?",
+                    "url": "https://docs.google.com/presentation/d/1lqpTdShEZxURYG7UAp2wIFIBrRRd1RYkYDu9xJ1DTlA/edit?slide=id.p#slide=id.p"
+                }
+            ]
+        },
+        {
+            "type": "description",
+            "contents": [
+                {
+                    "description": "<h2 class='d-inline-block mb-4'>Wprowadzenie</h2>",
+                    "toggle": "show_content",
+                    "type": "description",
+                    "contents": [
+                        {
+                            "type": "ul",
+                            "description": "<div class='mb-3'>Przedmiot <strong>Podstawy programowania</strong> składa się z trzech form zajęć: <strong>wykładu</strong>, <strong>ćwiczeń</strong> oraz <strong>laboratorium</strong>. Choć różnią się formą, ich treści są ściśle powiązane — wiedza teoretyczna omawiana na wykładzie znajduje zastosowanie zarówno na ćwiczeniach, jak i podczas realizacji zadań laboratoryjnych. Dla pełnego zrozumienia materiału ważne jest traktowanie tych zajęć jako spójnej całości. </div><div class='mb-3'>Przed przyjściem na ćwiczenia / laboratorium należy:</div>",
+                            "contents": [
+                                "Zapoznać się dokładnie z obowiązującym wykładem",
+                                "Wypróbować omówione na wykładzie techniki przy użyciu kompilatora języka C w środowisku Linux",
+                                "Odpowiedzieć na pytania, znajdujące się na końcu prezentacji z wykładu",
+                                "Wykonać wszystkie zadania, umieszczone w prezentacji z wykładu",
+                                "Eksperymentować z poznanymi na wykładzie koncepcjami",
+                                "Wykonać zadania z listy ćwiczeniowej / laboratoryjnej",
+                                {
+                                    "text": "W celu dokładnego zrozumienia materiału można korzystać z <a href='https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf' >podręcznika</a> lub dostępnych materiałów internetowych."
+                                },
+                                "Przygotować się do kolejnej części kolokwium."
+                            ]
+                        }
+                    ]
+                },
+                "<h2 class='my-4 pt-4'>Zakres materiału obowiązującego na kolejne ćwiczenia i laboratoria</h2>",
+                "<p>Poniżej przedstawiono szczegółowy wykaz materiałów obowiązujących na kolejne ćwiczenia i laboratoria. Wyłącznie ten dokument ma charakter wiążący. </p><p>Kolokwia cząstkowe z ćwiczeń obejmują zarówno zadania analogiczne do tych, które należy przygotować, jak i te, które powinny być w pełni ukończone. Przykładowo, na kolokwium cząstkowe nr 1 obowiązują zarówno Lista 0, jak i Lista 1, a także materiał teoretyczny z Wykładów 1 i 2 (nawet w przypadku niekorzystnego układu kalendarza).</p>",
+                {
+                    "type": "ul",
+                    "toggle": "hide_content",
+                    "description": "<strong id='topic_1'>Laboratorium 0 / Ćwiczenia 0:</strong>",
+                    "contents": [
+                        "Zajęcia organizacyjne trwają 45 minut.",
+                        "Wspólne zapoznanie się z <a href='?page=pplab-regulamin'>regulaminem laboratorium</a>.",
+                        "Wspólne zapoznanie się z <a href='?page=ppcw-regulamin'>regulaminem ćwiczeń</a>.",
+                        {
+                            "type": "description",
+                            "description": "<b>Ćwiczenia:</b>",
+                            "contents": [
+                                {
+                                    "text": "Lista 0",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_00/index.html",
+                                    "description": "Przecinanie prostokątów"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Laboratorium:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-mouse-alt",
+                                    "text": "Tutorial 0",
+                                    "url": "https://docs.google.com/document/d/1qJkQW-n6zrf03gWP39Q9uLVrm5W-KS5mChvs4XnCj90/edit?usp=sharing"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Dodatkowe materiały:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-hummer",
+                                    "text": "Zapis algorytmów - schemat blokowy, pseudokod, lista kroków",
+                                    "url": "https://docs.google.com/document/d/1J5HoY9Qf8dueR82kvMqgG-bC9BAe6ESd6ygimTHlnNw/edit?usp=sharing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "ul",
+                    "id": "lab1",
+                    "toggle": "hide_content",
+                    "description": "<strong id='topic_2'>Laboratorium 1 / Ćwiczenia 1:</strong>",
+                    "contents": [
+                        "Obowiązkowa znajomość <a href='?page=pplab-regulamin'>regulaminu laboratorium</a>.",
+                        "Obowiązkowa znajomość <a href='?page=ppcw-regulamin'>regulaminu ćwiczeń</a>.",
+                        {
+                            "text": "Wykład 1",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad01_folie.pdf",
+                            "description": "Wprowadzenie",
+                            "comment": "szkielet programu w języku C, specyfikacja algorytmu, schemat blokowy algorytmu, kompilacja i opcje wywołania kompilatorów, uruchamianie programów"
+                        },
+                        {
+                            "text": "Wykład 2",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad02_folie.pdf",
+                            "description": "Algorytm, podstawowe notacje, typy danych, wyrażenia i instrukcje",
+                            "comment": "schemat blokowy, mbnf, diagram składni, język C: komentarze, napis pusty i niepusty, typy danych, zmienne, stałe jawne i symboliczne, operatory i ich priorytety, instrukcje warunkowe, pętla while"
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Ćwiczenia:</b>",
+                            "contents": [
+                                {
+                                    "text": "Lista 0 - <span class='red_c'>ukończona</span>",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_00/index.html",
+                                    "description": "Przecinanie prostokątów"
+                                },
+                                {
+                                    "text": "Lista 1a - przygotowana",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_01a/index.html",
+                                    "description": "Przecinanie odcinków"
+                                },
+                                {
+                                    "text": "Lista 1b - przygotowana",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_01b/index.html",
+                                    "description": "Trójmian kwadratowy"
+                                },                                
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "Kolokwium cząstkowe C1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Laboratorium:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-mouse-alt",
+                                    "text": "Tutorial 1",
+                                    "url": "https://docs.google.com/document/d/1crRNb-1Xka8iMUIJTWwXxj46fDh4TQ852-uVjZdnWDE/edit?usp=sharing"
+                                },
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "K0 - kolokwium cząstkowe testowe (niepunktowane)"
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Dodatkowe materiały:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-package",
+                                    "text": "Wczytywanie danych w przykladach",
+                                    "url": "https://docs.google.com/document/d/12C35fdtYbJMI2jj9jhvYNYgq4h_tfshvlMw5WrbTjbM/edit?usp=sharing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "ul",
+                    "id": "lab2",
+                    "toggle": "hide_content",
+                    "description": "<strong id='topic_3'>Laboratorium 2 / Ćwiczenia 2:</strong>",
+                    "contents": [
+                        {
+                            "text": "Wykład 3",
+                            "description": "Składnia wyrażeń i instrukcji, złożoność obliczeniowa, operacje wejścia i wyjścia, funkcje",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad03_folie.pdf",
+                            "comment": "mbnf, instrukcje warunkowe, pętla for i while, instrukcja switch, funkcja Potega, złożoność obliczeniowa - liczenie operacji, strumienie danych > < oraz przetwarzanie potokowe |, funkcja printf, specyfikacje przekształceń, funkcja scanf, argumenty funkcji, wartość zwracana przez funkcję, deklaracja funkcji, zmienne lokalne i globalne, przesłanianie zmiennych."
+                        },
+                        {
+                            "text": "Wykład 4",
+                            "icon": "ti-book",
+                            "description": "Specyfikacja funkcji, operacje wejścia i wyjścia na plikach, rekurencja, tablice i wskaźniki",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad04_folie.pdf",
+                            "comment": "specyfikacja funkcji, warunki PRE i POST, operacje wejścia/wyjścia na plikach, funkcje fopen, getc, putc, fclose, fscanf, fprintf, iteracja a rekurencja, rekurencja pośrednia i bezpośrednia, wskaźniki, operatory adresu & i dereferencji *, tablice, dostęp do elementów tablicy za pomocą indeksu i za pomocą wskaźnika, zmiana wartości elementu tablicy, iterowanie po tablicy, wczytywanie danych do tablicy, napisy, tablice znaków, arytmetyka wskaźników, rzutowanie"
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Ćwiczenia:</b>",
+                            "contents": [
+                                {
+                                    "text": "Lista 1a - <span class='red_c'>ukończona</span>",
+                                    "description": "Przecinanie odcinków",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_01a/index.html"
+                                },
+                                {
+                                    "text": "Lista 1b - <span class='red_c'>ukończona</span>",
+                                    "icon": "ti-pencil",
+                                    "description": "Trójmian kwadratowy",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_01b/index.html"
+                                },
+                                {
+                                    "text": "Lista 2 - przygotowana",
+                                    "description": "MBNF",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_02.pdf"
+                                },
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "Kolokwium cząstkowe C2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Laboratorium:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-smallcap    ",
+                                    "text": "Lista zadań",
+                                    "url": "https://docs.google.com/document/d/1I9y8_tqQcm5QYFytPcmpHurK0IvUJW-Ma6HgPad-O8U/edit?usp=sharing"
+                                },                                
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "Kolokwium cząstkowe K1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "toggle": "hide_content",
+                    "type": "ul",
+                    "id": "lab3",
+                    "description": "<strong id='topic_4'>Laboratorium 3 / Ćwiczenia 3:</strong>",
+                    "contents": [
+                        {
+                            "text": "Wykład 5",
+                            "description": "Uniksowe interpretery poleceń",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~witold/unixintro/shelintro_s.pdf",
+                            "comment": "praca w terminalu, polecenia, globbing, potoki |, listy poleceń, przekierowania wejścia/wyjścia, skrypty, chmod, zmienna PATH, polecenia zagnieżdżone ``, argumenty wywołania skryptu, znaki specjalne, status procesu $?, instrukcje warunkowe if oraz case, pętla while, funkcje interpretera poleceń, parametry opcjonalne interpretera poleceń, wskazywanie interpreter za pomocą #!, POSIX"
+                        },
+                        {
+                            "text": "Wykład 6",
+                            "description": "Tablice i wskaźniki cd., argumenty wywołania programu, reguły stylu programowania, asercje",
+                            "comment": "tablice wielowymiarowe, zakres indeksów tablic, tablice a wskaźniki, menu programu, argumenty wywołania programu, konwencje, reguły stylu programowania, komentarze dokumentujące, asercje",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad06_folie.pdf"
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Ćwiczenia:</b>",
+                            "contents": [
+                                {
+                                    "text": "Lista 2 - <span class='red_c'>ukończona</span>",
+                                    "description": "MBNF",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_02.pdf"
+                                },
+                                {
+                                    "text": "Lista 3 - przygotowana",
+                                    "description": "Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej.",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_03.pdf"
+                                },
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "Kolokwium cząstkowe C3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Laboratorium:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-mouse-alt",
+                                    "text": "Lista zadań",
+                                    "url": "https://docs.google.com/document/d/1nQ-E8Oxnf8aBbs3p9hbufBIiGRoNYGpvnNZMGtMonJM/edit?usp=sharing"
+                                },                               
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "Kolokwium cząstkowe K2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Dodatkowe materiały:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-package",
+                                    "text": "Jak rozpoznawać złożoność obliczeniową algorytmu / programu",
+                                    "url": "https://docs.google.com/presentation/d/1wWrJXKrk7bZNDKvU2FA1AMuLuvFBQuHLMQKQdbYg9SQ/edit?usp=sharing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "toggle": "hide_content",
+                    "type": "ul",
+                    "id": "lab4",
+                    "description": "<strong id='topic_5'>Laboratorium 4 / Ćwiczenia 4:</strong>",
+                    "contents": [
+                        {
+                            "text": "Wykład 7",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad07_folie.pdf",
+                            "description": "Zmienne dynamiczne, struktury, moduły programowe",
+                            "comment": "zmienne statyczne, automatyczne i dynamiczne, funkcje malloc, calloc, free, struktury, funkcja typedef, struktury zawierające tablice, podział programu na moduły"
+                        },
+                        {
+                            "text": "Wykład 8",
+                            "icon": "ti-book",
+                            "description": "Obsługa błędów, przeszukiwanie i sortowanie tablic",
+                            "comment": "wykrywanie i sygnalizowanie błędów, błędy krytyczne i niekrytyczne, przeszukiwanie liniowe i binarne, sortowanie przez wstawianie, drzewiaste, bąbelkowe, szybkie, przez scalanie, hybrydowe",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad08_folie.pdf"
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Ćwiczenia:</b>",
+                            "contents": [
+                                {
+                                    "text": "Lista 3 - <span class='red_c'>ukończona</span>",
+                                    "description": "Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej.",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_03.pdf"
+                                },
+                                {
+                                    "text": "Lista 4 - przygotowana",
+                                    "description": "Wskaźniki",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_04.pdf"
+                                },                                
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "Kolokwium cząstkowe C4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Laboratorium:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-mouse-alt",
+                                    "text": "Lista zadań",
+                                    "url": "https://docs.google.com/document/d/1oAiDjv4Hju3_cbXhlD7Y6kyEQGEmxClmK5omk27t6dY/edit?usp=sharing"
+                                },                                
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "Kolokwium cząstkowe K3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "toggle": "show_content",
+                    "type": "ul",
+                    "id": "lab5",
+                    "description": "<strong id='topic_6'>Laboratorium 5 / Ćwiczenia 5:</strong>",
+                    "contents": [
+                        {
+                            "text": "Wykład 9",
+                            "icon": "ti-book",
+                            "description": "Listy i stosy",
+                            "comment": "Tworzenie, dodawanie i usuwanie elementów, listy z głową, lista z wartownikiem, lista dwukierunkowa, lista kołowa, stosy",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad09_folie.pdf"
+                        },
+                        {
+                            "text": "Wykład 10",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad10_folie.pdf",
+                            "comment": "złożoność logarytmiczna, liniowa, wielomianowa, wykładnicza, inne, problem stopu",
+                            "description": "Złożoność obliczeniowa"
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Ćwiczenia:</b>",
+                            "contents": [
+                                {
+                                    "text": "Lista 4 - <span class='red_c'>ukończona</span>",
+                                    "description": "Wskaźniki",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_04.pdf"
+                                },
+                                {
+                                    "text": "Lista 5 - przygotowana",
+                                    "description": "Sortowanie",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_05.pdf"
+                                },
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "Kolokwium cząstkowe C5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Laboratorium:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-mouse-alt",
+                                    "text": "Lista zadań",
+                                    "url": "https://docs.google.com/document/d/1klm0y-KbQUdAchnIYqOKfBRz91CgawYzPkE_F5HVUSU/edit?usp=sharing"
+                                },
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "Kolokwium cząstkowe K4"
+                                }
+                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "toggle": "show_content",
+                    "type": "ul",
+                    "id": "lab6",
+                    "description": "<strong id='topic_7'>Laboratorium 6 / Ćwiczenia 6:</strong>",
+                    "contents": [
+                        {
+                            "text": "Wykład 11",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad11_folie.pdf",
+                            "comment": "porównywanie napisów, biblioteka string, operacje na napisach, konwersje, częste błędy, drzewa binarne - podstawowe pojęcia",
+                            "description": "Przetwarzanie napisów, drzewa binarne"
+                        },
+                        {
+                            "text": "Wykład 12",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad12_folie.pdf",
+                            "description": "Języki programowania",
+                            "comment": "generacje języków programowania, kod maszynowy, asembler, drzewo genealogiczne języków wysokiego poziomu, języki: imperatywne, deklaratywne, symboliczne, obiektowe; środowiska programistyczne, języki idealnie nieproceduralne, generatory aplikacji, inteligentne systemy wiedzy."
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Ćwiczenia:</b>",
+                            "contents": [
+                                {
+                                    "text": "Lista 5 - <span class='red_c'>ukończona</span>",
+                                    "icon": "ti-pencil",
+                                    "description": "Sortowanie",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_05.pdf"
+                                },
+                                {
+                                    "text": "Lista 6 - przygotowana",
+                                    "description": "Listy i stosy",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_06.pdf"
+                                },
+                                {
+                                    "icon": "ti-face-smile",
+                                    "text": "Zwolnienie z kolokwium cząstkowego C6"
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Laboratorium:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-mouse-alt",
+                                    "text": "Lista zadań",
+                                    "url": "https://docs.google.com/document/d/1W_J1dYbnXs3O3qzbNFMI9CEBMvckO7DUlUCat11N8qU/edit?usp=sharing"
+                                },
+                                {
+                                    "icon": "ti-check-box",
+                                    "text": "Kolokwium cząstkowe K5"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "toggle": "hide_content",
+                    "type": "ul",
+                    "id": "lab7",
+                    "description": "<strong id='topic_8'>Laboratorium 7 / Ćwiczenia 7:</strong>",
+                    "contents": [
+                        "Wszystko do tej pory",
+                        {
+                            "type": "description",
+                            "description": "<b>Ćwiczenia:</b>",
+                            "contents": [
+                                {
+                                    "text": "Lista 6 - <span class='red_c'>ukończona</span>",
+                                    "description": "Listy i stosy",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_06.pdf"
+                                },
+                                {
+                                    "text": "Lista 7 - przygotowana",
+                                    "description": "Drzewa",
+                                    "icon": "ti-pencil",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_07.pdf"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "description",
+                            "description": "<b>Laboratorium:</b>",
+                            "contents": [
+                                {
+                                    "icon": "ti-user",
+                                    "text": "Prezentacje postępów w zadaniach indywidualnych - opis.",
+                                    "url": "https://docs.google.com/document/d/1fA26Hk4ADAH5avjoTT6d4O2g3crbFvBZHzGQnwGFZgs/edit?usp=sharing"
+                                },
+                                {
+                                    "icon": "ti-pencil",
+                                    "text": "Wyszukiwanie przybliżone",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_07/index.html"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "toggle": "hide_content",
+                    "type": "ul",
+                    "id": "lab8",
+                    "description": "<strong id='topic_8'>Ku pamięci:</strong>",
+                    "contents": [
+                        {
+                            "type": "description",
+                            "description": "Listy zadań z laboratorium z poprzednich lat:",
+                            "contents": [
+                                {
+                                    "text": "Laboratorium 1 - Edytor Emacs, kompilator języka C",
+                                    "icon": "ti-mouse-alt",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_01/index.html"
+                                },
+                                {
+                                    "text": "Laboratorium 2 - Przecięcia zera",
+                                    "icon": "ti-mouse-alt",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_02/index.html"
+                                },
+                                {
+                                    "text": "Laboratorium 3 - Przetwarzanie obrazów",
+                                    "icon": "ti-mouse-alt",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_03/index.html"
+                                },
+                                {
+                                    "text": "Laboratorium 4 - Linux",
+                                    "icon": "ti-mouse-alt",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_04/index.html"
+                                },
+                                {
+                                    "text": "Laboratorium 5 - Przetwarzanie obrazów 2",
+                                    "icon": "ti-mouse-alt",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_05/index.html"
+                                },
+                                {
+                                    "text": "Laboratorium 6 - RPN",
+                                    "icon": "ti-mouse-alt",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_06/index.html"
+                                },
+                                {
+                                    "text": "Laboratorium 7 - Wyszukiwanie przybliżone",
+                                    "icon": "ti-mouse-alt",
+                                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_07/index.html"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

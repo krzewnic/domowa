@@ -1,0 +1,40 @@
+{
+  "sectionTitle": "Laboratorium 0",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Organizacja pracy. Regulamin laboratorium. Praca w systemie Linux."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Omówienie <a href='https://kcir.pwr.edu.pl/~krzewnicka/?page=akipsi&topic=0' target='_blank'>regulaminu i systemu oceniania.</a>",
+          "icon": "ti-book"
+        },
+        {
+          "text": "<a href='https://docs.google.com/document/d/16yLRXJ0bPvu0dVHlB0SInTrhIQlb4etKsDgPJ8o9X0s/edit?usp=sharing' target='_blank'>Zadanie wstępne. </a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Przygotowanie środowiska z systemem Linux do prac domowych (wirtualna maszyna lub komputer wyposażony w system Linux albo WSL - Windows Subsystem for Linux).",
+          "icon": "ti-wand"
+        },
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

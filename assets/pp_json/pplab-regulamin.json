@@ -1,0 +1,204 @@
+{
+    "title": "Regulamin laboratorium Podstaw programowania",
+    "date": "3.03.26",
+    "description": "Kierunek AiR, W12, PWR",
+    "articles": [
+        {
+            "title": "Cel laboratorium",
+            "clauses": [
+                "Celem laboratorium z Podstaw programowania jest nabywanie umiejętności programowania w języku C oraz ocena uzyskiwanych postępów."
+            ]
+        },
+        {
+            "title": "Organizacja laboratorium",
+            "clauses": [
+                "Zajęcia obejmują 8 spotkań i odbywają się w formie laboratorium.",
+                "W trakcie zajęć laboratoryjnych studenci korzystają z komputerów w pracowni.",
+                "Zadania przygotowujace do pracowni oraz zadania domowe należy wykonywać korzystając z prywatnego komputera.",
+                "Istnieje możliwość połączenia się zdalnie do serwerów uczelni w celu realizacji zadań.",
+                "Laboratorium wymaga samodzielnej pracy w domu (<span class='red_c'>ok 5 godzin tygodniowo</span>)."
+            ]
+        },
+        {
+            "title": "Obecność na zajęciach",
+            "clauses": [
+                "Obecność na zajęciach laboratoryjnych jest obowiązkowa.",
+                "Dopuszczalna jest <span class='red_c'>jedna nieobecność</span>, niezależnie od jej przyczyny.",
+                "Jedna nieobecność nie musi być usprawiedliwiona.",
+                "W przypadku wyjątkowych sytuacji (np. hospitalizacja, wypadek, problemy rodzinne itp.), które mogą skutkować większą liczbą nieobecności niż dopuszczona, konieczny jest <span class='red_c'>stały kontakt z prowadzącą</span>.",
+                "W wyjątkowych sytuacjach może być koniecznym dostosowanie warunków zaliczenia oraz terminów wykonania zadań do konkretnego przypadku.",
+                {
+                    "title": "Ze względów organizacyjnych nie ma możliwości:",
+                    "points": [
+                        "zaliczenia zajęć laboratoryjnych w trybie skumulowanym na koniec semestru",
+                        "odrabiania zajęć w innym terminie"
+                    ]
+                },
+                "Uczestnictwo w zajęciach musi odbywać się na bieżąco, zgodnie z harmonogramem."
+            ]
+        },
+        {
+            "title": "Materiały",
+            "clauses": [
+                "Notatki z wykładów są dostępne na <a href='https://kcir.pwr.edu.pl/~mucha/PProg/index.html'>stronie głównej kursu</a>",
+                "Treści zadań oraz testy publikowane są na <a href='https://kcir.pwr.edu.pl/~krzewnicka'>stronie prowadzącej</a> oraz na <a href='https://eportal.pwr.edu.pl/'>ePortalu</a>.",
+                "Kopiowanie i rozpowszechnianie materiałów bez zgody prowadzących jest zabronione."
+            ]
+        },
+        {
+            "title": "Przebieg Zajęć",
+            "clauses": [
+                {
+                    "title": "Przed przyjściem na laboratorium należy:",
+                    "points": [
+                        "przygotować się z bieżącego materiału (wiedza teoretyczna i praktyczne wykorzystanie omówionych na wykładzie technik)",
+                        "dokończyć wszystkie zadania z poprzednich zajęć",
+                        "w razie trudności w zrozumieniu materiału, przeczytać podręcznik, wykorzystać materiały edukacyjne do nauki programowania dostępne w internecie, skonsultować się z innymi studentami lub prowadzącymi"
+                    ]
+                },
+                {
+                    "title": "W trakcie zajęć laboratoryjnych:",
+                    "points": [
+                        "odbywają się kolokwia cząstkowe K1, K2, K3, K4, K5 na ePortalu",
+                        "odbywa się dyskusja na temat realizacji zadań, studenci mają możliwość zadawać pytania",
+                        "wykonywane są zadania zlecone przez prowadzącą"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Realizacja zadania indywidualnego",
+            "clauses": [
+                "W trakcie semestru należy realizować zadania bieżące oraz <strong>1</strong> zadanie indywidualne. ",
+                "Temat zadania indywidualnego może zostać wylosowany lub wybrany (również zaproponowany) przez studenta.",
+                {
+                    "title": "Do <strong>5 dni roboczych przed zakonczeniem semestru</strong> należy wypełnić na ePortalu sprawozdanie z realizacji zadania indywidualnego, wskazując w nim w szczególności:",
+                    "points": [
+                        "link do repozytorium GIT zawierającego ostateczną wersję kodu rozwiązania (pliki źródłowe .c, .h, .sh, Makefile, .txt, readme).<strong> Należy korzystać z repozytorium katedralnego GIT.</strong>"
+                    ]
+                },
+                {
+                    "title": "Ocena z zadania indywidualnego uwzględnia:",
+                    "points": [
+                        "jakość dostarczonego kodu,",
+                        "sprawozdanie,",
+                        "prezentację rozwiązania przed pozostałymi studentami,",
+                        "odpowiedzi ustne na pytania."
+                    ]
+                },
+                "Niepoprawne lub niekompletne rozwiązania będą ocenione na 0 pkt.",
+                {
+                    "title": "Za niepoprawne zostaną uznane rozwiązania:",
+                    "points": [
+                        "zawierające wiele wersji tego samego programu,",
+                        "niekompilujące się lub niesprawdzalne na komputerze Panamint,",
+                        "zawierające niedozwolone pliki (np. pliki z rozszerzeniami .exe, archiwa, pliki środowiskowe itd., rozwiązania innych zadań)."
+                    ]
+                },
+                "Zadania wysłane po tym terminie nie będą sprawdzane.",
+                "<span class='red_c'>Wysłanie kodu oraz sprawozdania jest obowiązkowe</span>. Należy wysłać ostatnią kompilującą się wersję programu, nawet jeśli nie realizuje ona w pełni zadania.",
+                "Prezentacja rozwiązania jest obowiązkowa i odbędzie się na ostatnich zajęciach w semestrze. Jeśli student jest nieobecny podczas ostatnich zajęć, nie uzyskuje punktów za tą część zadania. Prezentację należy jednak odbyć w innym terminie wyznaczonym przez prowadzącą."
+            ]
+        },
+        {
+            "title": "Konsultacje",
+            "clauses": [
+                "Konsultacje odbywają się zgodnie z harmonogramem dostępnym na stronie prowadzącej.",
+                "Wgląd do sprawdzonych prac jest możliwy podczas konsultacji.",
+                "<strong>W przypadku jednej dozwolonej nieobecności</strong> student ma możliwość napisania kolokwium cząstkowego po raz pierwszy podczas konsultacji, nie później niż 10 dni roboczych po ustaniu przyczyny nieobecności.",
+                "Poprawa niezaliczonych kolokwiów cząstkowych nie jest możliwa podczas konsultacji."            
+            ]
+        },
+        {
+            "title": "Dopuszczalne formy pracy w domu",
+            "clauses": [
+                "Praca indywidualna: Student powinien samodzielnie wykonywać zadania, opierając się na materiałach dydaktycznych, zasobach internetowych oraz notatkach z zajęć.",
+                "Konsultacje z kolegami: Dopuszcza się dyskusje i wymianę poglądów z innymi studentami na temat ogólnych zagadnień związanych z zadaniami, <strong>pod warunkiem, że nie prowadzi to do kopiowania rozwiązań.</strong>",
+                "Dla zdań wykonywanych w grupie - praca zespołowa - czyli taka organizacji działań, w której grupa osób współpracuje, dzieląc się zadaniami, kompetencjami i odpowiedzialnością, aby osiągnąć wspólny cel w sposób bardziej efektywny niż indywidualnie."
+            ]
+        },
+        {
+            "title": "Niedopuszczalne formy pracy",
+            "clauses": [
+                "Kopiowanie rozwiązań: Zabrania się kopiowania rozwiązań zadań od innych studentów lub zewnętrznych źródeł, w tym także fragmentów generowanych przez narzędzia AI. ",
+                "Wspólne wykonywanie zadań indywidualnych: Praca nad zadaniami w grupie, prowadząca do opracowania wspólnego rozwiązania, jest zabroniona, chyba że zadanie wyraźnie zezwala na pracę grupową.",
+                "Automatyczne generowanie rozwiązań: Wykorzystywanie narzędzi AI do automatycznego generowania gotowych rozwiązań zadań jest zabronione. Każde zadanie powinno być wykonane samodzielnie przez studenta.</li>"
+            ]
+        },
+        {
+            "title": "Zaliczenie laboratorium",
+            "clauses": [
+                {
+                    "title": "Aby uzyskać zaliczenie laboratorium należy spełnić <strong>równocześnie</strong> 3 kryteria:",
+                    "points": [
+                        "być obecnym na minimum 7 zajęciach z 8",
+                        "uzyskać minimum 50% z każdego kolokwium cząstkowego lub z kolokwium poprawkowego",
+                        "terminowo wysłać sprawozdanie z realizacji zadania indywidualnego i otrzymać z niego 50% punktów"
+                    ]
+                },
+                "Ocena końcowa jest obliczana na podstawie sumy punktów według wzoru:<br> 0,7 × wynik kolokwium + 0,2 × ocena za pracę na zajęciach + 0,1 × ocena za sprawozdanie oraz kod.",
+                {
+                    "title": "Progi punktowe na poszczególne oceny:",
+                    "type": "none_style",
+                    "points": [
+                        "<strong class='w-25 d-inline-block '>2.0</strong> 0 – 49.99%",
+                        "<strong class='w-25 d-inline-block '>3.0</strong> 50 – 59.99%",
+                        "<strong class='w-25 d-inline-block '>3.5</strong> 60 – 69.99%",
+                        "<strong class='w-25 d-inline-block '>4.0</strong> 70 – 79.99%",
+                        "<strong class='w-25 d-inline-block '>4.5</strong> 80 – 89.99%",
+                        "<strong class='w-25 d-inline-block '>5.0</strong> 90 – 100%"
+                    ]
+                },
+                "Końcowa ocena jest obliczana tylko wtedy, gdy student spełnił <strong>wszystkie</strong> 3 kryteria przed zakończeniem semestru.", 
+                "Niespełnienie któregokolwiek z 3 kryteriów skutkuje oceną niedostateczną (2.0)."
+            ]
+        },
+        {
+            "title": "Kolokwium",
+            "clauses": [
+                "Kolokwium zaliczeniowe składa się z kilku kolokwiów cząstkowych K1, K2, K3, .., itd które są realizowane sukcesywnie w trakcie semestru na początku każdych zajęć.",
+                "Ze względu na specyfikę przediotu kolokwium cząstkowe dotyczy materiału skumulowanego do zajęć, podczas których się odbywa - dotyczy to zarówno praktycznych aspektów ćwiczonych na laboratorium jak również pojęć z wykładów.",
+                "Kolokwium odbywa się na platformie ePortal.",
+                "W przypadku nieuzyskania pozytywnej oceny student ma możliwość przystąpienia do ponownej weryfikacji efektów uczenia się w formie poprawkowego kolokwium zaliczeniowego obejmującego materiał z całego semestru.",
+                "Termin poprawy kolokwium wyznacza prowadząca na początku semestru i umieszcza w części górnej strony przedmiotu w ePortalu. Na kolokwium poprawkowe obowiązują zapisy mailem."
+            ]
+        },
+        {
+            "title": "Odpowiedzialność",
+            "clauses": [
+                "Przypomina się, że właściciel konta jest odpowiedzialny za wszelkie działania wykonane przy jego pomocy.",
+                "Należy zmieniać hasła i nie rozpowszechniać ich.",
+                "Należy samodzielnie dbać o zabezpieczenie plików własnych na serwerze.",
+                "Należy wylogować się z systemu przed opuszczeniem stanowiska pracy."
+            ]
+        },
+        {
+            "title": "Szczególne Potrzeby",
+            "clauses": [
+                "Studenci, którzy mają szczególne potrzeby związane ze sposobem realizacji zajęć, zaliczenia lub przygotowaniem materiałów, proszeni są o kontakt."
+            ]
+        },
+        {
+            "title": "Postanowienia Końcowe oraz BHP",
+            "clauses": [
+                "Regulamin ten jest ważny przez cały okres trwania laboratorium.",                
+                "Każdy student, zapisując się na laboratorium, zobowiązuje się do przestrzegania tego regulaminu.",            
+                "Należy przestrzegać zasad BHP oraz regulaminu wywieszonego w sali laboratoryjnej.",
+                "Wszelkie sytuacje nieopisane w regulaminie rozpatrywane są indywidualnie przez prowadzącą.",
+                "W przypadku naruszenia tego regulaminu, prowadząca ma prawo podjąć odpowiednie kroki, włącznie z wystawieniem studentowi oceny niedostatecznej z kursu.",
+                "Prowadząca laboratorium zastrzega sobie prawo do dokonywania zmian w regulaminie w trakcie trwania laboratorium. Studentom zostaną udzielone stosowne informacje o takich zmianach.",
+                "Uwagi do niniejszego regulaminu proszę zgłaszać mailowo."
+            ]
+        },
+        {
+            "title": "Zmiany w regulaminie",
+            "clauses": [
+                "3.03.26 - reorganizacja niektórych punktów regulaminu w celu poprawienia czytelności",
+                "17.02.26 - usciślenie sposobu przkazania kodu rozwiązania zadania indywidualnego (repozytorium GIT)",
+                "3.11.26 - zmiana formatu sprawozdania z PDF, na formularz w EPortalu",
+                "29.11.26 - uściślenie sposobu przychodzenia na konsultacje",
+                "12.09.26 - zmiana warunków zaliczenia laboratorium w związku z rozwojem AI."
+            ]
+        }
+    ]
+}

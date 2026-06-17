@@ -1,0 +1,32 @@
+{
+  "sectionTitle": "Laboratorium 6",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Programowanie dynamiczne."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [  
+        {
+          "text": "<a href='https://docs.google.com/document/d/1PLG39NnIDl54bQeStoOEQIICP-_ql0Wnzjfa_fjGVm0/edit?usp=sharing' target='_blank'>Lista zadań nr 6</a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

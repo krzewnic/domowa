@@ -1,0 +1,128 @@
+{
+    "sectionTitle": "Laboratorium 1",
+    "paragraphs": [
+        {
+            "type": "description",
+            "title": "Temat",
+            "contents": [
+                "Praca z kompilatorem języka C, usuwanie błędów z programów. Instrukcja warunkowa (if)."
+            ]
+        },
+        {
+            "type": "ol",
+            "title": "Przygotowanie",
+            "contents": [
+                {
+                    "text": "<a href='https://docs.google.com/document/d/1f6aVG5e0yF17BHdSaNk5ADo5wAtm_fUauawTpNBEcuA/edit?usp=sharing' target='_blank'>Przygotowanie do laboratorium.</a>",
+                    "icon": "ti-home"
+                },
+                {
+                    "text": "Warto zainstalować Visual Studio Code lub inny edytor w środowisku Linux. W razie potrzeby w wybranym edytorze należy doinstalować przydatne rozszerzenia."
+                }
+            ]
+        },
+        {
+            "type": "ol",
+            "title": "Przebieg laboratorium",
+            "contents": [
+                {
+                    "description": "Wykonanie następującego zadania",
+                    "type": "ol-a",
+                    "icon": "ti-user",
+                    "contents": [
+                        {
+                            "text": "Należy utworzyć plik tajemnica.txt na pulpicie i umieścić w nim swoją największą tajemnicę."
+                        },
+                        {
+                            "text": "Następnie należy skopiować plik tajemnica.txt od kolegi."
+                        },
+                        {
+                            "text": "Sprawdzić czy można go edytować."
+                        },
+                        {
+                            "text": "Następnie należy zabezpieczyć plik. W przypadku nieznajomości chmod można skorzystać z <a href='https://docs.google.com/presentation/d/1RFWiAv3tpwhqrgC9JH4OJbIXYXAOBGf3-EZebONloTA/edit?usp=sharing'>dokumentu</a>."
+                        }
+                    ]
+                },
+                {
+                    "text": "Dyskusja na temat zabezpieczania swoich plików i folderów.",
+                    "icon": "ti-exchange-vertical"
+                },
+                {
+                    "text": "Wykonywanie <a href='https://docs.google.com/document/d/1crRNb-1Xka8iMUIJTWwXxj46fDh4TQ852-uVjZdnWDE/edit?usp=sharing' target='_blank' >zadań</a>"
+                }
+            ]
+        },
+        {
+            "title": "Zadanie domowe",
+            "type": "ol",
+            "contents": [
+                {
+                    "text": "Dokończenie zadań."
+                },
+                {
+                    "icon": "ti-export",
+                    "text": "Umieszczeni na ePortalu sprawozdania PDF oraz dokończonego kodu programu z laboratorium."
+                },
+                {
+                    "text": "Wykonanie przygotowania do następnego laboratorium.",
+                    "icon": "ti-settings"
+                }
+            ]
+        },
+        {
+            "type": "comment",
+            "title": "",
+            "old_title": "Tutorial", 
+            "contents": [
+                {
+                    "text": "Tydzień 3",
+                    "url": "https://docs.google.com/document/d/1Ezt0JiEngDM2Dkq4G8e_ShAsP6VZ1ItMvPKFssFAPhQ/edit?usp=sharing",
+                    "description": "typy danych, ciągi znaków, funkcje",
+                    "icon": "ti-clipboard"
+                },
+                {
+                    "text": "Tydzień 4",
+                    "url": "https://docs.google.com/document/d/1DbpO_SmBa8EUs80VOIDH99IeMBYoiv5QgWILH96ovSg/edit?usp=sharing",
+                    "description": "funkcje, operacje i/o, strumienie danych, argumenty wywołania programu",
+                    "icon": "ti-clipboard"
+                }
+            ]
+        },
+        {
+            "title": "Wskazówki",
+            "type": "description",
+            "contents": [  
+                  
+                {
+                    "text":"Codzienne pisanie kodu, nawet w małych ilościach, pomaga utrwalić umiejętności. Warto czytać i analizować kod innych, aby zrozumieć różne style programowania i rozwiązania stosowanych przez innych.",
+                    "icon": "ti-light-bulb"
+                },  
+                {
+                    "text":"Podczas programowania należy bardzo często sprawdzać jego poprawność. Początkowo nawet po dodaniu jednej nowej linii kodu.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text":"Samo czytanie książek, materiałów teoretycznych lub wygenerowanego kodu bez faktycznego mozolnego pisania kodu nie przyniesie oczekiwanych rezultatów.",
+                    "icon": "ti-light-bulb"
+                },              
+                {
+                    "text": "Nazwy zmiennych powinny być opisowe, aby kod był zrozumiały dla innych oraz dla Ciebie nawet, gdy trzeba będzie do niego wrócić za jakiś czas.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text": "Można wstawiać instrukcje <code>printf</code> w kluczowych punktach programu, aby monitorować przepływ danych i lepiej zrozumieć działanie kodu. Alternatywnie, można również korzystać z debugerów, które umożliwiają wykonywanie programu krok po kroku, pozwalając na kontrolowanie wartości zmiennych na każdym etapie działania.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text": "Warto korzystać z kontroli wersji lub robić kopie swojego kodu po każdej większej zmianie.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text": "Dobrze jest program skompilować za pomocą komendy:<br><code class='ml-3'>cc program.c -Wall -Wextra -pedantic -o program</code>",
+                    "icon": "ti-light-bulb"
+                }
+            ]
+        }
+    ]
+}

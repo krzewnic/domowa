@@ -1,0 +1,132 @@
+{
+    "title": "Regulamin laboratorium Podstaw programowania",
+    "date": "31.10.2024",
+    "description": "Kierunek AiR, W12, PWR",
+    "articles" :
+    [
+        {
+            "title": "Cel laboratorium",
+            "clauses":
+            [
+                "Celem laboratorium z Podstaw programowania jest nabywanie umiejętności programowania w języku C oraz ocena uzyskiwanych postępów.",
+                "Celem laboratorium z Podstaw programowania <strong>nie</strong> jest realizowanie treści wykładowych. W razie potrzeby indywidualnych wyjaśnień zapraszam na konsultacje."                
+            ]
+        },
+        {
+            "title": "Organizacja laboratorium",
+            "clauses":
+            [
+                "Laboratorium obejmuje 8 spotkań i odbywa się w formie laboratorium.",
+                "W trakcie zajęć laboratoryjnych studenci korzystają z komputerów w pracowni.",
+                "Zadania do domu należy wykonywać korzystając z prywatnego komputera.",
+                "Istnieje możliwość połączenia się zdalnie do serwerów uczelni w celu realizacji zadań.",
+                "Laboratorium wymaga samodzielnej pracy w domu (ok 5 godzin tygodniowo) - spotkania w pracowni powinny być dla Państwa okazją do zaprezentowania bieżących postępów w nauce"
+            ]
+        }, 
+        {
+            "title": "Obecność na zajęciach",
+            "clauses":
+            [
+                "Obecność na zajęciach laboratoryjnych jest obowiązkowa.", 
+                "Dopuszczalna jest jedna nieusprawiedliwiona nieobecność.",
+                "W przypadku wyjątkowych sytuacji (np. hospitalizacja), które mogą skutkować większą liczbą nieobecności niż dopuszczona, wymagany jest stały kontakt z prowadzącą. Nie zastosowanie się do tego punktu skutkuje oceną niedostateczną."
+            ]
+        },
+        {
+            "title": "Materiały",
+            "clauses":
+            [
+                "Notatki z wykładów są dostępne na <a href='https://kcir.pwr.edu.pl/~mucha/PProg/index.html'>stronie głównej kursu</a>",                
+                "Treści zadań oraz testy znajdują się na <a href='https://kcir.pwr.edu.pl/~krzewnicka'>stronie prowadzącej</a> oraz na <a href='https://eportal.pwr.edu.pl/'>ePortalu</a>.",
+                "Kopiowanie i rozpowszechnianie materiałów bez zgody prowadzących jest zabronione."
+            ]
+        },
+        {
+            "title" : "Przebieg Zajęć",
+            "clauses": [
+                "<div class='card-text'><span>Przed przyjściem na laboratorium należy:</span><ol type='a'><li><div class='card-text'><span>zapoznać się z przykładami programów prezentowanych w trakcie wykładu, poprzez ich kompilację i uruchomienie.</span></div></li><li><div class='card-text'><span>dokończyć zadanie z poprzedniego tygodnia (w pierwszym tygodniu przerwy między zajęciami)</span></div></li><li><div class='card-text'><span>wykonać część przewidzianą jako <strong>przygotowanie do zajęć</strong> (w drugim tygodniu przerwy między zajęciami)</span></div></li></ol></div>",
+                
+                "<div class='card-text'><span>W trakcie zajęć laboratoryjnych:</span><ol type='a'><li><div class='card-text'><span>może zostać przeprowadzana kartkówka wejściówka, mająca na celu sprawdzenie zrozumienia zagadnień poruszonych w zadaniu z poprzedniego laboratorium oraz przygotowaniu do zajęć</span></div></li><li><div class='card-text'><span>realizowane są zadania, za które można uzyskać punkty za aktywność - należy więc wykonywać kolejno zadania i zgłaszać postępy celem odnotowania zdobytych punktów.</span></div></li></ol></div>",
+
+                "Po zajęciach laboratoryjnych należy: <ol type='a'><li>Samodzielnie dokończyć zadanie unikając kopiowania kodu, szczególnie kopiowania rozwiązań AI.</li><li>Przetestować wersję końcową swojego programu oraz przygotować sprawozdanie <strong>w formacie PDF</strong>. </li><li>Wysłać gotowy kod źródłowy oraz dokument PDF na ePortal</li></ul>",
+
+                "Sprawozdanie <strong>PDF</strong> zawiera Państwa wnioski oraz wyniki testów. Każdy test powinien zawierać następujące elementy: <ol type='a'><li>cel testu</li><li>dane wejściowe</li><li>oczekiwany rezultat testu</li><li>screen z wykonania testu na komputerze Panamint</li></ol>Dokument ten nie powinien zawierać kodu programu. Kod programu powinien zostać dołączony jako osobny plik.",
+                "Nie będą sprawdzane rozwiązania nie spełniajace powyższych wymagań ani zawierajace: <ol type='a'><li>pliki z rozszerzeniami innym niż .pdf, .sh, .c, .h </li><li>nadmiarowe pliki</li><li>spakowane archiwa</li><li> pliki wygenrowane przez środowisko</li></ol>",
+                "Zajęcia kończą się o wyznaczonym czasie. Zadania można dokończyć w domu. Należy przesłać opracowany kod na ePortal w <strong>nieprzekraczalnym</strong> terminie do 7 dni kalendarzowych po laboratorium. <strong>Zadania nadesłane po upływie tego terminu nie będą sprawdzane.</strong>",
+                "Wysłanie kodu oraz sprawozdania z testów jest wymagane aby uzyskać punkty aktywności.",
+                "Przesłany kod będzie sprawdzony na komputerze Panamint. W przypadku gdy kod nie uruchomi się w tym środowisku, rozwiązanie zostaje uznane za błędne.",
+                "Liczba punktów aktywności zostanie wpisana do ePortalu.",
+                "Wgląd do sprawdzonych prac i kartkówek jest możliwy podczas konsultacji."
+            ]
+        },
+        {
+            "title": "Konsultacje",
+            "clauses": [
+                "Konsultacje odbywają się zgodnie z harmonogramem dostępnym na stronie prowadzącej.",
+                "Studenci powinni przyjść na konsultacje przygotowani, z jasno określonymi pytaniami lub zagadnieniami do omówienia.",
+                "Zachęcam do wcześniejszego przesłania pytań drogą mailową, co pozwoli na bardziej efektywne wykorzystanie czasu podczas spotkania."
+            ]
+        },
+        {
+            "title": "Dopuszczalne formy pracy w domu",
+            "clauses": [
+                "Praca indywidualna: Student powinien samodzielnie wykonywać zadania, opierając się na materiałach dydaktycznych, zasobach internetowych oraz notatkach z zajęć.",
+                "Konsultacje z kolegami: Dopuszcza się dyskusje i wymianę poglądów z innymi studentami na temat ogólnych zagadnień związanych z zadaniami, pod warunkiem, że nie prowadzi to do kopiowania rozwiązań.",
+                "Wykorzystanie AI: Student może korzystać z narzędzi opartych na sztucznej inteligencji (AI) wyłącznie w celu uzyskania dodatkowych wskazówek, inspiracji lub pomocy w zrozumieniu materiału, z zastrzeżeniem, że ostateczne rozwiązanie jest wynikiem jego własnej pracy."                
+            ]
+        },
+        {
+            "title": "Niedopuszczalne formy pracy",
+            "clauses": [        
+                "Kopiowanie rozwiązań: Zabrania się kopiowania rozwiązań zadań od innych studentów lub zewnętrznych źródeł, w tym także generowanych przez narzędzia AI.",
+                "Wspólne wykonywanie zadań: Praca nad zadaniami w grupie, prowadząca do opracowania wspólnego rozwiązania, jest zabroniona, chyba że zadanie wyraźnie zezwala na pracę grupową.",
+                "Automatyczne generowanie rozwiązań: Wykorzystywanie narzędzi AI do automatycznego generowania gotowych rozwiązań zadań jest zabronione. Każde zadanie powinno być wykonane samodzielnie przez studenta.</li>"
+            ]
+        },
+        {
+            "title": "Zaliczenie laboratorium",
+            "clauses":
+            [
+                "Zaliczenie laboratorium odbywa się na podstawie<ol type='a'><li>obecności na minimum 7 zajęciach z 8 </li><li>wyników testu sprawdzającego umiejętności praktyczne, który odbędzie się na ostatnich zajęciach</ol>",
+                "Studenci, którzy w trakcie laboratoriów 2, 3, 4, 5 oraz 6 uzyskają co najmniej połowę punktów za aktywność, otrzymują zaliczenie testu, przy czym ostateczny wynik jest sumą punktów zdobytych za aktywność na tych zajęciach.",
+                
+                "Możliwość poprawy testu będzie dostępna w trakcie sesji egzaminacyjnej, a dokładna data zostanie podana pod koniec semestru.",
+                "Dodatkowe punkty aktywności można uzyskać, zdobywając drugie gwiazdki w zadaniach Advent of Code. ",
+                "Punkty za gwiazdki (drugie) AoC można odebrać w trakcie konsultacji. Zachęcam do utworzenia wspólnej rywalizacji w AoC, jednak trudniejsze zadania proszę wykonywać wykorzystując języki o wyższym poziomie abstrakcji niż C, takie jak Java lub Python. Należy przesłać opracowany kod na ePortal.",
+                "Progi punktowe na poszczególne oceny: <img src='assets/img/progi.png' alt='progi'/>"
+
+            ]
+        },
+        {
+            "title": "Odpowiedzialność",
+            "clauses":
+            [
+                "Przypomina się, że właściciel konta jest odpowiedzialny za wszelkie działania wykonane przy jego pomocy.",
+                "Należy zmieniać hasła i nie rozpowszechniać ich.",
+                "Należy samodzielnie dbać o zabezpieczenie plików własnych na serwerze.",
+                "Należy wylogować się z systemu przed opuszczeniem stanowiska pracy."
+
+            ]
+        },
+        {
+            "title": "Szczególne Potrzeby",
+            "clauses":
+            [
+                "Studenci, którzy mają szczególne potrzeby związane ze sposobem realizacji zajęć, zaliczenia lub przygotowaniem materiałów, proszeni są o zgłoszenie się na konsultacje lub po zajęciach, aby omówić te indywidualne potrzeby."
+            ]
+        },
+        {
+            "title": "Postanowienia Końcowe oraz BHP",
+            "clauses":
+            [                
+                "Regulamin ten jest ważny przez cały okres trwania laboratorium.",
+                "Prowadząca laboratorium zastrzega sobie prawo do dokonywania zmian w regulaminie w trakcie trwania laboratorium. Studentom zostaną udzielone stosowne informacje o takich zmianach.",
+                "Każdy student, zapisując się na laboratorium, zobowiązuje się do przestrzegania tego regulaminu.",
+                "W przypadku naruszenia tego regulaminu, prowadząca ma prawo podjąć odpowiednie kroki, włącznie z wystawieniem studentowi oceny niedostatecznej z kursu.",
+                "Należy przestrzegać zasad BHP oraz regulaminu wywieszonego w sali laboratoryjnej.",
+                "Uwagi do niniejszego regulaminu proszę zgłaszać mailowo."
+            ]
+        }
+    ]
+
+}

@@ -1,0 +1,68 @@
+{
+    "sectionTitle": "Informacje",
+    "paragraphs":
+    [
+        {
+            "type": "description",
+            "title": "",
+            "contents":
+            [
+                "Przed rozpoczęciem zajęć należy zapoznać się z regulaminami <a href='./?page=pplab-regulamin' target='_blank'>laboratorium</a> oraz <a target='_blank' href='./?page=ppcw-regulamin'>ćwiczeń</a>. Zawierają one wszystkie istotne informacje dotyczące zaliczenia oraz przebiegu zajęć."
+            ]
+        },
+        {
+            "type": "description",
+            "title" : "Ważne zasady",
+            "contents": [
+                "Zajęcia kończą się o wyznaczonym czasie. Zadania można dokończyć w domu. Sprawozdanie w formacie PDF oraz kod należy przesłać na ePortal w terminie do 7 dni kalendarzowych po laboratorium. <strong>Zadania nadesłane po upływie tego terminu nie będą sprawdzane.</strong>",
+                "Przesłany kod będzie sprawdzony na komputerze Panamint. Jeśli kod nie uruchomi się w tym środowisku rozwiązanie zostaje uznane za błędne.",
+                "Proszę trzymać się specyfikacji programu podanej w zadaniu."
+
+            ]
+        },
+        {
+            "type": "comment",
+            "title": "",
+            "old_title": "Tutorial",            
+            "contents": [
+                "Program przedmiotu Podstawy programowania jest dostosowany do średniego poziomu osób, które w szkole ponadpodstawowej zrealizowały podstawę programową przedmiotu Informatyka.",
+                "Dla osób rozpoczynających przygodę z programowaniem, w sekcji tutorial, załączyłam wykaz zadań wprowadzajacych krok po kroku w świat języka AINSI C.",
+                "Zachęcam do ich rozwiązywania, aczkolwiek nie jest to obowiązkowe."
+            ]
+        },
+        {
+            "title": "Jak pracować w laboratorium?",            
+            "type": "ol",
+            "contents": [
+                {
+                    "text": "Każdy student w pracowni wykorzystuje konto osobiste (login i hasło zostanie podane w czasie laboratorium)."
+                },
+                {
+                    "text": "W wielu laboratoriach Politechniki po zalogowaniu się za pomocą konta osobistego uzyskujemy dostęp do wszystkich plików osobistych utworzonych uprzednio, gdyż są one zapisywane na serwerze, a folder domowy home użytkownika jest montowany podczas logowania na dowolnej maszynie."
+                },
+                {
+                    "text": "Korzystamy z serwerów Politechniki: panamint, diablo, inyo. Programy muszą się uruchamiać poprawnie na komputerze Panamint. Zachęcam do testowania swoich rozwiązań na komputerze Diablo, który działa na starszej wersji systemu Unix."
+                },
+                {
+                    "text": "Właściciel konta jest odpowiedzialny za wszelkie działania wykonane przy jego pomocy. Należy więc niezwłocznie zmienić domyślne hasła i nie rozpowszechniać nowych. Trzeba też pamiętać, by wylogować się z systemu przed opuszczeniem stanowiska pracy."
+                }
+            ]
+        },
+        {
+            "title": "Jak pracować w domu?",            
+            "type": "ol",
+            "contents": [
+                {
+                    "text": "Najlepiej pracować w środowisku Linux."
+                },
+                {
+                    "text": "System Linux można zainstalować na komputerze lub w wirtualnej maszynie (np. VirtualBox) albo skorzystać z WSL  (Windows Subsystem for Linux)."
+                },
+                {
+                    "text": "Wiele zadań można wykonać w dostępnych kompilatorach online. Jednak przed przyjściem na laboratorium należy sprawdzić poprawność kodu na serwerze Panamint. Instrukcje zostaną podane na zajęciach."
+                }
+            ]
+        }
+    ]
+     
+}

@@ -1,0 +1,70 @@
+/*.bg-lb {
+    background:#e7f2fa !important;      
+  }
+  .bg-lg {   
+      background:#fff2db !important;
+  }
+
+  .bg-lg, .bg-lb {
+      border-radius: 0rem !important;
+  }
+
+  .bg-lb .card-header{
+    background: #6ab0de !important;
+  }
+
+  .bg-lg .card-header {
+    background: #f0b37e !important;
+  }*/
+  
+  .icon-small, .bg-lb a, .bg-lg a{
+    font-size:16px !important;
+  }
+  .card-body a, .card-body i {
+    color:#6ab0de !important;
+  }
+  /*.card-header i, .close-button {
+    color:#ffffff !important;
+  }*/
+  .close-button {
+    float: right;
+  }
+  
+  /*.card-header, .bg-lg .card-header{     
+    color: white !important;      
+    border-radius: 0rem !important;
+  }*/
+
+  .content a {
+      color:#6ab0de !important;
+  }
+
+  .active-link {
+    color:#0a6dae !important;
+    font-weight: bold;
+  }
+
+
+  .card-text {
+    margin-bottom: 10px  !important;
+  }
+
+  .card {
+    font-size: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  ul, ol {
+    margin-left: 20px !important;
+  }
+
+  .paragraphComment {
+    font-style: italic;
+    margin:15px;
+  }
+
+  html {
+  /* wysokość nav + zapas; ustal raz i zapomnij */
+  scroll-padding-top: 72px;     /* ← dostosuj do swojego navbaru */
+  scroll-behavior: smooth;      /* płynne przewijanie, opcjonalnie */
+}

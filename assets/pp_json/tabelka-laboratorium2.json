@@ -1,0 +1,138 @@
+{
+    "sectionTitle": "Laboratorium 2",
+    "paragraphs": [
+        {
+            "type": "description",
+            "title": "Temat",
+            "contents": [
+                "Instrukcje warunkowe i pętle"
+            ]
+        },
+        {
+            "type": "ol",
+            "title": "Przygotowanie",
+            "contents": [
+                {
+                    "text": "Przygotowanie do laboratorium",
+                    "url": "https://docs.google.com/document/d/1uUfbqsh1UwctfvbSCSBNybhtTOGyXenFTyMfIVsCiMM/edit?usp=sharing"
+                }
+            ]
+        },
+        {
+            "title": "Przebieg laboratorium",
+            "type": "ol",
+            "contents": [
+		"<a href='https://docs.google.com/presentation/d/1kX0GY5RWeDfgLv72VTW-Ahtx1kWGCqc8S-nHQ061gys/edit?usp=sharing'>Testowanie programów</a>",
+                {
+                    "type": "description",
+                    "description": "Wykonywanie zadań z listy zadań odpowiednio dla swojej grupy:",
+                    "contents": [
+                        {
+                            "icon": "ti-receipt",
+                            "url": "https://docs.google.com/document/d/1fxX5KBS5FSWUw7bMvNa_s57yEJBPox3KYI-rEIj2eOM/edit?usp=sharing",
+                            "text": "GR 1"
+                        },
+                        {
+                            "icon": "ti-receipt",
+                            "url": "https://docs.google.com/document/d/1mXWPmLNYnJRLsm2GkW0v5BgYHsHRRQKMzc3nhE9BcYo/edit?usp=sharing",
+                            "text": "GR 2"
+                        },
+                        {
+                            "icon": "ti-receipt",
+                            "url": "https://docs.google.com/document/d/1BusAk7v9bEEM_7qT_5eFMx7lRAYX4AIwmrM-8UXGh6k/edit?usp=sharing",
+                            "text": "GR 3"
+                        },
+                        {
+                            "icon": "ti-receipt",
+                            "url": "https://docs.google.com/document/d/1ibNd9h5qvEhITcKNWx75TZefjLt-6_0cew0T3lzEoAg/edit?usp=sharing",
+                            "text": "GR 4"
+                        },
+                        {
+                            "icon": "ti-receipt",
+                            "url": "https://docs.google.com/document/d/1FDY2CxeQ427oAuRnbqY4KBaaa9RNJzvNCspaLkwzKow/edit?usp=sharing",
+                            "text": "GR 5"
+                        },
+                        {
+                            "icon": "ti-receipt",
+                            "url": "https://docs.google.com/document/d/1-gYD_v0eDuv5TpgPPZWOP6nc0xR_mrpTfvMR13y_ASs/edit?usp=sharing",
+                            "text": "GR 6"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Zadanie domowe",
+            "type": "ol",
+            "contents": [
+                "Dokończenie listy zadań dla swojej grupy.",                
+                {
+                    "text": "Przesłanie dokończonego kodu w ciągu 7 dni na ePortal.",
+                    "icon": "ti-export"
+                },
+                {
+                    "text": "Wykonie 1 wybranego zadania (można wybrać łatwe, średnie albo trudne) ze strony <a href='https://pl.spoj.com/'><i class='ti-link icon text-primary mr-1 mb-4 icon-small'></i>spoj</a> (nie trzeba tam tworzyć konta, można samodzielnie przetestować programy, nie trzeba też wysyłać kodu na ePortal)"
+                },
+                {
+                    "text": "Znalezienie innych portali, które umożliwiają samodzielną naukę programowanie i zapisanie ich nazw w sprawozdaniu.",
+                    "icon": "ti-export"
+                }, 
+                {
+                    "text": "Wykonanie przygotowania do następnego laboratorium.",
+                    "icon": "ti-settings"
+                }
+            ]
+        },
+        {
+            "type": "comment",
+            "title": "",
+            "old_title": "Tutorial", 
+            "contents": [
+                {
+                    "text": "Tydzień 5",
+                    "url": "https://docs.google.com/document/d/1ZWVHg2agLagXBgKQEoAjOpGir3-Qb4VJNV5JxIli9D8/edit?usp=sharing",
+                    "icon": "ti-clipboard",
+                    "description": "tablice, rekurencja"
+                },
+                {
+                    "text": "Tydzień 6",
+                    "url": "https://docs.google.com/document/d/1oglynna3CWG_-Ot27I9boU12L5yyC4Oe30X1WEIIZNw/edit?usp=sharing",
+                    "icon": "ti-clipboard",
+                    "description": "tablice wielowymiarowe"
+                }
+            ]
+        },
+        {
+            "title": "Wskazówki",
+            "type": "description",
+            "contents": [
+                {
+                    "text": "Używaj znaczących nazw zmiennych. Pamiętaj, że kodu nie pisze się nigdy tylko dla siebie.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text": "Nie bój się stosować stałych symbolicznych. Unikaj stałych liczb, tekstów w kodzie - nazywaj je, aby w mgnieniu oka wiedzieć do czego służą.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text": "Nie musisz za każdym razem pobierać liczb od użytkownika. Kiedy testujesz program, skomentuj linie pobierające dane i ustaw ręcznie wybrane wartości.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text": "Dziel i zwyciężaj. Dziel problem na podproblemy i rozwiązuj je po kolei. Piszesz program, który wypisuje parzyste liczby mniejsze od wczytanej liczby? Najpierw naucz program wczytać liczbę, następnie wypisz wszystkie mniejsze, a dopiero na końcu dodaj warunek.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "description": "Pamiętaj, że testować należy",
+                    "type": "ol-a",
+                    "contents": [
+                        "przypadki typowe działania programu",
+                        "przypadki nietypowe (tak zwane dane skrajne np pusty plik, zachowanie programu na początku i na końcu tablicy, wykonania, grupy danych)",
+                        "w niektórych przypadkach testowane jest również zachowanie programu dla błędnych danych (nie zawsze jest konieczne - często można założyć, że dane są dostarczone w poprawnym formacie)"
+                    ],
+                    "icon": "ti-light-bulb"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "sectionTitle": "Laboratorium 14",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Podsumowanie semestru. Prezentacje zadań. Poprawy."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [            
+        {
+          "text": "<a href='https://docs.google.com/document/d/1VQ_58LRlW5VraJz41aAFpxG-Wlp_1BOfBgFnJwI6LWM/edit?usp=sharing' target='_blank'>Przebieg laboratorium 14</a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

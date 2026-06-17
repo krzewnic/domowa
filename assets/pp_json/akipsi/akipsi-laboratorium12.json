@@ -1,0 +1,32 @@
+{
+  "sectionTitle": "Laboratorium 12 i 13",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Użycie sieci neuronowych do rozpoznawania ręcznie pisanych cyfr."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [            
+        {
+          "text": "<a href='https://docs.google.com/document/d/1217T51XK2berXg08ohaQVak2M-cvuGgTtWXMsDDsERQ/edit?usp=sharing' target='_blank'>Lista zadań nr 12</a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

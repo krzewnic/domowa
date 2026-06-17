@@ -1,0 +1,139 @@
+{
+    "sectionTitle": "Laboratorium 3",
+    "paragraphs": [
+        {
+            "type": "description",
+            "title": "Temat",
+            "contents": [
+                "Tablice statyczne, tablice dwuwymiarowe. Odczyt i zapis pliku. Pętla for. Interfejs użytkownika programu."
+            ]
+        },
+        {
+            "type": "ol",
+            "title": "Przygotowanie",
+            "contents": [
+                {
+                    "text": "Przygotowanie do laboratorium",
+                    "url": "https://docs.google.com/document/d/1iGAFm69caFCYiqN-ze_MhRXqOCENxKmvHikCM3QsPQ0/edit?usp=sharing"
+                },
+                {
+                    "visibility": "hidden",
+                    "text": "Sprawozdanie, które zrobi wrażenie?",
+                    "url": "https://docs.google.com/document/d/1x39UY6Vk5iKcUvFDPt_9XbH0KP1_uaQscdDDv03H8GU/edit?usp=sharing"
+                }
+            ]
+        },
+        {
+            "type": "ol",
+            "title": "Przebieg laboratorium",
+            "contents": [
+                "<a href='https://docs.google.com/presentation/d/1iDi0n6WJKaqNzeE894C6S6ktftDLBLa-Eh9a6m3OhRg/edit#slide=id.p'>Podsumowanie laboratorium nr 2</a>",
+                {
+                    "description": "Wykonywanie zadań dla swojej grupy",
+                    "type": "description",
+                    "contents": [
+                        {
+                            "text": "GR_1",
+                            "url": "https://docs.google.com/document/d/1u8NBnH9BCgRitruIha2RNzB2_dkqfYMaXl6Q783Zvag/edit?usp=sharing",
+                            "icon": "ti-image"
+                        },
+                        {
+                            "text": "GR_2",
+                            "url": "https://docs.google.com/document/d/1MaEmMVln81tzocT2WkuE7x47lO_nJcmnoR4603RT9d0/edit?usp=sharing",
+                            "icon": "ti-car"
+                        },
+                        {
+                            "text": "GR_3",
+                            "url": "https://docs.google.com/document/d/1QeGsjDN_MK9nFuty82c35m6i46x7scNhsG7Zk8VchRU/edit?usp=sharing",
+                            "icon": "ti-music"
+                        },
+                        {
+                            "text": "GR_4",
+                            "url": "https://docs.google.com/document/d/1Hu9JEOwoEeT68FXqpy3wycUP0zcqtK6YM-g4RbUiSls/edit?usp=sharing",
+                            "icon": "ti-panel"
+                        },
+                        {
+                            "text": "GR_5",
+                            "url": "https://docs.google.com/document/d/1f_H5cGSAmLm20ROn7I-J2jscQBAKaywHNulQqquz9I4/edit?usp=sharing",
+                            "icon": "ti-mouse"
+                        },
+                        {
+                            "text": "GR_6",
+                            "url": "https://docs.google.com/document/d/19GlEC2P8F_FXNsIy5obvzKnyu4JUDU4MMo0788qCVo4/edit?usp=sharing",
+                            "icon": "ti-anchor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Zadanie domowe",
+            "type": "ol",
+            "contents": [
+                                      
+                {
+                    "text":"Przesłanie dokończonego kodu w ciągu 7 dni na ePortal.",
+                    "icon": "ti-export"
+                },
+                {
+                  "text": "Wykonanie przygotowania do następnego laboratorium.",
+                  "icon": "ti-settings"
+                }
+            ]
+        },
+        {
+            "title": "Wskazówki",
+            "type": "description",
+            "contents": [
+                {
+                    "text": "Nigdy nie jest za późno na naukę programowania! Pisz kod, eksperymentuj i baw się przy tym dobrze.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text": "Nazwij swoją funkcję, jakby to była ostatnia funkcja w Twoim życiu. Niech jej nazwa będzie znacząca dla potomnych.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text": "Zainstaluj debugger i dowiedz się jak działa.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text": "Ćwicz na portalach przeznaczonych do rozwiazywania zadań programistycznych takich jak LeetCode.",
+                    "icon": "ti-light-bulb"
+                },
+
+                {
+                    "text": "Dokładnie testuj działanie Twojego programu dla poprawnych danych.",
+                    "icon": "ti-light-bulb"
+                }, 
+                {
+                    "text":"Poświęcanie czasu na szukanie w swoim kodzie błędów jest bardzo ważne. Regularna analiza i debugowanie kodu pomagają rozwijać umiejętności rozwiązywania problemów i prowadzi do pisania bardziej niezawodnego i efektywnego kodu.",
+                    "icon": "ti-light-bulb"
+                },
+                {
+                    "text":"Warto zapoznawać się z dokumentacją techniczną w języku angielskim - umiejętność korzystania z dokumentacji jest kluczowa.",
+                    "icon": "ti-light-bulb"
+                }
+            ]
+        },
+        {
+            "type": "comment",
+            "title": "",
+            "old_title": "Tutorial", 
+            "contents":[
+                {
+                    "text": "Tydzień 7",
+                    "description": "wskaźniki",
+                    "icon": "ti-clipboard",
+                    "url": "https://docs.google.com/document/d/1JyZgLFy7nTRKA5wZ1JzlM6GWPK02GejnbpLgln2_sfo/edit?usp=sharing"
+                },
+                {
+                    "text": "Tydzień 8",
+                    "description": "Wskaźniki i dynamiczne alokowanie pamięci",
+                    "icon": "ti-clipboard",
+                    "url": "https://docs.google.com/document/d/1m-c2He82g8m2YbeF9BWIcLbRLTWyQRkdM3KZo5TOo_M/edit?usp=sharing"
+                }
+            ]
+        }
+    ]
+}

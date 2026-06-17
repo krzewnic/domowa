@@ -1,0 +1,173 @@
+{
+    "sectionTitle": "Regulamin",
+    "paragraphs": [
+        {
+            "type": "rules",
+            "title": "",
+            "contents": {
+                "title": "Regulamin laboratorium",
+                "date": "1.03.2026",
+                "description": "",
+                "articles": [
+                    {
+                        "title": "Cel laboratorium",
+                        "clauses": [
+                            "Celem laboratorium jest nabywanie umiejętności algorytmicznych oraz ocena uzyskiwanych postępów."
+                        ]
+                    },
+                    {
+                        "title": "Organizacja laboratorium",
+                        "clauses": [
+                            "Laboratorium obejmuje 15 spotkań.",
+                            "W trakcie zajęć laboratoryjnych studenci korzystają z komputerów w pracowni.",
+                            "Zadania domowe należy wykonywać korzystając z prywatnego komputera.",
+                            "Istnieje możliwość połączenia się zdalnie do serwerów uczelni w celu realizacji zadań lub przetestowania programów.",
+                            "Laboratorium wymaga samodzielnej pracy w domu (ok. <span class='red_c'>4 godzin</span> tygodniowo)."
+                        ]
+                    },
+                    {
+                        "title": "Obecność na zajęciach",
+                        "clauses": [
+                            "Obecność na zajęciach laboratoryjnych jest obowiązkowa.",
+                            "Dopuszczalna jest jedna nieobecność.",
+                            "Jedna nieobecność nie wymaga usprawiedliwienia.",
+                            "W przypadku wyjątkowych sytuacji (np. hospitalizacja), które mogą skutkować większą liczbą nieobecności niż dopuszczona, wymagany jest stały kontakt z prowadzącą.",
+                            "Nie zastosowanie się do tego paragrafu skutkuje oceną niedostateczną."
+                        ]
+                    },
+                    {
+                        "title": "Materiały",
+                        "clauses": [
+                            "Notatki z wykładów są dostępne na <a href='https://kcir.pwr.edu.pl/~witold/akipsi/'>stronie głównej kursu</a>.",
+                            "Treści zadań oraz testy znajdują się na <a href='https://kcir.pwr.edu.pl/~krzewnicka'>stronie prowadzącej</a> oraz w <a href='https://eportal.pwr.edu.pl/'>ePortalu</a>.",
+                            "Kopiowanie i rozpowszechnianie materiałów bez zgody prowadzących jest zabronione."
+                        ]
+                    },
+                    {
+                        "title": "Przebieg zajęć",
+                        "clauses": [
+                            "Przed przyjściem na laboratorium należy zapoznać się z materiałem z wykładu oraz dokończyć zadanie z poprzednich zajęć.",
+                            {
+                                "title": "W trakcie zajęć laboratoryjnych:",
+                                "points": [
+                                    "realizowane są zadania demonstruujące wybrane zagadnienia",
+                                    "odbywają się kolokwia cząstkowe, mające na celu ocenę poprawności wykonanych ćwiczeń laboratoryjnych",
+                                    "omawiane są wyniki zrealizowanych zadań"
+                                ]
+                            },
+                            {
+                                "title": "Po zajęciach laboratoryjnych należy:",
+                                "points": [
+                                    "samodzielnie dokończyć zadanie unikając kopiowania kodu, szczególnie kopiowania rozwiązań generowanych przez AI"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Konsultacje",
+                        "clauses": [
+                            "Konsultacje odbywają się zgodnie z harmonogramem dostępnym na stronie prowadzącej.",
+                            "Na konsultacje zdalne ze względów technicznych obowiązują zapisy."
+                        ]
+                    },
+                    {
+                        "title": "Dopuszczalne formy pracy w domu",
+                        "clauses": [
+                            "Praca indywidualna: Student powinien samodzielnie wykonywać zadania, opierając się na materiałach dydaktycznych, zasobach internetowych oraz notatkach z zajęć.",
+                            "Konsultacje z kolegami: Dopuszcza się dyskusje i wymianę poglądów z innymi studentami na temat ogólnych zagadnień związanych z zadaniami, pod warunkiem, że nie prowadzi to do kopiowania rozwiązań."
+                        ]
+                    },
+                    {
+                        "title": "Niedopuszczalne formy pracy",
+                        "clauses": [
+                            "Kopiowanie rozwiązań: Zabrania się kopiowania rozwiązań zadań od innych studentów lub z zewnętrznych źródeł, w tym także generowanych przez narzędzia AI.",
+                            "Wspólne wykonywanie zadań: Praca nad zadaniami w grupie, prowadząca do opracowania wspólnego rozwiązania, jest zabroniona, chyba że zadanie wyraźnie zezwala na pracę grupową.",
+                            "Automatyczne generowanie rozwiązań: Wykorzystywanie narzędzi AI do automatycznego generowania gotowych rozwiązań zadań jest zabronione. Każde zadanie powinno być wykonane samodzielnie przez studenta.</li>",
+                            "Bezrefleksyjne korzystanie z pomocy zewnętrznej: np. korepetytora, kolegów, forów internetowych, w sposób prowadzący do przepisania gotowego rozwiązania bez zrozumienia jego działania jest niedopuszczalne."
+                        ]
+                    },
+                    {
+                        "title": "Zaliczenie laboratorium",
+                        "clauses": [
+                            {
+                                "title": "W celu zaliczenia laboratorium należy spełnić <strong>równocześnie</strong> 3 kryteria:",
+                                "points": [
+                                    "być obecnym na minimum 14 zajęciach z 15",
+                                    "uzyskać pozytywną ocenę wykonanych ćwiczeń laboratoryjnych - to znaczy minimum 50% z każdego kolokwium cząstkowego <strong>K1, K2, K3, K4, K5</strong>",
+                                    "terminowo umieszczać opracowane samodzielnie rozwiązania na ePortalu"
+                                ]
+                            },
+                            {
+                                "title": "Warunkiem zaliczenia laboratorium jest uzyskanie co najmniej 50% punktów z każdego kolokwium cząstkowego. W przypadku nieuzyskania 50% z choćby jednego kolokwium cząstkowego student zobowiązany jest do:",
+                                "points": [
+                                    "ponownego wykonania ćwiczeń, które objęte były tym kolokwium",
+                                    "przystąpienia do kolokwium poprawkowego obejmującego niezaliczony materiał i otrzymania z niego minimum 50% punktów."
+                                ]
+                            },
+                            {
+                                    "title": "Ocena końcowa obliczona jest na podstawie sumy punktów uzyskanych z wszystkich kolokwiów. Progi punktowe na poszczególne oceny:",
+                                    "type": "none_style",
+                                    "points": [
+                                        "<strong class='w-25 d-inline-block '>2.0</strong> 0 – 49.99%",
+                                        "<strong class='w-25 d-inline-block '>3.0</strong> 50 – 59.99%",
+                                        "<strong class='w-25 d-inline-block '>3.5</strong> 60 – 69.99%",
+                                        "<strong class='w-25 d-inline-block '>4.0</strong> 70 – 79.99%",
+                                        "<strong class='w-25 d-inline-block '>4.5</strong> 80 – 89.99%",
+                                        "<strong class='w-25 d-inline-block '>5.0</strong> 90 – 100%"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Ocena wykonanych ćwiczeń laboratoryjnych",
+                            "clauses": [
+                                "Ocena wykonanych ćwiczeń laboratoryjnych ustalana jest tylko i wyłącznie na podstawie wyniku kolokwium (cząstkowego lub poprawkowego).",
+                                "W trakcie semestru odbywa się 5 Kolokwiów cząstkowych <strong>K1, K2, K3, K4, K5</strong>, które sprawdzają wiedzę i umiejętności nabyte w procesie rozwiązywania zadań laboratoryjnych.",
+                                "Każde kolokwium sprawdza materiał zrealizowany w dwóch kolejnych terminach zajęć laboratoryjnych. W związku ze specyfiką przedmiotu, kolejne zagadnienia zwykle wymagają znajomości poprzednich.",
+                                "Kolokwium cząstkowe dotyczy zarówno praktycznych aspektów ćwiczonych na laboratorium jak również pojęć z wykładów, które są wymagane dla pełnego zrozumienia omawianych zagadnień.",
+                                "Kolokwium odbywa się na platformie ePortal.",
+                                "W przypadku nieobecności, kolokwium cząstkowe można napisać na konsultacjach w ciągu 10 dni roboczych od ustania nieobecności. W przypadku niedotrzymania terminu konieczne jest napisanie kolokwium poprawkowego.", 
+                                "Na jednych konsultacjach można napisać maksymalnie jedno kolokwium cząstkowe.",
+                                "W przypadku nieuzyskania satysfakcjonującej oceny student ma możliwość przystąpienia do ponownej weryfikacji efektów uczenia się w formie poprawkowego kolokwium zaliczeniowego.",
+                                "Poprawkowe kolokwia zaliczeniowe odbywają się na ostatnich zajeciach w semestrze."
+                            ]
+                        },
+                        {
+                            "title": "Odpowiedzialność",
+                            "clauses": [
+                                "Właściciel konta jest odpowiedzialny za wszelkie działania wykonane przy jego pomocy.",
+                                "Należy zmieniać hasła i nie rozpowszechniać ich.",
+                                "Należy samodzielnie dbać o zabezpieczenie plików własnych na serwerze.",
+                                "Należy wylogować się z systemu przed opuszczeniem stanowiska pracy."
+                            ]
+                        },
+                        {
+                            "title": "Szczególne Potrzeby",
+                            "clauses": [
+                                "Studenci, którzy mają szczególne potrzeby związane ze sposobem realizacji zajęć, zaliczenia lub przygotowaniem materiałów, proszeni są o kontakt."
+                            ]
+                        },
+                        {
+                            "title": "Postanowienia Końcowe oraz BHP",
+                            "clauses": [
+                                "Regulamin ten jest ważny przez cały okres trwania laboratorium.",
+                                "Każdy student, zapisując się na laboratorium, zobowiązuje się do przestrzegania tego regulaminu.",
+                                "W przypadku naruszenia tego regulaminu, prowadząca ma prawo podjąć kroki formalne, włącznie z wystawieniem studentowi oceny niedostatecznej z kursu.",
+                                "Należy przestrzegać zasad BHP oraz regulaminu wywieszonego w sali laboratoryjnej.",
+                                "Prowadząca laboratorium zastrzega sobie prawo do dokonywania zmian w regulaminie w trakcie trwania laboratorium. Studentom niezwłocznie zostaną udzielone stosowne informacje o takich zmianach.",
+                                "Uwagi do niniejszego regulaminu proszę zgłaszać mailowo."
+                            ]
+                        },
+                        {
+                            "title": "Zmiany w regulaminie",
+                            "clauses": [
+                                "01.03.26 - Uszczegółowienie rozdziału <strong>Ocena wykonanych ćwiczeń laboratoryjnych.</strong>",
+                                "23.02.26 - Uszczegółowienie opisu czym jest kolokwium poprawkowe - wyjaśnienie postępowania w przypadku nieuzyskania 50% z kolokwium cząstkowego.",
+                                "12.04.25 - Dodanie progów punktowych na poszczególne oceny."
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }

@@ -1,0 +1,32 @@
+{
+  "sectionTitle": "Laboratorium 7",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Grafy."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [  
+        {
+          "text": "<a href='https://docs.google.com/document/d/1h22CCmsLCJmSclZZFiNNGrTM1Q9a23MPnvcbCFinSpw/edit?usp=sharing' target='_blank'>Lista zadań nr 7</a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

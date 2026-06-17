@@ -1,0 +1,141 @@
+{
+  "sectionTitle": "Laboratorium 6",
+  "paragraphs":
+  [
+    {
+      "type":"description",
+      "title": "Temat",
+      "contents":
+      [
+        "Listy, stosy, drzewa."
+      ]
+    },
+    {
+      "type": "description",
+      "title": "Przygotowanie",
+      "contents": [
+        {
+          "text": "Przygotowanie do laboratorium",
+          "url": "https://docs.google.com/document/d/15ApRDsIQICtImNapBkwva4Qr5tyVZqtkEBq-gha7_WY/edit?usp=sharing"
+        }
+      ]
+
+    },
+    {
+        "type": "ol",
+        "title": "Przebieg laboratorium",
+        "contents": [
+            {
+                "description": "Wykonywanie zadań dla swojej grupy",
+                "type": "description",
+                "contents": [
+                    {
+                        "text": "GR_1",
+                        "url": "https://docs.google.com/document/d/1L7O_zu3NZl24gnBoakCovmFndlwVS_uyvUeNbXSDbUM/edit?usp=sharing",
+                        "icon": "ti-image"
+                    },
+                    {
+                        "text": "GR_2",
+                        "url": "https://docs.google.com/document/d/1FyM_37myWqYQeENrslUY078yuxRMRig2BY4_9hnFO2w/edit?usp=sharing",
+                        "icon": "ti-car"
+                    },
+                    {
+                        "text": "GR_3",
+                        "url": "https://docs.google.com/document/d/1M_YWDbRZoKrcfqU6sW4Pmcxk8iPxIHMQsIL7NHO1qbg/edit?usp=sharing",
+                        "icon": "ti-music"
+                    },
+                    {
+                        "text": "GR_4",
+                        "url": "https://docs.google.com/document/d/1dSLyLToZtDSou_vjZQYSA8moxMqSb2ZsNSwqkwfWjro/edit?usp=sharing",
+                        "icon": "ti-panel"
+                    },
+                    {
+                        "text": "GR_5",
+                        "url": "https://docs.google.com/document/d/1K_J62rm3Pn2_zYmkTuSRzAsKp3MDNfx_H0dtBtOCvXQ/edit?usp=sharing",
+                        "icon": "ti-mouse"
+                    },
+                    {
+                        "text": "GR_6",
+                        "url": "https://docs.google.com/document/d/1SzC6QD3Ctsl_O5oQNIJSlkH0zEKA79hf5MvU_lywzaQ/edit?usp=sharing",
+                        "icon": "ti-anchor"
+                    },
+                    {
+                        "text": "GR_7",
+                        "url": "https://docs.google.com/document/d/1KsjWDMyO1YjuM3cu6yHcOW7UW9ZPgN1maLDlpH6QZUo/edit?usp=sharing",
+                        "icon": "ti-star"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Zadanie domowe",
+        "type": "ol",
+        "contents": [
+                                  
+            {
+                "text":"Przesłanie dokończonego kodu w ciągu 7 dni na ePortal.",
+                "icon": "ti-export"
+            },
+            {
+              "text": "Wykonanie przygotowania do następnego laboratorium.",
+              "icon": "ti-settings"
+            }
+        ]
+    },
+    {
+      "title": "Zadanie z poprzedniego roku",
+      "type": "ol",
+      "contents": [
+          {
+            "text": "Gra karciana",
+            "url": "https://docs.google.com/document/d/1K7ylTxrf4eRA3hsVLFrCSOLhZlYFMStN5GjHPf8T_A4/edit?usp=sharing",
+            "icon" : "ti-files"            
+          },
+          {
+            "text": "Rejestr czasu pracowników",
+            "url": "https://docs.google.com/document/d/17l41CptRnkdZtls1uw4s7eB_MW6rZB2SDxSv7rAF8KA/edit?usp=sharing",
+            "icon" : "ti-menu-alt"            
+          },
+          {
+            "text": "Samochody na lawetach",
+            "url": "https://docs.google.com/document/d/1lIqY2ehCyp0Xj4nNZotO914RVKsTBAVnTj1c9OPY6RU/edit?usp=sharing",
+            "icon" : "ti-car"            
+          },
+          {
+            "text": "Dziwne zaburzenie Mariana",
+            "url": "https://docs.google.com/document/d/1vh_ChT7eV2fS6FhxVnjUw5Wu5qkRW6eMYRJLMeclbxw/edit?usp=sharing",
+            "icon" : "ti-infinite"            
+          },
+          {
+            "text": "Analiza dziwnej partii szachowej",
+            "url": "https://docs.google.com/document/d/1AK51CMbiiODl21CJALrBdANoz1UzCxX0fIrJXMQ__zc/edit?usp=sharing",
+            "icon" : "ti-target"            
+          },
+          {
+            "text": "Wieże w Hanoi",
+            "url": "https://docs.google.com/document/d/15QQPI4MMws69yUoNrGrZiqdGoxc1b4OEvlijJDtSPZU/edit?usp=sharing",
+            "icon" : "ti-clip"            
+          }
+      ]
+    },{
+      "type": "comment",
+            "title": "",
+            "old_title": "Tutorial", 
+      "contents":[
+        {
+          "text" : "Tydzień 13",
+          "url": "https://docs.google.com/document/d/1Qt1HfCupaAGC3UHRkUeiBFSdv-b3PIQsdsSsHG52pUo/edit?usp=sharing",
+          "icon": "ti-clipboard",
+          "description": "podział na moduły"
+        },
+        {
+          "text" : "Tydzień 14",
+          "url": "https://docs.google.com/document/d/1yrIx0aCtYWM34Ugq9dzdL9BClSr8oYRMzinoOFXZh3g/edit?usp=sharing",
+          "icon": "ti-clipboard",
+          "description": "inne tematy"
+        }
+      ]
+    }
+  ]
+}

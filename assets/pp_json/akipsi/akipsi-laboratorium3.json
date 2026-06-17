@@ -1,0 +1,33 @@
+{
+  "sectionTitle": "Laboratorium 3",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Algorytmy sortowania."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+       
+        {
+          "text": "<a href='https://docs.google.com/document/d/16INE3mcHrYPY5mLU0MBUKcZJHrR_xM0W0uGHWwDBDCs/edit?usp=sharing' target='_blank'>Lista zadań nr 3 </a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

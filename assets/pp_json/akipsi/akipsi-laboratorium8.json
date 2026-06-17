@@ -1,0 +1,32 @@
+{
+  "sectionTitle": "Laboratorium 8",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Grafy. Szukanie dróg w grafach."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [        
+        {
+          "text": "<a href='https://docs.google.com/document/d/1f5UXgP1wfaOEBfvBHfn8Iq82NGZJF_S_65JM0atu2kY/edit?usp=sharing' target='_blank'>Lista zadań nr 8</a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

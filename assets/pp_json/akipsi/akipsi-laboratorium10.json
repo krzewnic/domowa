@@ -1,0 +1,33 @@
+{
+  "sectionTitle": "Laboratorium 10 i 11",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Funkcja heurystyczna do oceny pozycji w warcabach."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [ 
+       
+        {
+          "text": "<a href='https://docs.google.com/document/d/18Fwgz5QcSqWJIpWTj2Mo9b8MjwhSelQqaB86BhwJu1Y/edit?usp=sharing' target='_blank'>Lista zadań nr 10</a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

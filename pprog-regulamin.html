@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+
+<head >
+  
+  
+  <meta charset="utf-8">
+
+  <title>  Klaudia Rzewnicka - strona domowa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+  <!-- ** CSS Plugins Needed for the Project ** -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link href="assets/style.css" rel="stylesheet" media="screen" />
+
+
+  <link rel="icon" href="assets/img/pprog_icon.gif" type="image/gif"/>
+
+  <script src="assets/tools.js"></script>
+
+  <link href="assets/tabelka/style.css" rel="stylesheet" media="screen" /> 
+</head>
+
+<body>
+  <!-- header -->
+  <header class="shadow-bottom sticky-top bg-white">
+    <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+      <a class="navbar-brand px-2" href="../index.html"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href=".">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  </header>
+  <!-- /header -->
+
+  <!-- details page -->
+  <section class="single section-sm pb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="sidebar shad">
+    <ul>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href=".">Informacje</a>
+      </li>
+      <!--li class="nav-item">
+        <a class="nav-link text-dark" href=".?page=akipsi">AKiPSI</a>
+      </li-->
+
+      <!--li class="nav-item">
+        <a class="nav-link text-dark" href="">Przedmioty wakacyjne:</a>
+         <ul class="nav-item">
+          <li  class="nav-link text-dark"><a href="">Podstawy leniuchowania</a></li>
+          <li  class="nav-link text-dark"><a href="">Plażing w czasie rzeczywistym</a></li>
+          <li  class="nav-link text-dark"><a href="">Algorytmy kombinatoryki urlopowej i podstawy intuicji wakacyjnej</a></li>
+        </ul>
+
+      </li-->
+
+      <!--li class="nav-item">
+        <a class="nav-link text-dark" href=".?page=pprog">Podstawy programowania</a>
+        <ul class="nav-item">
+          <li  class="nav-link text-dark"><a href=".?page=pplab-regulamin">Regulamin laboratorium</a></li>
+          <li  class="nav-link text-dark"><a href=".?page=ppcw-regulamin">Regulamin ćwiczeń</a></li>
+        </ul>
+      </li-->
+      <a class="nav-link text-dark" href=".?page=akipsi&topic=0">AKiPSI</a>
+      <!--li class="nav-item">
+        <a class="nav-link text-dark" href=".?page=systemy">Systemy operacyjne</a>
+
+        <ul class="nav-item">
+          <li class="nav-link text-dark"><a href=".?page=systemy-regulamin">Regulamin laboratorium</a></li>
+        </ul>
+      </li-->        
+    </ul>
+</div>        </div>
+        <div class="col-lg-9">
+          <div class="bg-white">
+            <!--h2 class="mb-5">Elements</h2-->
+            <div class="content">
+
+              
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.24.0/babel.min.js"></script>
+<script src="assets/tabelka/regulamin.js" type="text/babel"></script>
+
+<script type="text/babel"> 
+
+    function rulesLoaded(data) {
+        const container = document.getElementById('rules');
+        const root = ReactDOM.createRoot(container);
+        root.render(<Rules rulesData={data}/>);
+    }
+    fetchJSONData("./assets/pp_json/pplab-regulamin.json", rulesLoaded);
+    
+    
+    function faqLoaded(data) {
+        const container = document.getElementById('faq');
+        const root = ReactDOM.createRoot(container);
+        root.render(<Faq faqData={data}/>);
+    }
+    fetchJSONData("./assets/pp_json/pplab-regulamin-faq.json", faqLoaded);
+
+
+
+</script>
+
+
+<div id="rules" class ="shad mb-2"></div>
+
+<div id="faq" class="shad"></div>
+                        
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- /details page -->
+
+  <!-- footer -->
+<footer class="section pb-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-8 text-md-left text-center">
+          <p class="mb-md-0 mb-4">Copyright © 2020 Designed and Developed by <a
+              href="https://themefisher.com/">themefisher</a></p>
+        </div>
+        <div class="col-md-4 text-md-right text-center">
+          <!--ul class="list-inline">
+            <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i
+                  class="ti-facebook"></i></a></li>
+            <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i
+                  class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-github"></i></a>
+            </li>
+            <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i
+                  class="ti-linkedin"></i></a></li>
+          </ul-->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /footer -->
+
+  <!-- ** JS Plugins Needed for the Project ** -->
+  <!-- jquiry -->
+  <script src="plugins/jquery/jquery-1.12.4.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- match-height JS -->
+  <script src="plugins/match-height/jquery.matchHeight-min.js"></script>
+  <!-- Main Script -->
+ 
+  <script src="assets/script.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/stackoverflow-dark.min.css"></link>   
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+  
+
+  <script>
+  
+
+function encodePreElements() {
+        console.log("Encoding");
+    //var pre = document.getElementsByTagName('code');
+    //for(var i = 0; i < pre.length; i++) {
+        //var encoded = htmlEncode(pre[i].innerHTML);
+    //    pre[i].innerHTML = pre[i].innerHTML.replaceAll("<", "&lt;").replaceAll(">", "&gt;");
+    //}
+
+var x = `#include <string.h>
+
+int main()
+{
+    char tekst1[30];
+    char znak;
+    printf("Wpisz znak i tekst:\n");
+    //scanf("%c %s", &znak, tekst1);
+    scanf("%c %6[^\n]", &znak, tekst1);
+
+
+    printf("Wczytano znak: %c i tekst: %s", znak, tekst1);
+    return 0;
+}`;
+
+    hljs.highlightAll();
+    html = hljs.highlight(x, {language: 'c'}).value;
+    console.log(html);
+    var div  = document.getElementById('id');
+    div.innerHTML = html;
+};
+
+function htmlEncode(value) {
+   var div = document.createElement('div');
+   var text = document.createTextNode(value);
+   div.appendChild(text);
+   console.log(div);
+   return div.innerHTML;
+}
+  
+  </script>
+  
+</body>
+
+</html>

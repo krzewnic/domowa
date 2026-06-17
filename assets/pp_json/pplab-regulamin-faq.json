@@ -1,0 +1,29 @@
+{
+    "questions":
+    [
+        {
+            "question" : "Czy należy wykonać wszystkie zadania i przygotowywać się do wszystkich laboratoriów?",
+            "answer": "Tak, należy wykonać wszystkie zadania i przygotowywać się do wszystkich laboratoriów. Programowanie jest bardzo potrzebną i poszukiwaną na rynku pracy umiejętnością. Jej nabycie jest trudne i wymaga systematycznej pracy. Omijanie jakiegokolwiek etapu może prowadzić do luki w wiedzy, co utrudni zrozumienie kolejnych tematów, realizację bardziej zaawansowanych projektów oraz kontynuację nauki na kolejnych semestrach."
+        },
+       
+        {
+            "question": "Czy zadania są sprawdzane pod kątem plagiatu specjalnymi programami?",
+            "answer": "Nadesłane rozwiązania mogą być poddane kontroli antyplagiatowej."
+        }, 
+        {
+            "question": "Czy należy skrupulatnie kończyć i testować wszystkie programy zaproponowane na przedmiocie Podstawy programowania?",
+            "answer": "Tak. Każde kolejne zadanie wymaga opanowania wszystkich umiejętności z poprzedniego, dlatego pominięcie któregokolwiek z punktów może znacząco utrudnić dalszą pracę."
+        }, 
+        {
+            "question":"Czy trzeba wysyłać / przedstawiać usprawiedliwienia?",
+            "answer":"W przypadku jednej dozwolonej nieobecności w semestrze, dokuemtny formalne (jeśli istnieją), należy zatrzymać dla siebie - nie należy ich przesyłać ani mi przedstawiać. W przypadku poważniejszych sytuacji wymagany jest stały kontakt, gdyż każda tego typu sprawa jest prowadzona indywidualnie. Zależnie od sytuacji indywidualnej, może być potrzebna zgoda dziekana lub usprawiedliwienie."
+        },
+        {
+            "question": "",
+            "answer" : "<a href='https://docs.google.com/presentation/d/1evAj0tS57T1-AS3SoKJxn1XXrouWdrVObBepNlRg5v0/edit?usp=sharing'>Link 0</a>, <a href='https://docs.google.com/presentation/d/1tJIV5146F5xD4nRkmI7qV390-1sJR4CZ0gNJ1cU_AgQ/edit?usp=sharing'>Link 1</a>, <a href='https://docs.google.com/presentation/d/1kX0GY5RWeDfgLv72VTW-Ahtx1kWGCqc8S-nHQ061gys/edit?usp=sharing'>Link 2</a><a href='https://docs.google.com/presentation/d/1iDi0n6WJKaqNzeE894C6S6ktftDLBLa-Eh9a6m3OhRg/edit?usp=sharing'> Link 3 - interfejs</a> <a href='https://docs.google.com/presentation/d/1Ovl3aowzLu-9-MIdm2Cw2FnB6ldiN8yz_ob5P_UE3sg/edit?usp=sharing'>Link 4 -funkcje</a>",
+            "cls" : "d-none"
+        }
+
+
+    ]
+}

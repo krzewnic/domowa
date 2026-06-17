@@ -1,0 +1,78 @@
+{
+    "sectionTitle": "Laboratorium 7",
+    "paragraphs": [
+        {
+            "type": "description",
+            "title": "Temat",
+            "contents": [
+                "Metody algorytmiczne. Operacje wejścia/wyjścia na plikach. Przetwarzanie tekstu."
+            ]
+        },
+        {
+            "type": "ol",
+            "title": "Przygotowanie",
+            "contents": [
+                {
+                    "text": "Zadanie wprowadzające ze strony prowadzącego wykład",
+                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_07/index.html"
+                },
+                {
+                    "description": "Przygotowanie prezentacji kodu z poprzedniego laboratorium",
+                    "type": "ul",
+                    "contents": [
+                        "Przygotowanie danych testowych, umożliwiających sprawną prezentację kodu.",
+                        "Przygotowanie prezentacji programu na komputerze Panamint"
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ol",
+            "title": "Przebieg laboratorium",
+            "contents": [
+                {
+                    "text": "Wykonywanie zadań ze strony prowadzącego wykład",
+                    "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_07/index.html"
+                },
+                {
+                    "text": "Prezentowanie zadania z poprzedniego laboratorium. Pytania, które mogą się pojawić:",
+                    "type": "ul",
+                    "contents": [
+                        "Dlaczego dodana została ta linia kodu?",
+                        "co się stanie gdy usunieta zostanie ta linia kodu?",
+                        "Odpowiedź <em>'Nie pamiętam, bo pisałem to dawno'</em> oznacza nieprzygotowanie się do laboratorium, jest niedopuszczalna i skutkuje oceną niedostateczną z laboratorium."
+                    ]
+                },
+                {
+                    "type": "ul",
+                    "title": "Dane do kolokwium",
+                    "contents": [
+                        { "text": "dane1.zip",
+                        "url": "assets/files/dane1.zip"},
+                        { "text": "dane2.zip",
+                        "url": "assets/files/dane2.zip"},
+                        { "text": "dane3.zip",
+                        "url": "assets/files/dane3.zip"},
+                        { "text": "dane4.zip",
+                        "url": "assets/files/dane5.zip"},
+                        { "text": "dane5.zip",
+                        "url": "assets/files/dane5.zip"},
+                        { "text": "dane6.zip",
+                        "url": "assets/files/dane6.zip"}
+                    ] 
+                }
+                
+            ]
+        },
+        {
+            "title": "Zadanie domowe",
+            "type": "ol",
+            "contents": [
+                {
+                    "text": "Dokończenie zadań w domu. Dobre przetestowanie programów.",
+                    "icon": "ti-settings"
+                }
+            ]
+        }
+    ]
+}

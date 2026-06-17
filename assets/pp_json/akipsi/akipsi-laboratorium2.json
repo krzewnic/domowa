@@ -1,0 +1,33 @@
+{
+  "sectionTitle": "Laboratorium 2",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Przegląd kolekcji."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        
+        {
+          "text": "<a href='https://docs.google.com/document/d/1SDMDXkd6PR9OxeAY4Y4FuXgQb5Vd6AWZOdFl51m54i0/edit?usp=sharing' target='_blank'>Lista zadań nr 2 </a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}

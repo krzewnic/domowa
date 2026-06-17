@@ -1,0 +1,33 @@
+{
+  "sectionTitle": "Laboratorium 1",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Przypomnienie składni języka Python."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        
+        {
+          "text": "<a href='https://docs.google.com/document/d/149odtHNZY1yLWa9VpOGFrS9DUOL3pz-eVBvPiS3dR4s/edit?usp=sharing' target='_blank'>Lista zadań nr 1 </a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "icon": "ti-settings"
+        }
+      ]
+    }
+  ]
+}
