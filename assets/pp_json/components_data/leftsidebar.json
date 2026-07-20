@@ -1,0 +1,28 @@
+{
+    "menu": [
+        {
+            "title": "Informacje",
+            "href": "."
+        },
+        {
+            "title": "AKIPSI",
+            "href": "akipsi.html"
+        },
+        {
+            "title": "Podsatawy Programowania",
+            "href": "pprog.html",
+            "_submenu": {
+                "menu": [
+                    {
+                        "title": "Submenu 1",
+                        "href": "link 1"
+                    },
+                    {
+                        "title": "Submenu 2",
+                        "href": "link 2"
+                    }
+                ]
+            }
+        }
+    ]
+}

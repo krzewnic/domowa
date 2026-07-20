@@ -1,42 +1,7 @@
 const { Component } = React;
 const { createRoot } = ReactDOM;
 
-/**
- * Generuje guzik zamykania X i wykonuje akcję cardClosed po jego kliknięciu.
- * @param cardClosed akcja do wykonania po kliknięciu w element
- */
-class CloseButton extends Component {
-  render() {
-    const { cardClosed } = this.props;
-    return <>
-      <a className="close-button" onClick={cardClosed}>X</a></>
-  }
-}
-/**
- * Generuje nagłówek Okna i wykonuje akcję po kliknięciu guzika zamykającego
- * @param title
- * @param collapseName
- * @param cardClosed - funkcja wskazuje akcje po kliknięciu guzika zamykania okienka
- */
-class Header extends Component {
-  render() {
-    const { cardClosed } = this.props;
-    const { title } = this.props;
-    return <div className="card-header">
-      <i className="ti-info-alt icon mr-2 mb-4 icon-small"></i>
-      {title}
-      <CloseButton cardClosed={cardClosed} />
-    </div>
-  }
-}
 
-class ImageContrib extends Component {
-  render() {
-    let { src, contribution, alt } = this.props.imageInfo;
-    return <><img src={'assets/img/exercises/' + src} alt={alt} /><br /><p>{contribution ? <a href={contribution}>źródło</a> : ''}</p></>
-
-  }
-}
 /**
  * Generuje jeden paragraf na podstawie informacji z jsona
  * Paragraf może zawierać title i contents
@@ -190,12 +155,6 @@ class DescriptionPoint extends Component {
   }
 }
 
-class Icon extends Component {
-  render() {
-    const { name } = this.props;
-    return <i className={name + " icon text-primary mr-2 mb-4 icon-small"}></i>
-  }
-}
 
 
 /**
@@ -246,65 +205,7 @@ class Points extends Component {
   }
 }
 
-/**
- * Komponent po zamontowaniu pobiera json z podanej ścieżki
- * Należy zaimplementować funkcję render(), tak aby wyrenderować obiekty,
- * kiedy this.state.data jest już załadowane
- * @param {string path}
- */
-class FetchingComponent extends Component {
-  constructor(props) {
-    super(props);
 
-
-    this.state = {
-      path: props.path,
-      data: null,
-      loading: true,
-      error: null
-    };
-  }
-  componentDidMount() {
-    const timestamp = Date.now();
-    fetch(this.state.path + "?nc=" + timestamp, {
-      method: 'GET',
-      headers: {
-        'Cache-Control': 'no-cache, no-store, must-revalidate',
-        'Pragma': 'no-cache',
-        'Expires': '0'
-      }
-    })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .then(data => {
-        this.setState({ data: data, loading: false })
-        this.afterMount();
-      })
-      .catch(error => {
-        this.setState({ error: error, loading: false })
-      });
-  }
-  afterMount() {
-    
-  }
-  render() {
-    if (this.state.loading) {
-      return <div>Loading...</div>;
-    }
-
-    if (this.state.error) {
-      return <div>Error: {this.state.error.message}</div>;
-    }
-
-    return (
-      <></>
-    );
-  }
-}
 
 
 /**
@@ -350,7 +251,7 @@ class ParagraphsShad extends FetchingComponent {
         if (el) {
           el.scrollIntoView({ behavior: "smooth" });
         } else {
-          console.log("nie znaleziono elementu o id");
+          console.log("nie znaleziono elementu");
         }
       }
     }
@@ -399,7 +300,7 @@ class Paragraphs extends Component {
 class Topic extends Component {
   render() {
     const { onClick, isActive, topicData } = this.props;
-    console.log(topicData);
+    //console.log(topicData);
     return (
       <div onClick={onClick} className={`nav-link no-padding ${topicData.hidden ? 'd-none' : ''}`}>
         <a className={isActive ? "active-link" : ""}>{topicData.title}</a>
@@ -408,43 +309,3 @@ class Topic extends Component {
   }
 }
 
-/**
- * Generuje menu z pliku json. Każdy element w pliku json zawiera nazwę 
- * pozycji menu, oraz nazwę pliku json do wczytania.
- */
-class Topics extends FetchingComponent {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeIndex: props.activeIndex,
-      path: props.path,
-      course: props.course
-    }
-  }
-  setActiveIndex(index) {
-    this.setState({ activeIndex: index });
-    this.props.setActiveIndex(index);
-  }
-
-  render() {
-    super.render();
-    if (this.state.data) {
-
-      const topics = this.state.data.topics.map((topic, index) => (
-        <Topic
-          key={index}
-          topicData={topic}
-          isActive={this.props.activeIndex == index}
-          onClick={() => this.setActiveIndex(index)}
-        />
-      ));
-
-      return <div className="shad">
-        <h1>{this.state.course}</h1>
-        <h3 className="text-center m-4">Kierunek AiR, W12, PWR</h3>
-        <h4>Spis treści</h4>
-        {topics}
-      </div>;
-    }
-  }
-}
