@@ -1,17 +1,16 @@
-class MainPage extends FetchingComponent {
+class AkipsiMainPage extends FetchingComponent {
   constructor(props) {
     super(props);
-    this.state = {
+    this.setState({
       activeIndex: props.selected,
       path: props.path,
       course: props.course
-    };
+    });
   }
   setActiveIndex = (index) => {
     this.setState({ activeIndex: index });
   }
-  render() {
-    super.render();
+  renderAfterFetched() {    
     if (this.state.data) {
       const cards = this.state.data.topics.map((topic, index) => (
         <ParagraphsCard
@@ -35,7 +34,7 @@ class MainPage extends FetchingComponent {
 }
 
 
-class Body extends React.Component {
+class AkipsiBody extends PageStructure {
   constructor(props) {
     super(props);
     this.state = {
@@ -44,29 +43,7 @@ class Body extends React.Component {
       course: props.course
     };
   }
-  render() {
-
-    return <>
-      <MainNav />
-      <section class="single section-sm pb-0">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3">
-              <div class="sidebar shad">
-                <LeftSideBar />
-              </div>
-            </div>
-            <div class="col-lg-9">
-              <div class="bg-white">
-                <div class="content">
-                  <MainPage path={this.state.path} selected={this.state.topic} course={this.state.course} />
-                </div>
-              </div>
-            </div> </div>
-        </div>
-      </section>
-      <Footer />
-    </>
+  getContent() {
+    return (<AkipsiMainPage path={this.state.path} selected={this.state.topic} course={this.state.course} />);
   }
-
 }

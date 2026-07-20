@@ -1,3 +1,11 @@
+class LoadingBar extends React.Component {
+  render() {
+    return (
+      <div class="loading-spinner"></div>
+    );
+  }
+}
+
 /**
  * Komponent po zamontowaniu pobiera json z podanej ścieżki
  * Należy zaimplementować funkcję render(), tak aby wyrenderować obiekty,
@@ -16,6 +24,12 @@ class FetchingComponent extends React.Component {
     };
   }
   componentDidMount() {
+    //this.loadData();
+    setTimeout(() => {
+      this.loadData();
+    }, 1000); // 1 sekundy
+  }
+  loadData() {
     const timestamp = Date.now();
     fetch(this.state.path + "?nc=" + timestamp, {
       method: 'GET',
@@ -40,19 +54,23 @@ class FetchingComponent extends React.Component {
       });
   }
   afterMount() {
-    
+
   }
-  render() {
-    if (this.state.loading) {
-      return <div>Loading...</div>;
+  renderAfterFetched() {
+
+  }
+
+  render() { 
+    if (this.state.loading) { 
+      return <LoadingBar />;
     }
 
     if (this.state.error) {
-      return <div>Error: {this.state.error.message}</div>;
+      return <div class="shad">
+        <h3 class="mb-5">🛸 Aliens probably did this.</h3>
+      </div>;
     }
 
-    return (
-      <></>
-    );
+    return this.renderAfterFetched();
   }
 }

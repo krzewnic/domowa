@@ -1,0 +1,61 @@
+{
+    "language": "pl",
+    "_language": "pl_en",
+    "header": "Klaudia Rzewnicka",
+    "informations": [
+        {
+            "type": "contact",
+            "pl": "Kontakt",
+            "pl_en": "Kontakt / Contact",
+            "value": "klaudia.rzewnicka@pwr.edu.pl"
+        },
+        {
+            "type": "office",
+            "pl": "Biuro",
+            "pl_en": "Biuro / Office",
+            "value": "budynek / building: C3 <br> pokój / room: 307"
+        },
+        {
+            "type": "consultations",
+            "pl": "Konsultacje Zima 2026/27 (od 2.10)",
+            "pl_en": "Conslutations Summer 2026/27",
+            "content": {
+                "type": "ul",
+                "_points": [
+                    "Środy nieparzyste (odd Wednesdays): 11<sup>00</sup> - 14<sup>15</sup>",
+                    "Środy parzyste (even Wednesdays): 13<sup>00</sup> - 14<sup>15</sup>",
+                    "Piątki (Fridays): 8<sup>10</sup> - 9<sup>55</sup>"
+                ],
+                "points": [
+                    "Środy nieparzyste: 8<sup>00</sup> - 9<sup>00</sup>",
+                    "Środy parzyste: 8<sup>00</sup> - 11<sup>00</sup>",
+                    "Piątki : 11<sup>15</sup> - 13<sup>15</sup>"
+                ]
+            }
+        }
+    ],
+    "news":[
+
+    ],
+    "_news": [
+        {
+            "pl": {
+                "title": "Konsultacje w dniu 19 czerwca odwołane",
+                "date": "8.06.2026",
+                "content": "Informuję, że konsultacje w dniu 19 czerwca są odwołane z powodu popraw. Proszę o uregulowanie wszystkich pilnych spraw przed 19 czerwca."
+            },
+            "en": {
+                "title": "Consultation on June 19th canceled",
+                "date": "8.06.2026",
+                "content": "Please note that the consultation hours on June 19th are canceled due to the retake session. Please ensure that all urgent matters are settled before 19th June."
+            }
+        },
+        {
+            "pl": {
+                "title": "Konsultacje w piątek 23.01 - przełożone na środę 28.01 godzina 10:15",
+                "date": "13.01.2026",
+                "content": "Uprzejmie informuję, że konsultacje w piątek 23.01 nie odbędą się i zostają przeniesione na środę 28.01 w godzinach od 10:15-12:15."
+            }
+        }
+    ]
+}

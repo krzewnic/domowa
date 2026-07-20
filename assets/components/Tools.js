@@ -21,7 +21,33 @@ function fetchJSONData(path, onCompleted) {
                console.error("Unable to fetch data:", error));
 }
 
+class PageStructure extends React.Component {  
+  getContent() {
+    return <h1>...</h1>;
+  }
+  render() { 
+    return <>
+      <MainNav />
+      <section class="single section-sm pb-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">              
+                <LeftSideBar path="./assets/pp_json/components_data/leftsidebar.json"/>     
+            </div>
+            <div class="col-lg-9">
+              <div class="bg-white">
+                <div class="content">
+                  {this.getContent()}
+                </div>
+              </div>
+            </div> </div>
+        </div>
+      </section>
+      <Footer />
+    </>
+  }
 
+}
 
 class Icon extends React.Component {
   render() {

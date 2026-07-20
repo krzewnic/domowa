@@ -9,7 +9,7 @@ const { createRoot } = ReactDOM;
  * @param {"links", "description", "ul", "ol" } type typ paragrafu (pochodzi z jsona)
  */
 
-class Paragraph extends Component {
+class Paragraph extends  React.Component {
   constructor(props) {
     super(props);
 
@@ -71,7 +71,7 @@ class Paragraph extends Component {
  * @param {collection} linksData - lista linków 
  * @param {string} title 
  */
-class Links extends Component {
+class Links extends  React.Component {
   render() {
     const { contents } = this.props;
     const links = contents.map(
@@ -94,7 +94,7 @@ class Links extends Component {
  * @param descriptionData
  * @param title
  */
-class Descriptions extends Component {
+class Descriptions extends  React.Component {
   render() {
     const { contents, ending } = this.props;
 
@@ -120,7 +120,7 @@ class Descriptions extends Component {
  * 
  * Element description może być tekstem
  */
-class DescriptionPoint extends Component {
+class DescriptionPoint extends  React.Component {
   render() {
 
     const { description, ending } = this.props;
@@ -161,7 +161,7 @@ class DescriptionPoint extends Component {
  * Generuje jeden link
  * @param linkData - zawiera url oraz label do wyświetlenia
  */
-class Link extends Component {
+class Link extends  React.Component {
   render() {
     const { linkData } = this.props;
     return <li>
@@ -181,7 +181,7 @@ function createDescriptionPointLi(point, index) {
  * @param {string} title 
  * @param {'ol' | 'ul'} subtype ol, ul
  */
-class Points extends Component {
+class Points extends  React.Component {
   render() {
     const { contents, subtype } = this.props;
 
@@ -251,7 +251,7 @@ class ParagraphsShad extends FetchingComponent {
         if (el) {
           el.scrollIntoView({ behavior: "smooth" });
         } else {
-          console.log("nie znaleziono elementu");
+          console.log("Nie znaleziono elementu");
         }
       }
     }
@@ -285,7 +285,7 @@ class ParagraphsShad extends FetchingComponent {
 
 
 
-class Paragraphs extends Component {
+class Paragraphs extends  React.Component {
   render() {
     const { paragraphsInfo, nrTitle } = this.props;
 
@@ -297,7 +297,7 @@ class Paragraphs extends Component {
   }
 }
 
-class Topic extends Component {
+class Topic extends  React.Component {
   render() {
     const { onClick, isActive, topicData } = this.props;
     //console.log(topicData);

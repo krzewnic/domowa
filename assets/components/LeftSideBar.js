@@ -33,7 +33,7 @@ class LeftSideBarLink extends React.Component {
   }
 }
 
-class LeftSideBarUl extends Component {
+class LeftSideBarUl extends React.Component {
    constructor(props) {
     super(props);
     this.state = {
@@ -56,14 +56,14 @@ class LeftSideBarUl extends Component {
 
 class LeftSideBar extends FetchingComponent {
   constructor(props) {
-    super(props);
-    this.state = {
-      path: "./assets/pp_json/components_data/leftsidebar.json"
-    }
+    super(props);  
+    this.setState({
+      path: props.path
+    });
   }
-  render() {
+  renderAfterFetched() {
     if (this.state.data) {    
-      return <LeftSideBarUl menu = {this.state.data.menu} />
+      return <div class="sidebar shad"><LeftSideBarUl menu = {this.state.data.menu} /></div>
     }
   }
 }
