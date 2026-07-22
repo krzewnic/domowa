@@ -1,0 +1,44 @@
+{
+    "menu": [
+        {
+            "title": "Informacje",
+            "href": "."
+        },
+        {
+            "title": "AKIPSI",
+            "href": "akipsi.html",
+            "submenu": {
+                "menu": [
+                    {
+                        "title": "Regulamin",
+                        "href": "akipsi-regulamin.html"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Podsatawy Programowania",
+            "href": "pprog.html",
+            "submenu": {
+                "menu": [
+                    {
+                        "title": "Laboratorium",
+                        "href": "pprog-lab.html"
+                    },
+                    {
+                        "title": "Regulamin laboratorium",
+                        "href": "pprog-lab-regulamin.html"
+                    },
+                    {
+                        "title": "Ćwiczenia",
+                        "href": "pprog-cw.html"
+                    },
+                    {
+                        "title": "Regulamin ćwiczeń",
+                        "href": "pprog-cw-regulamin.html"
+                    }
+                ]
+            }
+        }
+    ]
+}

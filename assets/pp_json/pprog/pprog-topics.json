@@ -1,0 +1,17 @@
+{
+    "topics":
+    [
+        {
+            "title": "Regulamin",
+            "json": "./assets/pp_json/pprog/pprog-regulamin.json"
+        },
+        {
+            "title": "Laboratorium 0 – Zasady pracy w laboratorium. Narzędzia.",
+            "json": "./assets/pp_json/pprog/pprog-laboratorium0.json"
+        },
+        {
+            "title": "Laboratorium 1 – Przypomnienie składni języka Python.",
+            "json": "./assets/pp_json/pprog/pprog-laboratorium1.json"
+        }
+    ]
+}

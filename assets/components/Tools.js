@@ -25,6 +25,9 @@ class PageStructure extends React.Component {
   getContent() {
     return <h1>...</h1>;
   }
+  componentcomponentDidMount() {
+    console.log("Component did Mount");
+  }
   render() { 
     return <>
       <MainNav />
@@ -32,7 +35,7 @@ class PageStructure extends React.Component {
         <div class="container">
           <div class="row">
             <div class="col-lg-3">              
-                <LeftSideBar path="./assets/pp_json/components_data/leftsidebar.json"/>     
+                <LeftSideBar path="./assets/pp_json/components/leftsidebar.json"/>     
             </div>
             <div class="col-lg-9">
               <div class="bg-white">

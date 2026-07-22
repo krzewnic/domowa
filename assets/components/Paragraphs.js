@@ -9,7 +9,7 @@ const { createRoot } = ReactDOM;
  * @param {"links", "description", "ul", "ol" } type typ paragrafu (pochodzi z jsona)
  */
 
-class Paragraph extends  React.Component {
+class Paragraph extends React.Component {
   constructor(props) {
     super(props);
 
@@ -21,14 +21,14 @@ class Paragraph extends  React.Component {
   handleClick = () => {
     if (this.state.toggle) {
       var newHideContent = !this.state.hideContent;
-      this.setState({ hideContent: newHideContent});
+      this.setState({ hideContent: newHideContent });
     }
   }
   render() {
     const { paragraphInfo, nrTitle } = this.props;
 
     let contents = <>Coś innego niż ol, ul, description, links.</>
-  
+
 
     if (paragraphInfo.type == "links") {
       contents = <Links contents={paragraphInfo.contents} />
@@ -54,12 +54,12 @@ class Paragraph extends  React.Component {
     return <div id={paragraphInfo.id} className={paragraphInfo.visibility == 'hidden' ? 'd-none' : ''}>
       {!paragraphInfo.title ? <></> : <h3 className="card-title">{paragraphInfo.title} {nrTitle ? nrTitle : ''} </h3>}
       {paragraphInfo.icon ? (<><Icon name={paragraphInfo.icon} /></>) : (<></>)}
-      <div className={this.state.toggle? "clickable": ""} onClick={this.handleClick.bind(this)}>
-      {!this.state.hideContent && this.state.toggle?<Icon name="ti-minus" /> : ""}
-      {this.state.hideContent && this.state.toggle?<Icon name="ti-plus" /> :""}
-      <span dangerouslySetInnerHTML={{ __html: description }} />
+      <div className={this.state.toggle ? "clickable" : ""} onClick={this.handleClick.bind(this)}>
+        {!this.state.hideContent && this.state.toggle ? <Icon name="ti-minus" /> : ""}
+        {this.state.hideContent && this.state.toggle ? <Icon name="ti-plus" /> : ""}
+        <span dangerouslySetInnerHTML={{ __html: description }} />
       </div>
-      {!this.state.hideContent? contents:""}
+      {!this.state.hideContent ? contents : ""}
     </div>
   }
 }
@@ -71,7 +71,7 @@ class Paragraph extends  React.Component {
  * @param {collection} linksData - lista linków 
  * @param {string} title 
  */
-class Links extends  React.Component {
+class Links extends React.Component {
   render() {
     const { contents } = this.props;
     const links = contents.map(
@@ -94,7 +94,7 @@ class Links extends  React.Component {
  * @param descriptionData
  * @param title
  */
-class Descriptions extends  React.Component {
+class Descriptions extends React.Component {
   render() {
     const { contents, ending } = this.props;
 
@@ -120,7 +120,7 @@ class Descriptions extends  React.Component {
  * 
  * Element description może być tekstem
  */
-class DescriptionPoint extends  React.Component {
+class DescriptionPoint extends React.Component {
   render() {
 
     const { description, ending } = this.props;
@@ -161,7 +161,7 @@ class DescriptionPoint extends  React.Component {
  * Generuje jeden link
  * @param linkData - zawiera url oraz label do wyświetlenia
  */
-class Link extends  React.Component {
+class Link extends React.Component {
   render() {
     const { linkData } = this.props;
     return <li>
@@ -181,7 +181,7 @@ function createDescriptionPointLi(point, index) {
  * @param {string} title 
  * @param {'ol' | 'ul'} subtype ol, ul
  */
-class Points extends  React.Component {
+class Points extends React.Component {
   render() {
     const { contents, subtype } = this.props;
 
@@ -206,8 +206,6 @@ class Points extends  React.Component {
 }
 
 
-
-
 /**
  * Komponent renderuje Okienko z tytułem i paragrafami w środku 
  * na podstawie danych z jsona.
@@ -223,8 +221,8 @@ class ParagraphsCard extends FetchingComponent {
       path: props.path
     };
   }
-  render() {
-    super.render();
+  renderAfterFetched() {
+    //super.render();
     const { isActive, colorClass, cardClosed } = this.props;
 
     if (isActive && this.state.data) {
@@ -243,38 +241,23 @@ class ParagraphsCard extends FetchingComponent {
 }
 
 class ParagraphsShad extends FetchingComponent {
-  componentDidUpdate(prevProps, prevState) {
-      const params = new URLSearchParams(window.location.search);
-      const topic = params.get("topic");
-      if (topic) {
-        const el = document.getElementById("topic_" + topic);
-        if (el) {
-          el.scrollIntoView({ behavior: "smooth" });
-        } else {
-          console.log("Nie znaleziono elementu");
-        }
-      }
-    }
   constructor(props) {
     super(props);
-    this.state = {
-      path: props.path
-    };
+    this.setState(
+      { path: props.path }
+    );
   }
-  render() {
-    super.render();
-    const { isActive, colorClass, cardClosed, course } = this.props;
+  renderAfterFetched() {
+    const { course } = this.props;
 
-    if (isActive && this.state.data) {
+    if (this.state.data) {
+      console.log(this.state.data.paragraphs);
       return (
         <>
-        <div className="shad">
-        <h1>{course}</h1>
-        <h3 className="text-center m-4 pb-4">Kierunek AiR, W12, PWR</h3>
-          
-           <Paragraphs paragraphsInfo={this.state.data.paragraphs} />
-            
-          
+          <div className="shad">
+            <h1>{course}</h1>
+            <h3 className="text-center m-4 pb-4">Kierunek AiR, W12, PWR</h3>
+            <Paragraphs paragraphsInfo={this.state.data.paragraphs} />
           </div>
         </>
       );
@@ -285,7 +268,7 @@ class ParagraphsShad extends FetchingComponent {
 
 
 
-class Paragraphs extends  React.Component {
+class Paragraphs extends React.Component {
   render() {
     const { paragraphsInfo, nrTitle } = this.props;
 
@@ -297,15 +280,4 @@ class Paragraphs extends  React.Component {
   }
 }
 
-class Topic extends  React.Component {
-  render() {
-    const { onClick, isActive, topicData } = this.props;
-    //console.log(topicData);
-    return (
-      <div onClick={onClick} className={`nav-link no-padding ${topicData.hidden ? 'd-none' : ''}`}>
-        <a className={isActive ? "active-link" : ""}>{topicData.title}</a>
-      </div>
-    );
-  }
-}
 

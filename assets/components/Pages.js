@@ -1,4 +1,4 @@
-class AkipsiMainPage extends FetchingComponent {
+class Page_TableOfContentWithBloks extends FetchingComponent {
   constructor(props) {
     super(props);
     this.setState({
@@ -34,16 +34,22 @@ class AkipsiMainPage extends FetchingComponent {
 }
 
 
-class AkipsiBody extends PageStructure {
+class Page_Regulamin extends FetchingComponent {
   constructor(props) {
     super(props);
-    this.state = {
-      selected: props.selected,
-      path: "./assets/pp_json/akipsi/akipsi-topics.json",
+    this.setState({
+      path: props.path,
       course: props.course
-    };
+    });
   }
-  getContent() {
-    return (<AkipsiMainPage path={this.state.path} selected={this.state.topic} course={this.state.course} />);
+  renderAfterFetched() {    
+    if (this.state.data) {
+      return <ParagraphsShad
+          course={this.state.course}
+          path={this.state.path}  
+        />;
+
+
+    }
   }
 }

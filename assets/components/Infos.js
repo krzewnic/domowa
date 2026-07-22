@@ -141,18 +141,3 @@ class InfosMainPage extends FetchingComponent {
 
 
 
-class InfosBody extends PageStructure {
-    constructor(props) {
-        super(props);
-        
-        
-        this.state = {
-            path: "./assets/pp_json/informacje/info.json"
-        };
-    }
-
-    getContent() {
-        return <InfosMainPage path={this.state.path} />
-    }
-
-}

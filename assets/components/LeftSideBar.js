@@ -43,7 +43,7 @@ class LeftSideBarUl extends React.Component {
   render() {
       //("Renderint with ", this.state);
       const links = this.state.menu.map(
-        (link, index) => <LeftSideBarLink title={link.title} href={link.href} submenu={link.submenu} key={index} />
+        (link, index) => link.title ? <LeftSideBarLink title={link.title} href={link.href} submenu={link.submenu} key={index} /> : ''
       );
     return <>
         <ul>

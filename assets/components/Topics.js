@@ -1,3 +1,16 @@
+class Topic extends  React.Component {
+  render() {
+    const { onClick, isActive, topicData } = this.props;
+    //console.log(topicData);
+    return (
+      <div onClick={onClick} className={`nav-link no-padding ${topicData.hidden ? 'd-none' : ''}`}>
+        <a className={isActive ? "active-link" : ""}>{topicData.title}</a>
+      </div>
+    );
+  }
+}
+
+
 /**
  * Generuje menu z pliku json. Każdy element w pliku json zawiera nazwę 
  * pozycji menu, oraz nazwę pliku json do wczytania.
@@ -16,8 +29,8 @@ class Topics extends FetchingComponent {
     this.props.setActiveIndex(index);
   }
 
-  render() {
-    super.render();
+  renderAfterFetched() {
+    
     if (this.state.data) {
 
       const topics = this.state.data.topics.map((topic, index) => (

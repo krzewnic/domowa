@@ -25,9 +25,9 @@ class FetchingComponent extends React.Component {
   }
   componentDidMount() {
     //this.loadData();
-    setTimeout(() => {
+    //setTimeout(() => {
       this.loadData();
-    }, 1000); // 1 sekundy
+    //}, 1000); // 1 sekundy
   }
   loadData() {
     const timestamp = Date.now();
@@ -47,7 +47,8 @@ class FetchingComponent extends React.Component {
       })
       .then(data => {
         this.setState({ data: data, loading: false })
-        this.afterMount();
+        console.log("Loaded data from ", this.state.path);
+        this.afterMount();        
       })
       .catch(error => {
         this.setState({ error: error, loading: false })
@@ -66,6 +67,7 @@ class FetchingComponent extends React.Component {
     }
 
     if (this.state.error) {
+      console.log("Failed to load file ", this.state.path);
       return <div class="shad">
         <h3 class="mb-5">🛸 Aliens probably did this.</h3>
       </div>;

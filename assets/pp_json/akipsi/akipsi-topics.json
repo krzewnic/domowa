@@ -2,10 +2,6 @@
     "topics":
     [
         {
-            "title": "Regulamin",
-            "json": "./assets/pp_json/akipsi/akipsi-regulamin.json"
-        },
-        {
             "title": "Laboratorium 0 – Zasady pracy w laboratorium. Narzędzia.",
             "json": "./assets/pp_json/akipsi/akipsi-laboratorium0.json"
         },
