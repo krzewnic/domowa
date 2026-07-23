@@ -46,3 +46,33 @@ class Page_Regulamin extends React.Component {
     />;
   }
 }
+
+class Page_SimpleShad extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      path: props.path
+    };
+  }
+  render() {
+    return <ParagraphsShad
+      path={this.state.path}
+    />;
+  }
+}
+
+class Page_Faq extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state= {
+      path: props.path
+    };
+  }
+  render() {
+    return <>
+      <ParagraphsShad
+      path={this.state.path}
+    />
+    </>
+  }
+}

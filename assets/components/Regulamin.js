@@ -73,8 +73,8 @@ class Clauses extends React.Component {
 
 class Clause extends React.Component {
     createPoint(point, id) {
-    return <li key={id} dangerouslySetInnerHTML={{ __html: point }}></li>
-}
+        return <li key={id} dangerouslySetInnerHTML={{ __html: point }}></li>
+    }
     render() {
         const { index, articleIndex, clause } = this.props;
 
@@ -133,15 +133,10 @@ class Faq extends React.Component {
         ));
 
         return (
-            <>
-                <h1 className="m-4" id="faq">
-                    Często zadawane pytania
-                </h1>
+            <ul class="mt-4 mb-4">
+                {questions}
+            </ul>
 
-                <ul>
-                    {questions}
-                </ul>
-            </>
         );
     }
 }

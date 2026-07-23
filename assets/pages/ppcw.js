@@ -1,10 +1,10 @@
 
-class BodyPPLab extends PageStructure {
+class BodyPPCw extends PageStructure {
   constructor(props) {
     super(props);
     this.state = {
       selected: props.selected,
-      path: "./assets/pp_json/pplab/pplab-topics.json" 
+      path: "./assets/pp_json/ppcw/ppcw-topics.json" 
     };
   }
   getContent() {
@@ -16,7 +16,7 @@ const container = document.getElementById('page-body');
 const root = ReactDOM.createRoot(container);
 const urlParams = new URLSearchParams(window.location.search);
 const topic = urlParams.get('topic');                 
-root.render(<BodyPPLab selected={topic}   />);
+root.render(<BodyPPCw selected={topic}   />);
 cleanConsole();
 
 

@@ -24,6 +24,10 @@
                     {
                         "title": "Regulamin",
                         "href": "pplab-regulamin.html"
+                    },
+                    {
+                        "title": "Program",
+                        "href": "pplab-program.html"
                     }
                 ]
             }
@@ -36,6 +40,10 @@
                     {
                         "title": "Regulamin",
                         "href": "ppcw-regulamin.html"
+                    },
+                    {
+                        "title": "Program",
+                        "href": "ppcw-program.html"
                     }
                 ]
             }

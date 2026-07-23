@@ -1,13 +1,14 @@
 {
-    "sectionTitle": "Regulamin",
+    "sectionTitle": "Podstawy programowania - laboratorium",
     "paragraphs": [
         {
             "type": "rules",
             "title": "",
+            
             "contents": {
-                "title": "Regulamin laboratorium",
+                "title": "",
                 "date": "1.03.2026",
-                "description": "",
+                "description": "Regulamin laboratorium",
                 "articles": [
                     {
                         "title": "Cel laboratorium",

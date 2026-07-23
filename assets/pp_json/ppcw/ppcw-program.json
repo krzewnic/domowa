@@ -1,0 +1,43 @@
+{
+  "sectionTitle": "Podstawy Programowania - laboratorium",
+  "sectionSubtitle": "Progam przedmiotu",
+  "paragraphs": [
+    {
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Zajęcia organizacyjne",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Algorytm: specyfikacja, testy",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Notacja MBNF, diagramy składni, drzewa wyliczania wartości wyrażeń, instrukcja pętli",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Analiza poprawności konstrukcji, wyliczanie wyrażeń ze wskaźnikami i tablicami, ręczna symulacja, opracowywanie funkcji programu",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Sortowanie",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Listy i stosy",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Drzewa binarne",
+          "icon": "ti-receipt"
+        }
+      ]
+    }
+  ]
+}

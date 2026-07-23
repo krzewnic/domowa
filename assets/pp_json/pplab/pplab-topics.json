@@ -1,10 +1,7 @@
 {
+    "sectionTitle": "Podstawy programowania - laboratorium",
     "topics":
     [
-        {
-            "title": "Regulamin",
-            "json": "./assets/pp_json/pplab/pplab-regulamin.json"
-        },
         {
             "title": "Laboratorium 0 – Zasady pracy w laboratorium. Narzędzia.",
             "json": "./assets/pp_json/pplab/pplab-laboratorium0.json"

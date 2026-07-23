@@ -248,12 +248,14 @@ class ParagraphsShad extends FetchingComponent {
     );
   }
   renderAfterFetched() { 
-
+    let sectionTitle = this.state.data.sectionTitle? <h1>{this.state.data.sectionTitle} </h1> : '';
+    let sectionSubtitle =this.state.data.sectionSubtitle? <h3 class="text-center mb-3 mt-3">{this.state.data.sectionSubtitle} </h3> : '';
     if (this.state.data) { 
       return (
         <>
-          <div className="shad">
-            <h1>{this.state.data.sectionTitle} </h1>
+          <div className="shad mb-4">
+            {sectionTitle}
+            {sectionSubtitle}
             <Paragraphs paragraphsInfo={this.state.data.paragraphs} />
           </div>
         </>

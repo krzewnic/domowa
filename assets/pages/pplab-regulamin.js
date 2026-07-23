@@ -1,11 +1,11 @@
 
-class BodyPPcwRegulamin extends PageStructure {
+class PpLabRegulamin extends PageStructure {
   constructor(props) {
     super(props);
     this.state = {
       selected: props.selected,
-      path: "./assets/pp_json/ppcw/ppcw-regulamin.json",
-      path_faq: "./assets/pp_json/ppcw/ppcw-regulamin-faq.json"
+      path: "./assets/pp_json/pplab/pplab-regulamin.json",
+      path_faq: "./assets/pp_json/pplab/pplab-regulamin-faq.json"
     };
   }
   getContent() {
@@ -18,8 +18,8 @@ class BodyPPcwRegulamin extends PageStructure {
 
 const container = document.getElementById('page-body');
 const root = ReactDOM.createRoot(container);
-const urlParams = new URLSearchParams(window.location.search);
-root.render(<BodyPPcwRegulamin />);
+const urlParams = new URLSearchParams(window.location.search);              
+root.render(<PpLabRegulamin />);
 cleanConsole();
 
 
