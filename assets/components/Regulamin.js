@@ -28,7 +28,7 @@ class Rules extends React.Component {
 
         return (
             <div>
-                <h1>{rulesData.title}</h1>
+                <h2 className="text-center m-4">{rulesData.title}</h2>
 
                 <h3 className="text-center m-4">
                     {rulesData.description}

@@ -3,14 +3,13 @@ class Page_TableOfContentWithBloks extends FetchingComponent {
     super(props);
     this.setState({
       activeIndex: props.selected,
-      path: props.path,
-      course: props.course
+      path: props.path
     });
   }
   setActiveIndex = (index) => {
     this.setState({ activeIndex: index });
   }
-  renderAfterFetched() {    
+  renderAfterFetched() {
     if (this.state.data) {
       const cards = this.state.data.topics.map((topic, index) => (
         <ParagraphsCard
@@ -26,7 +25,7 @@ class Page_TableOfContentWithBloks extends FetchingComponent {
 
 
       return <>
-        <Topics course={this.state.course} path={this.state.path} activeIndex={this.state.activeIndex} setActiveIndex={this.setActiveIndex} />
+        <Topics data={this.state.data} activeIndex={this.state.activeIndex} setActiveIndex={this.setActiveIndex} />
         {cards}
       </>
     }
@@ -34,22 +33,16 @@ class Page_TableOfContentWithBloks extends FetchingComponent {
 }
 
 
-class Page_Regulamin extends FetchingComponent {
+class Page_Regulamin extends React.Component {
   constructor(props) {
     super(props);
-    this.setState({
-      path: props.path,
-      course: props.course
-    });
+    this.state = {
+      path: props.path
+    };
   }
-  renderAfterFetched() {    
-    if (this.state.data) {
-      return <ParagraphsShad
-          course={this.state.course}
-          path={this.state.path}  
-        />;
-
-
-    }
+  render() {
+    return <ParagraphsShad
+      path={this.state.path}
+    />;
   }
 }

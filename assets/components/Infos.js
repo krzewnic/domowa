@@ -126,7 +126,7 @@ class InfosMainPage extends FetchingComponent {
 
             return (<>
                 <div class="shad">
-                    <h3 class="mb-5">{this.state.data.header}</h3>
+                    <h3 class="mb-4">{this.state.data.header}</h3>
                     {infos}
                     <div class="pb-4"></div>
                     

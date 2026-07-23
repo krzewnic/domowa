@@ -247,16 +247,13 @@ class ParagraphsShad extends FetchingComponent {
       { path: props.path }
     );
   }
-  renderAfterFetched() {
-    const { course } = this.props;
+  renderAfterFetched() { 
 
-    if (this.state.data) {
-      console.log(this.state.data.paragraphs);
+    if (this.state.data) { 
       return (
         <>
           <div className="shad">
-            <h1>{course}</h1>
-            <h3 className="text-center m-4 pb-4">Kierunek AiR, W12, PWR</h3>
+            <h1>{this.state.data.sectionTitle} </h1>
             <Paragraphs paragraphsInfo={this.state.data.paragraphs} />
           </div>
         </>

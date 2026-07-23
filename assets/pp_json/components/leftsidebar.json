@@ -17,25 +17,25 @@
             }
         },
         {
-            "title": "Podsatawy Programowania",
-            "href": "pprog.html",
+            "title": "PP - laboratorium",
+            "href": "pplab.html",
             "submenu": {
-                "menu": [
+                "menu": [                    
                     {
-                        "title": "Laboratorium",
-                        "href": "pprog-lab.html"
-                    },
+                        "title": "Regulamin",
+                        "href": "pplab-regulamin.html"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "PP - ćwiczenia",
+            "href": "ppcw.html",
+            "submenu": {
+                "menu": [ 
                     {
-                        "title": "Regulamin laboratorium",
-                        "href": "pprog-lab-regulamin.html"
-                    },
-                    {
-                        "title": "Ćwiczenia",
-                        "href": "pprog-cw.html"
-                    },
-                    {
-                        "title": "Regulamin ćwiczeń",
-                        "href": "pprog-cw-regulamin.html"
+                        "title": "Regulamin",
+                        "href": "ppcw-regulamin.html"
                     }
                 ]
             }
