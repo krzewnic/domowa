@@ -5,7 +5,7 @@
             "href": "."
         },
         {
-            "title": "AKIPSI",
+            "_title": "AKIPSI",
             "href": "akipsi.html",
             "submenu": {
                 "menu": [
