@@ -243,9 +243,7 @@ class ParagraphsCard extends FetchingComponent {
 class ParagraphsShad extends FetchingComponent {
   constructor(props) {
     super(props);
-    this.setState(
-      { path: props.path }
-    );
+    this.state.path = props.path;
   }
   renderAfterFetched() { 
     let sectionTitle = this.state.data.sectionTitle? <h1>{this.state.data.sectionTitle} </h1> : '';

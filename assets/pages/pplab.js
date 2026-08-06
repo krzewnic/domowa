@@ -8,7 +8,7 @@ class BodyPPLab extends PageStructure {
     };
   }
   getContent() {
-    return (<Page_TableOfContentWithBloks path={this.state.path} selected={this.state.topic} />);
+    return (<Page_TableOfContentWithBloks path={this.state.path} selected={this.state.selected} />);
   }
 }
 

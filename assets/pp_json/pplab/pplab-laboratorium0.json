@@ -5,7 +5,7 @@
       "type": "description",
       "title": "Temat",
       "contents": [
-        "Organizacja pracy. Regulamin laboratorium. Praca w systemie Linux."
+        "Zasady pracy w laboratorium, środowisko, pierwszy program, kompilacja, praca w systemie Linux"
       ]
     },
     {
@@ -13,12 +13,43 @@
       "type": "ol",
       "contents": [
         {
-          "text": "Omówienie <a href='https://kcir.pwr.edu.pl/~krzewnicka/?page=akipsi&topic=0' target='_blank'>regulaminu i systemu oceniania.</a>",
+          "text": "Omówienie <a href='pplab-regulamin.html' target='_blank'>regulaminu i systemu oceniania.</a>",
           "icon": "ti-book"
         },
         {
-          "text": "<a href='https://docs.google.com/document/d/16yLRXJ0bPvu0dVHlB0SInTrhIQlb4etKsDgPJ8o9X0s/edit?usp=sharing' target='_blank'>Zadanie wstępne. </a>",
+          "text": "Zmiana hasła do systemu według <a href='https://docs.google.com/document/d/15hQLxPZe3S94zRWHYPJToyg5EaTcue5qtxzM_tzYmKg/edit?usp=sharing' target='_blank'>tutorialu z zadania wstępnego</a>"
+        },
+        {
+          "type": "ul",
+          "description": "Sprawdzenie dostępów do potrzebnych systemów",
+          "contents": [
+            {
+              "text": "ePortal",
+              "url": "https://eportal.pwr.edu.pl/"
+            },
+            {
+              "text": "GIT",
+              "url": "https://git.kcir.pwr.edu.pl/"
+            }
+          ]
+        },
+        {
+          "text": "Kontynuacja zadania wstępnego. </a>",
           "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "type": "ul",
+      "title": "Przydatne materiały",
+      "contents": [
+        {
+          "text": "Podręcznik Wikimedia rozdziały 4 - 6",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        },
+        {
+          "text": "Kompilowanie programów w pigułce",
+          "url": "https://docs.google.com/presentation/d/1tJIV5146F5xD4nRkmI7qV390-1sJR4CZ0gNJ1cU_AgQ/edit?usp=sharing"
         }
       ]
     },
@@ -31,8 +62,12 @@
           "icon": "ti-wand"
         },
         {
-          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
+          "text": "Dokończenie zadania wstępnego.",
           "icon": "ti-settings"
+        },
+        {
+          "text": "Wynotowanie ważnych informacji z regulaminu przedmiotu oraz zapoznanie się z programem przedmiotu.",
+          "icon": "ti-book"
         }
       ]
     }

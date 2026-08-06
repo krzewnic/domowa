@@ -108,9 +108,7 @@ class InfosMainPage extends FetchingComponent {
     constructor(props) {
         super(props);
         
-        this.setState ({
-            path: props.path
-        });
+        this.state.path = props.path;
     }
     renderAfterFetched() {
         if (this.state.data) {

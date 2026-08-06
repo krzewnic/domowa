@@ -1,15 +1,15 @@
 class Page_TableOfContentWithBloks extends FetchingComponent {
   constructor(props) {
     super(props);
-    this.setState({
-      activeIndex: props.selected,
-      path: props.path
-    });
+    console.log(props);
+    this.state.activeIndex = props.selected;
+    this.state.path = props.path;   
   }
   setActiveIndex = (index) => {
     this.setState({ activeIndex: index });
   }
   renderAfterFetched() {
+    console.log("TOPIC:", this.state.activeIndex);
     if (this.state.data) {
       const cards = this.state.data.topics.map((topic, index) => (
         <ParagraphsCard

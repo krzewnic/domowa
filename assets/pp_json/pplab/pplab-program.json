@@ -1,24 +1,20 @@
 {
   "sectionTitle": "Podstawy Programowania - laboratorium",
-  "sectionSubtitle": "Progam przedmiotu",
+  "sectionSubtitle": "Program przedmiotu",
   "paragraphs": [
     {
       "type": "ol",
       "contents": [
         {
-          "text": "Regulamin, środowisko, pierwszy program, zmienne, typy danych, rzutowanie typów",
+          "text": "Zasady pracy w laboratorium, środowisko, pierwszy program, kompilacja, praca w systemie Linux",
           "icon": "ti-receipt"
         },
         {
-          "text": "Ciągi znaków, liczby pseudolosowe, proste operacje arytmetyczne, pre i postinkrementacja",
+          "text": "Operacje arytmetyczne, zmienne, typy danych, pre i postinkrementacja, rzutowanie typów, operatory i ich priorytety, czytanie i interpretacja komunikatów kompilatora",
           "icon": "ti-receipt"
         },
         {
-          "text": "GIT, operatory, instrukcja warunkowa, wypisywanie, wczytywanie danych",
-          "icon": "ti-receipt"
-        },
-        {
-          "text": "Napisy, wczytywanie złożonych formatów, porównywanie znaków i napisów",
+          "text": "GIT, instrukcja warunkowa, wypisywanie i wczytywanie danych",
           "icon": "ti-receipt"
         },
         {
@@ -30,7 +26,11 @@
           "icon": "ti-receipt"
         },
         {
-          "text": "Rekurencja, obsługa plików, strumienie danych, argumenty wywołania programu",
+          "text": "Napisy, wczytywanie złożonych formatów, rekurencja",
+          "icon": "ti-receipt"
+        },        
+        {
+          "text": "Obsługa plików, strumienie danych, argumenty wywołania programu",
           "icon": "ti-receipt"
         },
         {
@@ -46,7 +46,7 @@
           "icon": "ti-receipt"
         },
         {
-          "text": "Listy, stosy, podział programu na moduły",
+          "text": "Listy, stosy, podział programu na moduły, styl programowania, dobre praktyki",
           "icon": "ti-receipt"
         },
         {

@@ -3,12 +3,24 @@
     "topics":
     [
         {
-            "title": "Laboratorium 0 – Zasady pracy w laboratorium. Narzędzia.",
+            "title": "Laboratorium 0 – Zasady pracy w laboratorium",
             "json": "./assets/pp_json/pplab/pplab-laboratorium0.json"
         },
         {
-            "title": "Laboratorium 1 – Przypomnienie składni języka Python.",
+            "title": "Laboratorium 1 – Podstawy składni języka C",
             "json": "./assets/pp_json/pplab/pplab-laboratorium1.json"
+        },
+        {
+            "title": "Laboratorium 2 – GIT, Instrukcje warunkowe, K0",
+            "json": "./assets/pp_json/pplab/pplab-laboratorium2.json"
+        },
+        {
+            "title": "Laboratorium 3 – Pętle oraz funkcje",
+            "json": "./assets/pp_json/pplab/pplab-laboratorium3.json"
+        },
+        {
+            "title": "Laboratorium 4 – Tablice",
+            "json": "./assets/pp_json/pplab/pplab-laboratorium4.json"
         }
     ]
 }

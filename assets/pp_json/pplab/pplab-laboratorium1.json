@@ -5,27 +5,57 @@
       "type": "description",
       "title": "Temat",
       "contents": [
-        "Przypomnienie składni języka Python."
+        "Operacje arytmetyczne, zmienne, typy danych, pre i postinkrementacja, rzutowanie typów, operatory i ich priorytety, czytanie i interpretacja komunikatów kompilatora"
       ]
     },
     {
       "title": "Przebieg laboratorium",
       "type": "ol",
       "contents": [
-        
         {
-          "text": "<a href='https://docs.google.com/document/d/149odtHNZY1yLWa9VpOGFrS9DUOL3pz-eVBvPiS3dR4s/edit?usp=sharing' target='_blank'>Lista zadań nr 1 </a>",
+          "text": "Wybór świata",
           "icon": "ti-receipt"
+        },
+        {
+          "text":"Lista zadań",
+          "url": "https://docs.google.com/document/d/1hHQ7XClH3lEHpECYkZDQ8epID9gzL0oPMFm5z6icMfs/edit?usp=sharing",
+          "icon": "ti-mouse"
         }
       ]
     },
+        {
+          "type": "ul",
+          "title": "Przydatne materiały",
+          "contents": [
+            {
+              "text": "Podręcznik Wikimedia rozdziały 7 - 9.1",
+              "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+            }, 
+            {
+              "text": "Krótko i na temat o printf",
+              "url": "https://cpp0x.pl/dokumentacja/standard-C/printf/321"
+            }
+          ]
+        },
     {
       "title": "Zadanie domowe",
       "type": "ol",
       "contents": [
         {
-          "text": "Dokończenie zadania rozpoczętego na laboratorium.",
-          "icon": "ti-settings"
+          "type": "ul",
+          "title": "Trenuj nowe skille",
+          "contents": [
+            "wykorzystanie różnych operacji arytmetycznych, ze szczególnym uwzględnieniem operacji mniej oczywistych",
+            "zadeklarowanie zmiennej i wykorzystanie jej w programie",
+            "wykorzystanie literałów i stałych",
+            "zastosowanie różnych typów danych",
+            "przetestowanie operatorów bitowych, logicznych i relacyjnych, a także przypisania złozonego",
+            "sprawdzenie, jak priorytety i łączność operatorów wpływają na wynik obliczeń",
+            "sprawdzenie działania operatora ++ umieszczonego zarówno przed zmienną, jak i po niej, napisać kod, który prezentuje różnicę pomiędzy działaniem operatorów ++x i x++",
+            "utworzenie nietrywialnego wyrażenia, którego wynik zależy od kolejności wykonywania działań, a następnie pokazanie, jak zmienia się wynik po zastosowaniu nawiasów",
+            "użycie różnych modyfikatorów, specyfikatorów oraz zmiennej static",
+            "wykorzystanie operatora wyrażenia warunkowego"
+          ]
         }
       ]
     }

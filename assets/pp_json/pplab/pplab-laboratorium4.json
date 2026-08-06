@@ -1,0 +1,49 @@
+{
+  "sectionTitle": "Laboratorium 4",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Praca z tablicami jedno i wielowymiarowymiarowymi"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "L4",
+          "icon": "ti-receipt",
+          "url": "https://docs.google.com/document/d/1THnGIlvnjhPoO0FLopUcgEQzbgFzM6fE8oesUTW_Af8/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "type": "ul",
+      "title": "Przydatne materiały",
+      "contents": [
+        {
+          "text": "Podręcznik Wikimedia rozdział 16",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        } 
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "type": "ul",
+          "title": "Trenuj nowe skille",
+          "contents": [
+            "wykorzystanie jednowymiarowej tablicy liczb",
+            "wykorzystanie jednowymiarowej tablicy znaków",
+            "posłużenie się funkcją operującą na tablicy",
+            "utworzenie funkcji operującej na tablicy"
+          ]
+        }
+      ]
+    }
+  ]
+}
