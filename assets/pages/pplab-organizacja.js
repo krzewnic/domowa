@@ -1,20 +1,15 @@
 
-class PpLabRegulamin extends PageStructure {
+class PpLabOrganizacja extends PageStructure {
   constructor(props) {
     super(props);
     this.state = {
       selected: props.selected,
-      path: "./assets/pp_json/pplab/pplab-regulamin.json",
-      path_faq: "./assets/pp_json/pplab/pplab-regulamin-faq.json",
       organizacja_path: "./assets/pp_json/pplab/pplab-organizacja.json"
     };
   }
   getContent() {
     return (<>
-      <Page_Regulamin path={this.state.path} />
-      <hr></hr>
       <Page_Regulamin path={this.state.organizacja_path} />
-      {/*<Page_Faq path={this.state.path_faq}/>*/} 
     </>);
   }
 }
@@ -23,7 +18,7 @@ const container = document.getElementById('page-body');
 const root = ReactDOM.createRoot(container);
 const urlParams = new URLSearchParams(window.location.search);   
 console.log("Działą albo oine.");           
-root.render(<PpLabRegulamin />);
+root.render(<PpLabOrganizacja />);
 cleanConsole();
 
 

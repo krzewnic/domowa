@@ -20,10 +20,14 @@
             "title": "PP - laboratorium",
             "href": "pplab.html",
             "submenu": {
-                "menu": [                    
+                "menu": [
                     {
                         "title": "Regulamin",
                         "href": "pplab-regulamin.html"
+                    },
+                    {
+                        "title": "Organizacja",
+                        "href": "pplab-organizacja.html"
                     },
                     {
                         "title": "Program",
@@ -36,7 +40,7 @@
             "title": "PP - ćwiczenia",
             "href": "ppcw.html",
             "submenu": {
-                "menu": [ 
+                "menu": [
                     {
                         "title": "Regulamin",
                         "href": "ppcw-regulamin.html"
