@@ -1,9 +1,10 @@
 class Topic extends React.Component {
   render() {
-    const { onClick, isActive, topicData } = this.props;
-    //console.log(topicData);
+    const { onClick, isActive, topicData, showAll } = this.props;
+    let czyUkryc = topicData.hidden && ! showAll;
+    
     return (
-      <div onClick={onClick} className={`nav-link no-padding ${topicData.hidden ? 'd-none' : ''}`}>
+      <div onClick={onClick} className={`nav-link no-padding ${ czyUkryc ? 'd-none' : ''}`}>
         <a className={isActive ? "active-link" : ""}>{topicData.title}</a>
       </div>
     );
@@ -20,7 +21,8 @@ class Topics extends React.Component {
     super(props);
     this.state = {
       activeIndex: props.activeIndex,
-      data: props.data
+      data: props.data,
+      showAll: props.showAll
     }
   }
   setActiveIndex(index) {
@@ -35,6 +37,7 @@ class Topics extends React.Component {
         topicData={topic}
         isActive={this.props.activeIndex == index}
         onClick={() => this.setActiveIndex(index)}
+        showAll={this.state.showAll}
       />
     ));
 

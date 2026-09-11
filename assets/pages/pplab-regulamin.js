@@ -12,8 +12,7 @@ class PpLabRegulamin extends PageStructure {
   getContent() {
     return (<>
       <Page_Regulamin path={this.state.path} />
-      <hr></hr>
-      <Page_Regulamin path={this.state.organizacja_path} />
+
       {/*<Page_Faq path={this.state.path_faq}/>*/} 
     </>);
   }

@@ -17,7 +17,7 @@
         },
         {
             "type": "consultations",
-            "pl": "Konsultacje Zima 2026/27 (od 2.10)",
+            "pl": "Konsultacje Zima 2026/27 (od 5.10)",
             "pl_en": "Conslutations Summer 2026/27",
             "content": {
                 "type": "ul",
@@ -29,7 +29,7 @@
                 "points": [
                     "Środy nieparzyste: 8<sup>00</sup> - 9<sup>00</sup>",
                     "Środy parzyste: 8<sup>00</sup> - 11<sup>00</sup>",
-                    "Piątki : 11<sup>15</sup> - 13<sup>15</sup>"
+                    "Piątki : 11<sup>00</sup> - 13<sup>00</sup>"
                 ]
             }
         }

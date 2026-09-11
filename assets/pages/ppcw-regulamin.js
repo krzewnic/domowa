@@ -11,7 +11,7 @@ class BodyPPcwRegulamin extends PageStructure {
   getContent() {
     return (<>
       <Page_Regulamin path={this.state.path} />
-      <Page_Faq path={this.state.path_faq} />
+      
     </>);
   }
 }

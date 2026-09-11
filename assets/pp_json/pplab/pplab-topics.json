@@ -4,23 +4,28 @@
     [
         {
             "title": "Laboratorium 0 – Zasady pracy w laboratorium",
-            "json": "./assets/pp_json/pplab/pplab-laboratorium0.json"
+            "json": "./assets/pp_json/pplab/pplab-laboratorium0.json",
+            "hidden": false
         },
         {
             "title": "Laboratorium 1 – Podstawy składni języka C",
-            "json": "./assets/pp_json/pplab/pplab-laboratorium1.json"
+            "json": "./assets/pp_json/pplab/pplab-laboratorium1.json",
+            "hidden": true
         },
         {
             "title": "Laboratorium 2 – GIT, Instrukcje warunkowe, K0",
-            "json": "./assets/pp_json/pplab/pplab-laboratorium2.json"
+            "json": "./assets/pp_json/pplab/pplab-laboratorium2.json",
+            "hidden": true
         },
         {
             "title": "Laboratorium 3 – Pętle oraz funkcje",
-            "json": "./assets/pp_json/pplab/pplab-laboratorium3.json"
+            "json": "./assets/pp_json/pplab/pplab-laboratorium3.json",
+            "hidden": true
         },
         {
             "title": "Laboratorium 4 – Tablice",
-            "json": "./assets/pp_json/pplab/pplab-laboratorium4.json"
+            "json": "./assets/pp_json/pplab/pplab-laboratorium4.json",
+            "hidden": true
         }
     ]
 }

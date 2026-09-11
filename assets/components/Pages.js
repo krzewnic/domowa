@@ -25,7 +25,7 @@ class Page_TableOfContentWithBloks extends FetchingComponent {
 
 
       return <>
-        <Topics data={this.state.data} activeIndex={this.state.activeIndex} setActiveIndex={this.setActiveIndex} />
+        <Topics data={this.state.data} activeIndex={this.state.activeIndex} setActiveIndex={this.setActiveIndex} showAll={this.state.showAll}/>
         {cards}
       </>
     }

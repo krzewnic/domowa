@@ -18,7 +18,7 @@
         },
         {
             "title": "PP - laboratorium",
-            "href": "pplab.html",
+            "href": "pplab.html?topic=0",
             "submenu": {
                 "menu": [
                     {

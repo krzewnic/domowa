@@ -1,4 +1,6 @@
 
+
+
 class BodyTestowe extends PageStructure {
   constructor(props) {
     super(props);
@@ -11,8 +13,17 @@ class BodyTestowe extends PageStructure {
   }
   getContent() {
     return <>
+        <h1>
+          Linki:
+        </h1>
+        <div class="shad">
+          <a href="https://docs.google.com/document/d/1f7Jy1PkdofwuIT7BpLotexNRLnIM9S_7iFgeomVgngA/edit?usp=sharing">Lista tematów do druku</a>
+        </div>
+        <h1>Zakres 25/26</h1>
         <Page_SimpleShad path={this.state.path1} />
+        <h1>Tutorial</h1>
         <Page_SimpleShad path={this.state.path2} />
+        <h1>Tabelka</h1>
         <Page_TableOfContentWithBloks path={this.state.path3} />
     </>;
   }

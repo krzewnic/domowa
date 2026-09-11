@@ -21,7 +21,6 @@ const root = ReactDOM.createRoot(container);
 const urlParams = new URLSearchParams(window.location.search);
 const topic = urlParams.get('topic');     
 const showAll = urlParams.get('show') == "all" ? true: false;
-console.log(showAll);
 
 root.render(<BodyPPLab selected={topic} showAll={showAll}  />);
 cleanConsole();

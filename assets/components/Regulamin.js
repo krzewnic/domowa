@@ -1,11 +1,16 @@
 class Rules extends React.Component {
     createRule(article, index, spisTr) {
-        spisTr.push(article.title);
-        return <div key={index} className="article">
-            <h2 id={index + 1}>§{index + 1}. {article.title}</h2>
+        if (article.title) {
+            spisTr.push(article.title);
+            return <div key={index} className="article">
+                <h2 id={index + 1}>§{index + 1}. {article.title}</h2>
 
-            <Clauses articleIndex={index} clausesData={article.clauses} />
-        </div>;
+                <Clauses articleIndex={index} clausesData={article.clauses} />
+            </div>;
+        } else {
+            console.log("Empty Rule. No title found.");
+            return <></>;
+        }
     }
     render() {
         const { rulesData } = this.props;
