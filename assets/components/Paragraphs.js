@@ -1,42 +1,7 @@
 const { Component } = React;
 const { createRoot } = ReactDOM;
 
-/**
- * Generuje guzik zamykania X i wykonuje akcję cardClosed po jego kliknięciu.
- * @param cardClosed akcja do wykonania po kliknięciu w element
- */
-class CloseButton extends Component {
-  render() {
-    const { cardClosed } = this.props;
-    return <>
-      <a className="close-button" onClick={cardClosed}>X</a></>
-  }
-}
-/**
- * Generuje nagłówek Okna i wykonuje akcję po kliknięciu guzika zamykającego
- * @param title
- * @param collapseName
- * @param cardClosed - funkcja wskazuje akcje po kliknięciu guzika zamykania okienka
- */
-class Header extends Component {
-  render() {
-    const { cardClosed } = this.props;
-    const { title } = this.props;
-    return <div className="card-header">
-      <i className="ti-info-alt icon mr-2 mb-4 icon-small"></i>
-      {title}
-      <CloseButton cardClosed={cardClosed} />
-    </div>
-  }
-}
 
-class ImageContrib extends Component {
-  render() {
-    let { src, contribution, alt } = this.props.imageInfo;
-    return <><img src={'assets/img/exercises/' + src} alt={alt} /><br /><p>{contribution ? <a href={contribution}>źródło</a> : ''}</p></>
-
-  }
-}
 /**
  * Generuje jeden paragraf na podstawie informacji z jsona
  * Paragraf może zawierać title i contents
@@ -44,7 +9,7 @@ class ImageContrib extends Component {
  * @param {"links", "description", "ul", "ol" } type typ paragrafu (pochodzi z jsona)
  */
 
-class Paragraph extends Component {
+class Paragraph extends React.Component {
   constructor(props) {
     super(props);
 
@@ -56,14 +21,14 @@ class Paragraph extends Component {
   handleClick = () => {
     if (this.state.toggle) {
       var newHideContent = !this.state.hideContent;
-      this.setState({ hideContent: newHideContent});
+      this.setState({ hideContent: newHideContent });
     }
   }
   render() {
     const { paragraphInfo, nrTitle } = this.props;
 
     let contents = <>Coś innego niż ol, ul, description, links.</>
-  
+
 
     if (paragraphInfo.type == "links") {
       contents = <Links contents={paragraphInfo.contents} />
@@ -89,12 +54,12 @@ class Paragraph extends Component {
     return <div id={paragraphInfo.id} className={paragraphInfo.visibility == 'hidden' ? 'd-none' : ''}>
       {!paragraphInfo.title ? <></> : <h3 className="card-title">{paragraphInfo.title} {nrTitle ? nrTitle : ''} </h3>}
       {paragraphInfo.icon ? (<><Icon name={paragraphInfo.icon} /></>) : (<></>)}
-      <div className={this.state.toggle? "clickable": ""} onClick={this.handleClick.bind(this)}>
-      {!this.state.hideContent && this.state.toggle?<Icon name="ti-minus" /> : ""}
-      {this.state.hideContent && this.state.toggle?<Icon name="ti-plus" /> :""}
-      <span dangerouslySetInnerHTML={{ __html: description }} />
+      <div className={this.state.toggle ? "clickable" : ""} onClick={this.handleClick.bind(this)}>
+        {!this.state.hideContent && this.state.toggle ? <Icon name="ti-minus" /> : ""}
+        {this.state.hideContent && this.state.toggle ? <Icon name="ti-plus" /> : ""}
+        <span dangerouslySetInnerHTML={{ __html: description }} />
       </div>
-      {!this.state.hideContent? contents:""}
+      {!this.state.hideContent ? contents : ""}
     </div>
   }
 }
@@ -106,7 +71,7 @@ class Paragraph extends Component {
  * @param {collection} linksData - lista linków 
  * @param {string} title 
  */
-class Links extends Component {
+class Links extends React.Component {
   render() {
     const { contents } = this.props;
     const links = contents.map(
@@ -129,7 +94,7 @@ class Links extends Component {
  * @param descriptionData
  * @param title
  */
-class Descriptions extends Component {
+class Descriptions extends React.Component {
   render() {
     const { contents, ending } = this.props;
 
@@ -155,7 +120,7 @@ class Descriptions extends Component {
  * 
  * Element description może być tekstem
  */
-class DescriptionPoint extends Component {
+class DescriptionPoint extends React.Component {
   render() {
 
     const { description, ending } = this.props;
@@ -190,19 +155,13 @@ class DescriptionPoint extends Component {
   }
 }
 
-class Icon extends Component {
-  render() {
-    const { name } = this.props;
-    return <i className={name + " icon text-primary mr-2 mb-4 icon-small"}></i>
-  }
-}
 
 
 /**
  * Generuje jeden link
  * @param linkData - zawiera url oraz label do wyświetlenia
  */
-class Link extends Component {
+class Link extends React.Component {
   render() {
     const { linkData } = this.props;
     return <li>
@@ -222,7 +181,7 @@ function createDescriptionPointLi(point, index) {
  * @param {string} title 
  * @param {'ol' | 'ul'} subtype ol, ul
  */
-class Points extends Component {
+class Points extends React.Component {
   render() {
     const { contents, subtype } = this.props;
 
@@ -246,66 +205,6 @@ class Points extends Component {
   }
 }
 
-/**
- * Komponent po zamontowaniu pobiera json z podanej ścieżki
- * Należy zaimplementować funkcję render(), tak aby wyrenderować obiekty,
- * kiedy this.state.data jest już załadowane
- * @param {string path}
- */
-class FetchingComponent extends Component {
-  constructor(props) {
-    super(props);
-
-
-    this.state = {
-      path: props.path,
-      data: null,
-      loading: true,
-      error: null
-    };
-  }
-  componentDidMount() {
-    const timestamp = Date.now();
-    fetch(this.state.path + "?nc=" + timestamp, {
-      method: 'GET',
-      headers: {
-        'Cache-Control': 'no-cache, no-store, must-revalidate',
-        'Pragma': 'no-cache',
-        'Expires': '0'
-      }
-    })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .then(data => {
-        this.setState({ data: data, loading: false })
-        this.afterMount();
-      })
-      .catch(error => {
-        this.setState({ error: error, loading: false })
-      });
-  }
-  afterMount() {
-    
-  }
-  render() {
-    if (this.state.loading) {
-      return <div>Loading...</div>;
-    }
-
-    if (this.state.error) {
-      return <div>Error: {this.state.error.message}</div>;
-    }
-
-    return (
-      <></>
-    );
-  }
-}
-
 
 /**
  * Komponent renderuje Okienko z tytułem i paragrafami w środku 
@@ -322,8 +221,8 @@ class ParagraphsCard extends FetchingComponent {
       path: props.path
     };
   }
-  render() {
-    super.render();
+  renderAfterFetched() {
+    //super.render();
     const { isActive, colorClass, cardClosed } = this.props;
 
     if (isActive && this.state.data) {
@@ -342,38 +241,20 @@ class ParagraphsCard extends FetchingComponent {
 }
 
 class ParagraphsShad extends FetchingComponent {
-  componentDidUpdate(prevProps, prevState) {
-      const params = new URLSearchParams(window.location.search);
-      const topic = params.get("topic");
-      if (topic) {
-        const el = document.getElementById("topic_" + topic);
-        if (el) {
-          el.scrollIntoView({ behavior: "smooth" });
-        } else {
-          console.log("nie znaleziono elementu o id");
-        }
-      }
-    }
   constructor(props) {
     super(props);
-    this.state = {
-      path: props.path
-    };
+    this.state.path = props.path;
   }
-  render() {
-    super.render();
-    const { isActive, colorClass, cardClosed, course } = this.props;
-
-    if (isActive && this.state.data) {
+  renderAfterFetched() { 
+    let sectionTitle = this.state.data.sectionTitle? <h1>{this.state.data.sectionTitle} </h1> : '';
+    let sectionSubtitle =this.state.data.sectionSubtitle? <h3 class="text-center mb-3 mt-3">{this.state.data.sectionSubtitle} </h3> : '';
+    if (this.state.data) { 
       return (
         <>
-        <div className="shad">
-        <h1>{course}</h1>
-        <h3 className="text-center m-4 pb-4">Kierunek AiR, W12, PWR</h3>
-          
-           <Paragraphs paragraphsInfo={this.state.data.paragraphs} />
-            
-          
+          <div className="shad mb-4">
+            {sectionTitle}
+            {sectionSubtitle}
+            <Paragraphs paragraphsInfo={this.state.data.paragraphs} />
           </div>
         </>
       );
@@ -384,7 +265,7 @@ class ParagraphsShad extends FetchingComponent {
 
 
 
-class Paragraphs extends Component {
+class Paragraphs extends React.Component {
   render() {
     const { paragraphsInfo, nrTitle } = this.props;
 
@@ -396,55 +277,4 @@ class Paragraphs extends Component {
   }
 }
 
-class Topic extends Component {
-  render() {
-    const { onClick, isActive, topicData } = this.props;
-    console.log(topicData);
-    return (
-      <div onClick={onClick} className={`nav-link no-padding ${topicData.hidden ? 'd-none' : ''}`}>
-        <a className={isActive ? "active-link" : ""}>{topicData.title}</a>
-      </div>
-    );
-  }
-}
 
-/**
- * Generuje menu z pliku json. Każdy element w pliku json zawiera nazwę 
- * pozycji menu, oraz nazwę pliku json do wczytania.
- */
-class Topics extends FetchingComponent {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeIndex: props.activeIndex,
-      path: props.path,
-      course: props.course
-    }
-  }
-  setActiveIndex(index) {
-    this.setState({ activeIndex: index });
-    this.props.setActiveIndex(index);
-  }
-
-  render() {
-    super.render();
-    if (this.state.data) {
-
-      const topics = this.state.data.topics.map((topic, index) => (
-        <Topic
-          key={index}
-          topicData={topic}
-          isActive={this.props.activeIndex == index}
-          onClick={() => this.setActiveIndex(index)}
-        />
-      ));
-
-      return <div className="shad">
-        <h1>{this.state.course}</h1>
-        <h3 className="text-center m-4">Kierunek AiR, W12, PWR</h3>
-        <h4>Spis treści</h4>
-        {topics}
-      </div>;
-    }
-  }
-}

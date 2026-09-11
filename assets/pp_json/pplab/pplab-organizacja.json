@@ -1,0 +1,72 @@
+{
+    "sectionTitle": "Podstawy programowania - laboratorium",
+    "paragraphs": [
+        {
+            "type": "rules",
+            "title": "",
+            "contents": {
+                "title": "",
+                "date": "1.09.26",
+                "description": "Organizacja laboratorium",
+                "articles": [
+                    {
+                        "title": "Organizacja laboratorium",
+                        "clauses": [
+                            {
+                                "title": "Zajęcia obejmują 15 spotkań i odbywają się w formie laboratorium.",
+                                "points": [
+                                    "W trakcie zajęć laboratoryjnych studenci korzystają z komputerów w pracowni.",
+                                    "Zadania domowe należy wykonywać korzystając z prywatnego komputera.",
+                                    "Istnieje możliwość połączenia się zdalnie do serwerów uczelni w celu realizacji zadań."
+                                ]
+                            },
+                            "Przedmiot wymaga samodzielnej pracy w domu (<span class='red_c'>ok 5 godzin tygodniowo</span>)."
+                        ]
+                    },
+                    {
+                        "title": "Materiały",
+                        "clauses": [
+                            "Notatki z wykładów są dostępne na <a href='https://kcir.pwr.edu.pl/~mucha/PProg/'>stronie głównej kursu</a>.",
+                            "Treści zadań oraz testy publikowane są na <a href='https://kcir.pwr.edu.pl/~krzewnicka'>stronie prowadzącej</a> oraz na <a href='https://eportal.pwr.edu.pl/'>ePortalu</a>."
+                        ]
+                    },
+                    {
+                        "title": "Przebieg Zajęć",
+                        "clauses": [
+                            {
+                                "title": "Przed przyjściem na laboratorium należy:",
+                                "points": [
+                                    "przygotować się z bieżących tematów (wiedza teoretyczna oraz jej praktyczne wykorzystanie)",
+                                    "w razie trudności w zrozumieniu materiału należy przeczytać wybrany podręcznik, wykorzystać materiały edukacyjne do nauki programowania dostępne w internecie, skonsultować się z innymi studentami lub prowadzącymi"
+                                ]
+                            },
+                            {
+                                "title": "W trakcie zajęć laboratoryjnych:",
+                                "points": [
+                                    "odbywają się kolokwia cząstkowe K1, K2, K3, K4, K5 na ePortalu",
+                                    "odbywa się dyskusja na temat realizacji zadań",
+                                    "studenci mają możliwość zadawać pytania",
+                                    "wykonywane są różne aktywności i zadania zlecone przez prowadzącą"
+                                ]
+                            },
+                            {
+                                "title": "Po zakończeniu zajęć laboratoryjnych należy:",
+                                "points": [
+                                    "dokończyć wszystkie zadania z poprzednich zajęć i ćwiczyć poznane techniki programistyczne, poprzez samodzielne pisanie programów"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Konsultacje",
+                        "clauses": [
+                            "Konsultacje odbywają się zgodnie z harmonogramem dostępnym na stronie prowadzącej.",
+                            "Wgląd do sprawdzonych prac jest możliwy podczas konsultacji.",
+                            "Poprawa niezaliczonych kolokwiów cząstkowych nie jest możliwa podczas konsultacji."
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

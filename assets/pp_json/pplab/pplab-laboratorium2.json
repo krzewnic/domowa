@@ -1,0 +1,64 @@
+{
+  "sectionTitle": "Laboratorium 2",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "GIT, instrukcja warunkowa, wypisywanie i wczytywanie danych"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Niepunktowane kolokwium testowe K0"
+        },
+        {
+          "text": "Tutorial",
+          "icon": "ti-receipt",
+          "url": "https://docs.google.com/document/d/1Qq6hGOUnpBk-YAPDcoFctbOZk-iBl6bKmGbhpuh2eyU/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "type": "ul",
+      "title": "Przydatne materiały",
+      "contents": [
+        {
+          "text": "Prawa dostępu w systemie Linux",
+          "url": "https://docs.google.com/presentation/d/1RFWiAv3tpwhqrgC9JH4OJbIXYXAOBGf3-EZebONloTA/edit?slide=id.p#slide=id.p"
+        },
+        {
+          "text": "GIT w pigułce",
+          "url": "https://docs.google.com/document/d/19BFw-nyKZ7oJoW1VhCHyBgY05_fAvwWYqCNn46vvqjw/edit?usp=sharing"
+        },
+        {
+          "text": "Podręcznik Wikimedia rozdział 9.1",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        },
+        {
+          "text": "Scanf w przykładach",
+          "url": "https://docs.google.com/document/d/12C35fdtYbJMI2jj9jhvYNYgq4h_tfshvlMw5WrbTjbM/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "type": "ul",
+          "title": "Trenuj nowe skille",
+          "contents": [
+            "wykorzystanie operatora wyrażenia warunkowego",
+            "posłużenie się instrukcją warunkową oraz instrukcją switch",
+            "podstawowe posługiwanie się systemem kontroli GIT (wysyłanie zmian na serwer, pobieranie zmian z serwera, konflikt)",
+            "wczytywanie i wypisywanie danych w różnych formatach"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -27,7 +27,7 @@
       "type": "ol",
       "contents": [
         {
-          "text": "Przygotowanie środowiska z systemem Linux do prac domowych (wirtualna maszyna lub komputer wyposażony w system Linux albo WSL - Windows Subsystem for Linux).",
+          "text": "Przygotowanie środowiska z systemem Linux do prac domowych (np. wirtualna maszyna z zainstalowanym systemem Linux, komputer wyposażony w system Linux albo WSL - Windows Subsystem for Linux).",
           "icon": "ti-wand"
         },
         {

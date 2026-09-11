@@ -1,0 +1,71 @@
+{
+  "sectionTitle": "Podstawy Programowania - laboratorium",
+  "sectionSubtitle": "Program przedmiotu",
+  "paragraphs": [
+    {
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Zasady pracy w laboratorium, środowisko, pierwszy program, kompilacja, praca w systemie Linux",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Operacje arytmetyczne, zmienne, typy danych, pre i postinkrementacja, rzutowanie typów, operatory i ich priorytety, czytanie i interpretacja komunikatów kompilatora",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "GIT, instrukcja warunkowa, wypisywanie i wczytywanie danych",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Pętle, warunek zakończenia pętli, podział programu na funkcje",
+          "icon": "ti-receipt"
+        },        
+        {
+          "text": "Praca z tablicami jedno i wielowymiarowymiarowymi",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Napisy, wczytywanie złożonych formatów, rekurencja",
+          "icon": "ti-receipt"
+        },        
+        {
+          "text": "Obsługa plików, strumienie danych, argumenty wywołania programu",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Wskaźniki, arytmetyka wskaźników",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Wskaźniki, dynamiczne alokowanie pamięci",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Struktury, wskaźniki na struktury, dynamiczne alokowanie struktur",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Listy, stosy, podział programu na moduły, styl programowania, dobre praktyki",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Obsługa systemu Linux",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Skrypty w Bashu",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Przetwarzanie tekstu.",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Wyszukiwanie wzorca w tekście.",
+          "icon": "ti-receipt"
+        }
+      ]
+    }
+  ]
+}

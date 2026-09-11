@@ -1,0 +1,50 @@
+{
+  "sectionTitle": "Laboratorium 3",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Pętle, warunek zakończenia pętli, podział programu na funkcje"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "L3",
+          "icon": "ti-receipt",
+          "url": "https://docs.google.com/document/d/1obp4SWB1c2hyBBtNjmqjtizQtCSo_d1QPCHu0tJYp3U/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "type": "ul",
+      "title": "Przydatne materiały",
+      "contents": [
+
+        {
+          "text": "Podręcznik Wikimedia rozdział 9.2, 11",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "type": "ul",
+          "title": "Trenuj nowe skille",
+          "contents": [
+            "posłużenie się instrukcją pętli w celu realizacji powtórzenia",
+            "wykorzystanie wielu różnorodnych funkcji w programie",
+            "posłużenie się instrukcją pętli w celu wielokrotnego wywołania tej samej funkcji" 
+            
+          ]
+        }
+      ]
+    }
+  ]
+}

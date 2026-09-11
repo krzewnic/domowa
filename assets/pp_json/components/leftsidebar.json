@@ -1,0 +1,56 @@
+{
+    "menu": [
+        {
+            "title": "Informacje",
+            "href": "."
+        },
+        {
+            "_title": "AKIPSI",
+            "href": "akipsi.html",
+            "submenu": {
+                "menu": [
+                    {
+                        "title": "Regulamin",
+                        "href": "akipsi-regulamin.html"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "PP - laboratorium",
+            "href": "pplab.html?topic=0",
+            "submenu": {
+                "menu": [
+                    {
+                        "title": "Regulamin",
+                        "href": "pplab-regulamin.html"
+                    },
+                    {
+                        "title": "Organizacja",
+                        "href": "pplab-organizacja.html"
+                    },
+                    {
+                        "title": "Program",
+                        "href": "pplab-program.html"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "PP - ćwiczenia",
+            "href": "ppcw.html",
+            "submenu": {
+                "menu": [
+                    {
+                        "title": "Regulamin",
+                        "href": "ppcw-regulamin.html"
+                    },
+                    {
+                        "title": "Program",
+                        "href": "ppcw-program.html"
+                    }
+                ]
+            }
+        }
+    ]
+}

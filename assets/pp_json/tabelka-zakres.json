@@ -2,7 +2,7 @@
     "sectionTitle": "Zakres materiału obowiązującego na kolejne ćwiczenia i laboratoria",
     "paragraphs": [
         {
-            "visibility": "hidden",
+            "_visibility": "hidden",
             "type": "description",
             "contents": [
                 {

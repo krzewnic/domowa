@@ -1,0 +1,75 @@
+{
+  "sectionTitle": "Laboratorium 0",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Zasady pracy w laboratorium, środowisko, pierwszy program, kompilacja, praca w systemie Linux"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Omówienie <a href='pplab-regulamin.html' target='_blank'>regulaminu i systemu oceniania.</a>",
+          "icon": "ti-book"
+        },
+        {
+          "text": "Zmiana hasła do systemu według <a href='https://docs.google.com/document/d/15hQLxPZe3S94zRWHYPJToyg5EaTcue5qtxzM_tzYmKg/edit?usp=sharing' target='_blank'>tutorialu z zadania wstępnego</a>"
+        },
+        {
+          "type": "ul",
+          "description": "Sprawdzenie dostępów do potrzebnych systemów",
+          "contents": [
+            {
+              "text": "ePortal",
+              "url": "https://eportal.pwr.edu.pl/"
+            },
+            {
+              "text": "GIT",
+              "url": "https://git.kcir.pwr.edu.pl/"
+            }
+          ]
+        },
+        {
+          "text": "Kontynuacja zadania wstępnego. </a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "type": "ul",
+      "title": "Przydatne materiały",
+      "contents": [
+        {
+          "text": "Podręcznik Wikimedia rozdziały 4 - 6",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        },
+        {
+          "text": "Kompilowanie programów w pigułce",
+          "url": "https://docs.google.com/presentation/d/1tJIV5146F5xD4nRkmI7qV390-1sJR4CZ0gNJ1cU_AgQ/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Przygotowanie środowiska z systemem Linux do prac domowych (wirtualna maszyna lub komputer wyposażony w system Linux albo WSL - Windows Subsystem for Linux).",
+          "icon": "ti-wand"
+        },
+        {
+          "text": "Dokończenie zadania wstępnego.",
+          "icon": "ti-settings"
+        },
+        {
+          "text": "Wynotowanie ważnych informacji z regulaminu przedmiotu oraz zapoznanie się z programem przedmiotu.",
+          "icon": "ti-book"
+        }
+      ]
+    }
+  ]
+}

@@ -146,7 +146,7 @@ ul {
   margin: 0;
   padding-left: 0;  
   margin-bottom: 20px;
-  margin-top: 10px;
+
 }
 
 .content ol {
@@ -982,9 +982,7 @@ p {
   flex: 1; /* Elastyczny kontener dla tekstu */
 }
 
-ul {
-  margin-top:15px;
-}
+
 
 
 .shad {
@@ -1009,3 +1007,77 @@ ol.none_style {
 }
 
 .clickable { cursor: pointer; }
+
+
+.icon-small,
+.bg-lb a,
+.bg-lg a {
+  font-size: 16px !important;
+}
+
+.card-body a,
+.card-body i {
+  color: #6ab0de !important;
+}
+
+.close-button {
+  float: right;
+}
+
+.content a {
+  color: #6ab0de !important;
+}
+
+.active-link {
+  color: #0a6dae !important;
+  font-weight: bold;
+}
+
+
+.card-text {
+  margin-bottom: 10px !important;
+}
+
+.card {
+  font-size: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul,
+ol {
+  margin-left: 20px !important;
+}
+
+.paragraphComment {
+  font-style: italic;
+  margin: 15px;
+}
+
+html {
+  scroll-padding-top: 72px;
+  scroll-behavior: smooth;
+}
+
+
+.loading-spinner {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 30px auto; 
+
+    border: 4px solid lightgray;
+    border-top-color: transparent;
+    border-radius: 50%;
+
+    animation: spinnerRotation 1s linear infinite;
+}
+
+@keyframes spinnerRotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

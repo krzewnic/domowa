@@ -1,0 +1,26 @@
+{
+  "sectionTitle": " Ćwiczenia 0",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Organizacja pracy. Zapis algorytmów."
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Omówienie <a href='./ppcw-regulamin.html'>regulaminu i systemu oceniania.</a>",
+          "icon": "ti-book"
+        },
+        {
+          "text": "<a href='https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_00/index.html' target='_blank'>Przecinanie prostokątów.</a>",
+          "icon": "ti-receipt"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "sectionTitle": "Laboratorium 1",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Operacje arytmetyczne, zmienne, typy danych, pre i postinkrementacja, rzutowanie typów, operatory i ich priorytety, czytanie i interpretacja komunikatów kompilatora"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [        
+        {
+          "text": "Lista zadań",
+          "url": "https://docs.google.com/document/d/1hHQ7XClH3lEHpECYkZDQ8epID9gzL0oPMFm5z6icMfs/edit?usp=sharing",
+          "icon": "ti-mouse"
+        }
+      ]
+    },
+    {
+      "type": "ul",
+      "title": "Przydatne materiały",
+      "contents": [
+        {
+          "text": "Podręcznik Wikimedia rozdziały 7 - 9.1",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        },
+        {
+          "text": "Krótko i na temat o printf",
+          "url": "https://cpp0x.pl/dokumentacja/standard-C/printf/321"
+        },
+        {
+          "text": "GIT w pigułce",
+          "url": "https://docs.google.com/document/d/19BFw-nyKZ7oJoW1VhCHyBgY05_fAvwWYqCNn46vvqjw/edit?usp=sharing"
+        }
+      ]
+    }
+  ]
+}
