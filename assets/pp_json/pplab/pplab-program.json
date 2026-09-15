@@ -50,19 +50,19 @@
           "icon": "ti-receipt"
         },
         {
-          "text": "Obsługa systemu Linux",
-          "icon": "ti-receipt"
-        },
-        {
-          "text": "Skrypty w Bashu",
-          "icon": "ti-receipt"
-        },
-        {
           "text": "Przetwarzanie tekstu.",
           "icon": "ti-receipt"
         },
         {
           "text": "Wyszukiwanie wzorca w tekście.",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Obsługa systemu Linux",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Skrypty w Bashu",
           "icon": "ti-receipt"
         }
       ]
