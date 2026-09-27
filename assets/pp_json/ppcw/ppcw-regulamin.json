@@ -4,20 +4,9 @@
         {
             "type": "rules",
             "contents": {
-                "date": "21.09.2025",
+                "date": "27.09.2025",
                 "description": "Regulamin ćwiczeń",
                 "articles": [
-
-                   
-                    {
-                        "title": "Obecność na zajęciach",
-                        "clauses": [
-                            "Obecność na ćwiczeniach jest obowiązkowa.",
-                            "Dopuszczalna jest <span class='red_c'>jedna</span> nieobecność, która nie wymaga usprawiedliwienia.",                            
-                            "W przypadku wyjątkowych sytuacji (np. hospitalizacja, wypadek, problemy rodzinne), które mogą skutkować większą liczbą nieobecności niż dopuszczona, konieczny jest <span class='red_c'>stały kontakt z prowadzącą</span>. Brak kontaktu skutkuje oceną niedostateczną (2.0) z przedmiotu.",
-                            "Nie ma możliwości zaliczenia ćwiczeń w trybie skumulowanym na koniec semestru. Uczestnictwo w zajęciach musi odbywać się na bieżąco, zgodnie z harmonogramem."
-                        ]
-                    },
                     {
                         "title": "Zaliczenie kursu",
                         "clauses": [
@@ -41,10 +30,25 @@
                                     "<strong class='w-25 d-inline-block '>5.0</strong> 90 – 100%"
                                 ]
                             },
-                            "Wszystkie oceny są do wglądu studentów na platformie ePortal."
+                            "Oceny są do wglądu na platformie ePortal."
                         ]
                     },
-                    
+                    {
+                        "title": "Obecność na zajęciach",
+                        "clauses": [
+                            "Obecność na ćwiczeniach jest obowiązkowa.",
+                            "Dopuszczalna jest <span class='red_c'>jedna</span> nieobecność, która nie wymaga usprawiedliwienia.",
+                            {
+                                "title": "W przypadku wyjątkowych sytuacji (np. hospitalizacja, wypadek, problemy rodzinne), które mogą skutkować większą liczbą nieobecności niż dopuszczona:",
+                                "points": [
+                                    "konieczny jest <span class='red_c'>stały kontakt z prowadzącą</span> (brak kontaktu skutkuje oceną niedostateczną z przedmiotu)",
+                                    "należy przedstawić dokumenty potwierdzające zaistnienie sytuacji na konsultacjach.",
+                                    "może być koniecznym dostosowanie warunków zaliczenia"
+                                ]
+                            },
+                            "Nie ma możliwości zaliczenia ćwiczeń w trybie skumulowanym na koniec semestru. Uczestnictwo w zajęciach musi odbywać się na bieżąco, zgodnie z harmonogramem."
+                        ]
+                    },
                     {
                         "title": "Kolokwium",
                         "clauses": [
@@ -56,7 +60,6 @@
                     {
                         "title": "Haszówki - zaliczenie wykładu",
                         "clauses": [
-                            "Haszówka to krótki test sprawdzający bieżące zrozumienie materiału z wykładu.",
                             "Przed końcem zajęć student ma możliwość napisania haszówek, których wyniki mają wpływ na ocenę z wykładu, ale nie wpływają na ocenę z ćwiczeń.",
                             "W przypadku nieobecności lub problemów technicznych student ma prawo do zaliczenia opuszczonej haszówki na konsultacjach w ciągu 10 dni roboczych od wystąpienia problemu."
                         ]
