@@ -21,6 +21,19 @@
           "icon": "ti-receipt"
         }
       ]
-    }
-  ]
+    },
+{
+"title": "Zadanie domowe",
+"type": "ol",
+"contents" : [
+{ 
+"text" : "Przecinanie się odcinków",
+"url" : "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_01a/index.html"
+},
+{
+"text" : "Trójmian kwadratowy",
+"url" : "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_01b/index.html"
+}
+]
+  } ]
 }
