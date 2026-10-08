@@ -62,7 +62,7 @@
                         "clauses": [
                             "Konsultacje odbywają się zgodnie z harmonogramem dostępnym na stronie prowadzącej.",
                             "Wgląd do sprawdzonych prac jest możliwy podczas konsultacji.",
-                            "Poprawa niezaliczonych kolokwiów cząstkowych nie jest możliwa podczas konsultacji."
+                            "Poprawa niezaliczonych kolokwiów cząstkowych <strong>nie</strong> jest możliwa podczas konsultacji."
                         ]
                     }
                 ]
