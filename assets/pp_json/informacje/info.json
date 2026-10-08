@@ -17,7 +17,7 @@
         },
         {
             "type": "consultations",
-            "pl": "Konsultacje Zima 2026/27 (od 5.10)",
+            "pl": "Konsultacje Zima 2026/27 (od 8.10)",
             "pl_en": "Conslutations Summer 2026/27",
             "content": {
                 "type": "ul",
@@ -27,9 +27,8 @@
                     "Piątki (Fridays): 8<sup>10</sup> - 9<sup>55</sup>"
                 ],
                 "points": [
-                    "Środy nieparzyste: 8<sup>00</sup> - 9<sup>00</sup>",
-                    "Środy parzyste: 8<sup>00</sup> - 11<sup>00</sup>",
-                    "Piątki : 11<sup>00</sup> - 13<sup>00</sup>"
+                    "Środy: 13<sup>15</sup> - 15<sup>00</sup>",
+                    "Piątki : 11<sup>00</sup> - 13<sup>15</sup>"
                 ]
             }
         }
