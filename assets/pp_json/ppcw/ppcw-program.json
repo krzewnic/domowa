@@ -6,36 +6,28 @@
       "type": "description",
       "contents": [
         {
-          "text": "0. Zajęcia organizacyjne",
-          "icon": "ti-receipt"
+          "text": "0. Zajęcia organizacyjne"
         },
         {
-          "text": "1. Algorytm: specyfikacja, testy  <br/> Hasz 1",
-          "icon": "ti-receipt"
+          "text": "1. Algorytm: specyfikacja, testy  <br/> Hasz 1"
         },
         {
-          "text": "2. Notacja MBNF, diagramy składni, drzewa wyliczania wartości wyrażeń, instrukcja pętli  <br /> Hasz 2",
-          "icon": "ti-receipt"
+          "text": "2. Notacja MBNF, diagramy składni, drzewa wyliczania wartości wyrażeń, instrukcja pętli  <br /> Hasz 2"
         },
         {
-          "text": "3. Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej  <br /> Hasz 3",
-          "icon": "ti-receipt"
+          "text": "3. Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej  <br /> Hasz 3"
         },
         {
-          "text": "4. Analiza poprawności konstrukcji, wyliczanie wyrażeń ze wskaźnikami i tablicami, ręczna symulacja, opracowywanie funkcji programu  <br />  Hasz 4",
-          "icon": "ti-receipt"
+          "text": "4. Analiza poprawności konstrukcji, wyliczanie wyrażeń ze wskaźnikami i tablicami, ręczna symulacja, opracowywanie funkcji programu  <br />  Hasz 4"
         },
         {
-          "text": "5. Sortowanie  <br /> Hasz 5",
-          "icon": "ti-receipt"
+          "text": "5. Sortowanie  <br /> Hasz 5"
         },
         {
-          "text": "6. Listy i stosy <br /> Hasz 6",
-          "icon": "ti-receipt"
+          "text": "6. Listy i stosy <br /> Hasz 6"
         },
         {
-          "text": "7. Drzewa binarne",
-          "icon": "ti-receipt"
+          "text": "7. Drzewa binarne"
         }
       ]
     },
