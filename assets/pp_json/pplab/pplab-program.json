@@ -15,7 +15,7 @@
           "icon": "ti-receipt"
         },
         {
-          "text": "Instrukcja warunkowa, wypisywanie i wczytywanie danych",
+          "text": "Instrukcja warunkowa, wypisywanie i wczytywanie danych<br /> -- <strong>K0 </strong>- niepunktowane kolokwium testowe",
           "icon": "ti-receipt"
         },
         {
@@ -23,7 +23,7 @@
           "icon": "ti-receipt"
         },        
         {
-          "text": "Praca z tablicami jedno i wielowymiarowymiarowymi",
+          "text": "Praca z tablicami jedno i wielowymiarowymiarowymi<br /> -- <strong>K1</strong>",
           "icon": "ti-receipt"
         },
         {
@@ -31,7 +31,7 @@
           "icon": "ti-receipt"
         },        
         {
-          "text": "Obsługa plików, strumienie danych, argumenty wywołania programu",
+          "text": "Obsługa plików, strumienie danych, argumenty wywołania programu<br /> -- <strong>K2</strong>",
           "icon": "ti-receipt"
         },
         {
@@ -39,7 +39,7 @@
           "icon": "ti-receipt"
         },
         {
-          "text": "Wskaźniki, dynamiczne alokowanie pamięci",
+          "text": "Wskaźniki, dynamiczne alokowanie pamięci<br /> -- <strong>K3</strong>",
           "icon": "ti-receipt"
         },
         {
@@ -47,7 +47,7 @@
           "icon": "ti-receipt"
         },
         {
-          "text": "Listy, stosy, podział programu na moduły, styl programowania, dobre praktyki",
+          "text": "Listy, stosy, podział programu na moduły, styl programowania, dobre praktyki<br /> -- <strong>K4</strong>",
           "icon": "ti-receipt"
         },
         {
@@ -55,7 +55,7 @@
           "icon": "ti-receipt"
         },
         {
-          "text": "Wyszukiwanie wzorca w tekście.",
+          "text": "Wyszukiwanie wzorca w tekście.<br /> -- <strong>K5</strong>",
           "icon": "ti-receipt"
         },
         {

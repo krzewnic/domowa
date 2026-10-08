@@ -10,7 +10,7 @@
         {
             "title": "Laboratorium 1 – Podstawy składni języka C",
             "json": "./assets/pp_json/pplab/pplab-laboratorium1.json",
-            "hidden": true
+            "hidden": false
         },
         {
             "title": "Laboratorium 2 – Instrukcje warunkowe, K0",

@@ -26,20 +26,19 @@
       "type": "ul",
       "title": "Przydatne materiały",
       "contents": [
-        {
-          "text": "Prawa dostępu w systemie Linux",
-          "url": "https://docs.google.com/presentation/d/1RFWiAv3tpwhqrgC9JH4OJbIXYXAOBGf3-EZebONloTA/edit?slide=id.p#slide=id.p"
-        },
-        {
-          "text": "GIT w pigułce",
-          "url": "https://docs.google.com/document/d/19BFw-nyKZ7oJoW1VhCHyBgY05_fAvwWYqCNn46vvqjw/edit?usp=sharing"
-        },
+        
         {
           "text": "Podręcznik Wikimedia rozdział 9.1",
           "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
         },
         {
-          "text": "Scanf w przykładach",
+          "text": "<code>printf</code>",
+          "description": "wypisywanie zmiennych na ekran",
+          "url": "https://cpp0x.pl/dokumentacja/standard-C/printf/321"
+        },
+        {
+          "text": "<code>scanf</code> w przykładach",
+          "description": "wczytywanie zmiennych z ekranu",
           "url": "https://docs.google.com/document/d/12C35fdtYbJMI2jj9jhvYNYgq4h_tfshvlMw5WrbTjbM/edit?usp=sharing"
         }
       ]
