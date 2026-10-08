@@ -46,7 +46,7 @@ class Paragraph extends React.Component {
       contents = <Faq faqData={paragraphInfo.contents} />
     }
     else {
-      contents = <Points contents={paragraphInfo.contents} subtype={paragraphInfo.type} />
+      contents = <Points contents={paragraphInfo.contents} subtype={paragraphInfo.type} start={paragraphInfo.start} />
     }
 
     let description = paragraphInfo.description ? paragraphInfo.description : paragraphInfo.text;
@@ -183,15 +183,16 @@ function createDescriptionPointLi(point, index) {
  */
 class Points extends React.Component {
   render() {
-    const { contents, subtype } = this.props;
+    const { contents, subtype, start } = this.props;
 
     const points = contents.map(
       (point, index) => createDescriptionPointLi(point, index)
     )
 
+    console.log(start);
     let pointsList;
     if (subtype == "ol") {
-      pointsList = <ol>{points}</ol>;
+      pointsList = start !== undefined ? <ol start={parseInt(start)}>{points}</ol> : <ol>{points}</ol>;
     }
     else if (subtype == "ul") {
       pointsList = <ul>{points}</ul>;

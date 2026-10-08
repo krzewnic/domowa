@@ -4,6 +4,7 @@
   "paragraphs": [
     {
       "type": "ol",
+      "start": "0",
       "contents": [
         {
           "text": "Zasady pracy w laboratorium, środowisko, pierwszy program, kompilacja, praca w systemie Linux",
