@@ -11,27 +11,27 @@
           "icon": "ti-receipt"
         },
         {
-          "text": "Algorytm: specyfikacja, testy  <br/> Hasz 1",
+          "text": "Algorytm: specyfikacja, testy  <br/> -- Hasz 1",
           "icon": "ti-receipt"
         },
         {
-          "text": "Notacja MBNF, diagramy składni, drzewa wyliczania wartości wyrażeń, instrukcja pętli  <br /> Hasz 2",
+          "text": "Notacja MBNF, diagramy składni, drzewa wyliczania wartości wyrażeń, instrukcja pętli  <br /> -- Hasz 2",
           "icon": "ti-receipt"
         },
         {
-          "text": "Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej  <br /> Hasz 3",
+          "text": "Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej  <br /> -- Hasz 3",
           "icon": "ti-receipt"
         },
         {
-          "text": "Analiza poprawności konstrukcji, wyliczanie wyrażeń ze wskaźnikami i tablicami, ręczna symulacja, opracowywanie funkcji programu  <br />  Hasz 4",
+          "text": "Analiza poprawności konstrukcji, wyliczanie wyrażeń ze wskaźnikami i tablicami, ręczna symulacja, opracowywanie funkcji programu  <br />  -- Hasz 4",
           "icon": "ti-receipt"
         },
         {
-          "text": "Sortowanie  <br /> Hasz 5",
+          "text": "Sortowanie  <br /> -- Hasz 5",
           "icon": "ti-receipt"
         },
         {
-          "text": "Listy i stosy <br /> Hasz 6",
+          "text": "Listy i stosy <br /> -- Hasz 6",
           "icon": "ti-receipt"
         },
         {
@@ -40,65 +40,62 @@
         }
       ]
     },
-{
-"type": "ol",
-"title" : "Wszystkie listy zadań",
-"contents": [
-{
-"text" : "Częśc wspólna prostokątów",
-"url" :"https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_00/index.html",
-"icon": "ti-receipt"
-},
-{
-"text":"<a href='https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_01a/index.html' target='_blank'>Przecinanie się odcinków</a> oraz <a target='_blank' href='https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_01b/index.html'>Trójmian kwadratowy</a>",
-"icon": "ti-receipt"
-},
-{
-"text": "MBNF, kolejność operatorów",
-"url" : "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_02.pdf",
-"icon": "ti-receipt"
-},
-{
-"text": "Ręczna symulacja, złożoność obliczeniowa, algorytmika",
-"url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_03.pdf",
-"icon": "ti-receipt"
-},
-{
-"text": "Wskaźniki",
-"url" : "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_04.pdf",
-"icon": "ti-receipt"
-},
-{
-"text": "Sortowanie",
-"url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_05.pdf",
-"icon": "ti-receipt"
-},
-{
-"text":  "Listy i stosy",
-"url" : "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_06.pdf",
-"icon": "ti-receipt"
-},
-{
-"text": "Drzewa binarne",
-"url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_07.pdf",
-"icon": "ti-receipt"
-}
-]
-
-},
-{
-"type": "ol",
-"title": "Przykłady zadań z kolokwium",
-"contents":  [
-{
-"text" : "In progress",
-"url" : "https://kcir.pwr.edu.pl/~krzewnicka/ppcw-program.html",
-"icon": "ti-receipt"
-}
-]
-}
-
-
-
+    {
+      "type": "ol",
+      "start": "0",
+      "title": "Wszystkie listy zadań, które będą rozwiązywane w tym roku:",
+      "contents": [
+        {
+          "text": "Część wspólna prostokątów",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_00/index.html",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "<a href='https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_01a/index.html' target='_blank'>Przecinanie się odcinków</a> oraz <a target='_blank' href='https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_01b/index.html'>Trójmian kwadratowy</a>",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "MBNF, kolejność operatorów",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_02.pdf",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Ręczna symulacja, złożoność obliczeniowa, algorytmika",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_03.pdf",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Wskaźniki",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_04.pdf",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Sortowanie",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_05.pdf",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Listy i stosy",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_06.pdf",
+          "icon": "ti-receipt"
+        },
+        {
+          "text": "Drzewa binarne",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_07.pdf",
+          "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "type": "ol",
+      "title": "Przykłady zadań z kolokwium",
+      "contents": [
+        {
+          "text": "In progress",
+          "url": "https://kcir.pwr.edu.pl/~krzewnicka/ppcw-program.html",
+          "icon": "ti-receipt"
+        }
+      ]
+    }
   ]
 }
