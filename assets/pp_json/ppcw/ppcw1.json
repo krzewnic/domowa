@@ -1,0 +1,58 @@
+{
+  "sectionTitle": " Ćwiczenia 1",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Algorytm: specyfikacja, testy"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Omówienie zadań bieżących",
+          "icon": "ti-book"
+        },
+        {
+          "text" : "Opcjonalnie - omówienie różnych sposobów zapisu algorytmu",
+	"icon": "ti-hummer",
+"url" : "https://docs.google.com/document/d/1J5HoY9Qf8dueR82kvMqgG-bC9BAe6ESd6ygimTHlnNw/edit?usp=sharing"
+}
+      ]
+    },
+{
+"title" : "Wykłady",
+"type": "description",
+"contents": [
+ {
+                            "text": "Wykład 1",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad01_folie.pdf",
+                            "description": "Wprowadzenie",
+                            "comment": "szkielet programu w języku C, specyfikacja algorytmu, schemat blokowy algorytmu, kompilacja i opcje wywołania kompilatorów, uruchamianie programów"
+                        },
+                        {
+                            "text": "Wykład 2",
+                            "icon": "ti-book",
+                            "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad02_folie.pdf",
+                            "description": "Algorytm, podstawowe notacje, typy danych, wyrażenia i instrukcje",
+                            "comment": "schemat blokowy, mbnf, diagram składni, język C: komentarze, napis pusty i niepusty, typy danych, zmienne, stałe jawne i symboliczne, operatory i ich priorytety, instrukcje warunkowe, pętla while"
+                        }
+]
+
+},
+
+{
+"title": "Zadanie domowe",
+"type": "ol",
+"contents" : [
+{ 
+"text" : "Notacja MBNF, diagramy składni, drzewa wyliczania wartości wyrażeń, instrukcja pętli.",
+"url" : "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_02.pdf"
+}
+]
+  } ]
+}
