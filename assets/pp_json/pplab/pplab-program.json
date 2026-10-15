@@ -21,7 +21,7 @@
         {
           "text": "Pętle, warunek zakończenia pętli, podział programu na funkcje",
           "icon": "ti-receipt"
-        },        
+        },
         {
           "text": "Praca z tablicami jedno i wielowymiarowymiarowymi<br /> -- <strong>K1</strong>",
           "icon": "ti-receipt"
@@ -29,7 +29,7 @@
         {
           "text": "Napisy, wczytywanie złożonych formatów, rekurencja",
           "icon": "ti-receipt"
-        },        
+        },
         {
           "text": "Obsługa plików, strumienie danych, argumenty wywołania programu<br /> -- <strong>K2</strong>",
           "icon": "ti-receipt"
@@ -65,6 +65,55 @@
         {
           "text": "Skrypty w Bashu",
           "icon": "ti-receipt"
+        }
+      ]
+    },
+    {
+      "_toggle": "hide_content",
+      "type": "description",
+      "id": "lab8",
+      "title": "Historyczne listy zadań",
+      "contents": [
+        {
+          "type": "description",
+          "description": "  ",
+          "contents": [
+            {
+              "text": "Laboratorium 1 - Edytor Emacs, kompilator języka C",
+              "icon": "ti-mouse-alt",
+              "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_01/index.html"
+            },
+            {
+              "text": "Laboratorium 2 - Przecięcia zera",
+              "icon": "ti-mouse-alt",
+              "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_02/index.html"
+            },
+            {
+              "text": "Laboratorium 3 - Przetwarzanie obrazów",
+              "icon": "ti-mouse-alt",
+              "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_03/index.html"
+            },
+            {
+              "text": "Laboratorium 4 - Linux",
+              "icon": "ti-mouse-alt",
+              "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_04/index.html"
+            },
+            {
+              "text": "Laboratorium 5 - Przetwarzanie obrazów 2",
+              "icon": "ti-mouse-alt",
+              "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_05/index.html"
+            },
+            {
+              "text": "Laboratorium 6 - RPN",
+              "icon": "ti-mouse-alt",
+              "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_06/index.html"
+            },
+            {
+              "text": "Laboratorium 7 - Wyszukiwanie przybliżone",
+              "icon": "ti-mouse-alt",
+              "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_lab_07/index.html"
+            }
+          ]
         }
       ]
     }
