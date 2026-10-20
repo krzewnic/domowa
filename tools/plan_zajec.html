@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan zajęć — grupy ćwiczeniowe i laboratoryjne</title>
+<style>
+    :root {
+        --bg: #f4f6fb;
+        --card: #ffffff;
+        --ink: #1f2937;
+        --muted: #6b7280;
+        --line: #e5e7eb;
+        --accent-cw: #7c3aed;
+        --accent-lab: #0d9488;
+        --next-bg: #fff7ed;
+        --next-border: #f97316;
+    }
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Roboto, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+    }
+    header {
+        background: linear-gradient(120deg, #312e81, #6d28d9);
+        color: #fff;
+        padding: 24px 20px;
+    }
+    header h1 { margin: 0 0 4px; font-size: 1.5rem; }
+    header p { margin: 0; opacity: .85; font-size: .9rem; }
+    main { max-width: 1200px; margin: 0 auto; padding: 20px; }
+
+    /* ---- pasek filtrów ---- */
+    .toolbar {
+        display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+        margin-bottom: 20px;
+    }
+    .toolbar .chip {
+        border: 1px solid var(--line);
+        background: var(--card);
+        border-radius: 999px;
+        padding: 6px 14px;
+        cursor: pointer;
+        font-size: .85rem;
+        transition: all .15s;
+    }
+    .chip:hover { border-color: #c4b5fd; }
+    .chip.active { background: #312e81; color: #fff; border-color: #312e81; }
+    .toolbar .spacer { flex: 1; }
+    .toolbar label { font-size: .85rem; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+
+    /* ---- najbliższe zajęcia ---- */
+    .upcoming {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px 18px;
+        margin-bottom: 26px;
+        box-shadow: 0 1px 3px rgba(0,0,0,.06);
+    }
+    .upcoming h2 { margin: 0 0 12px; font-size: 1.1rem; }
+    .upcoming-list { display: flex; flex-direction: column; gap: 6px; }
+    .upcoming-item {
+        display: grid;
+        grid-template-columns: 150px 90px 130px 1fr;
+        gap: 10px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-size: .9rem;
+        align-items: baseline;
+    }
+    .upcoming-item:nth-child(odd) { background: #f9fafb; }
+    .upcoming-item .dow { color: var(--muted); font-size: .8rem; }
+    .badge {
+        display: inline-block;
+        font-size: .75rem;
+        font-weight: 600;
+        color: #fff;
+        border-radius: 6px;
+        padding: 2px 8px;
+        white-space: nowrap;
+    }
+    .days-left { color: var(--muted); font-size: .8rem; }
+    .kola-badge {
+        display: inline-block;
+        background: #be123c;
+        color: #fff;
+        font-size: .78rem;
+        font-weight: 800;
+        border-radius: 5px;
+        padding: 2px 8px;
+        margin-left: 6px;
+        white-space: nowrap;
+        box-shadow: 0 1px 3px rgba(190,18,60,.45);
+    }
+    .kola-badge.hasz {
+        background: transparent;
+        color: var(--muted);
+        font-size: .72rem;
+        font-weight: 400;
+        box-shadow: none;
+        border: 1px solid var(--line);
+        padding: 0 6px;
+    }
+
+    /* ---- sekcje ---- */
+    section h2.section-title {
+        font-size: 1.15rem;
+        margin: 26px 0 14px;
+        padding-left: 12px;
+        border-left: 5px solid var(--accent-cw);
+    }
+    #sekcja-lab h2.section-title { border-left-color: var(--accent-lab); }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    /* ---- karta grupy ---- */
+    .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0,0,0,.06);
+    }
+    .card-head {
+        padding: 14px 16px;
+        color: #fff;
+        display: flex; justify-content: space-between; align-items: baseline;
+    }
+    .card-head h3 { margin: 0; font-size: 1.05rem; }
+    .card-head .count { font-size: .8rem; opacity: .9; }
+    .card-sub {
+        padding: 8px 16px;
+        font-size: .82rem;
+        color: var(--muted);
+        border-bottom: 1px solid var(--line);
+        background: #fafafa;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+    td, th { padding: 7px 12px; text-align: left; }
+    thead th {
+        font-size: .72rem; text-transform: uppercase; letter-spacing: .04em;
+        color: var(--muted); border-bottom: 1px solid var(--line);
+    }
+    tbody tr { border-bottom: 1px solid #f1f2f4; }
+    tbody tr:last-child { border-bottom: none; }
+    tr.past { color: #b6bcc7; }
+    tr.past .topic { text-decoration: line-through; text-decoration-color: #d7dbe2; }
+    tr.next {
+        background: var(--next-bg);
+        box-shadow: inset 3px 0 0 var(--next-border);
+        font-weight: 600;
+    }
+    .next-tag {
+        display: inline-block;
+        background: var(--next-border);
+        color: #fff;
+        font-size: .68rem;
+        font-weight: 700;
+        border-radius: 5px;
+        padding: 1px 6px;
+        margin-left: 6px;
+        vertical-align: middle;
+    }
+    .dow-cell { white-space: nowrap; }
+    .dow-cell .dow { color: var(--muted); font-size: .78rem; margin-left: 4px; }
+    tr.past .dow { color: #c9ced6; }
+
+    .hidden { display: none !important; }
+    .error {
+        background: #fef2f2; border: 1px solid #fecaca; color: #991b1b;
+        border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; font-size: .9rem;
+    }
+    .error code { background: #fee2e2; padding: 1px 6px; border-radius: 4px; }
+    footer { text-align: center; color: var(--muted); font-size: .78rem; padding: 24px; }
+
+    @media (max-width: 640px) {
+        .grid { grid-template-columns: 1fr; }
+        .upcoming-item { grid-template-columns: 1fr 1fr; }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>📅 Plan zajęć — semestr zimowy 2026/27</h1>
+    <p>Grupy ćwiczeniowe i laboratoryjne </p>
+</header>
+
+<main>
+    <div id="error-box" class="error hidden"></div>
+
+    <div class="toolbar">
+        <button class="chip active" data-filter="all">Wszystkie</button>
+        <button class="chip" data-filter="cw">Ćwiczenia</button>
+        <button class="chip" data-filter="lab">Laboratoria</button>
+        <div class="spacer"></div>
+        <label><input type="checkbox" id="hide-past"> ukryj przeszłe terminy</label>
+    </div>
+
+    <div class="upcoming" id="upcoming-box">
+        <h2>⏭️ Najbliższe zajęcia</h2>
+        <div class="upcoming-list" id="upcoming-list"></div>
+    </div>
+
+    <section id="sekcja-cw">
+        <h2 class="section-title">Ćwiczenia</h2>
+        <div class="grid" id="grid-cw"></div>
+    </section>
+
+    <section id="sekcja-lab">
+        <h2 class="section-title">Laboratoria</h2>
+        <div class="grid" id="grid-lab"></div>
+    </section>
+</main>
+
+<footer>Wygenerowano za pomocą Copilota</footer>
+
+<script>
+const GROUP_COLORS = {
+    "Cwicz_1": "#7c3aed", "Cwicz_2": "#a855f7", "Cwicz_3": "#c026d3",
+    "LAB_1": "#0d9488", "LAB_2": "#0891b2", "LAB_3": "#2563eb",
+    "LAB_4": "#16a34a", "LAB_5": "#ca8a04", "LAB_6": "#dc2626"
+};
+const MS_DAY = 24 * 60 * 60 * 1000;
+
+let allSessions = [];   // {group, kind, date, from, to, topic, nr}
+let kolaMaps = { cw: {}, lab: {} };   // nr sesji -> nazwa kolokwium
+let hidePast = false;
+let filter = "all";
+
+function todayMidnight() {
+    const t = new Date();
+    return new Date(t.getFullYear(), t.getMonth(), t.getDate());
+}
+
+function parseCsv(text, kind) {
+    const lines = text.trim().split(/\r?\n/);
+    const out = [];
+    for (let i = 1; i < lines.length; i++) {           // pomijamy nagłówek
+        const line = lines[i].trim();
+        if (!line) continue;
+        const p = line.split(";");
+        const [y, m, d] = p[1].split("-").map(Number);
+        const topic = p.slice(4).join(";");
+        const nrMatch = topic.match(/^(\d+)\./);
+        out.push({
+            group: p[0],
+            kind,
+            date: new Date(y, m - 1, d),
+            from: p[2],
+            to: p[3],
+            topic,
+            nr: nrMatch ? Number(nrMatch[1]) : null
+        });
+    }
+    return out;
+}
+
+function parseKola(text) {
+    const map = {};
+    for (const line of text.trim().split(/\r?\n/)) {
+        const p = line.trim().split(";");
+        if (p.length >= 2 && p[0] !== "") map[Number(p[0])] = p.slice(1).join(";").trim();
+    }
+    return map;
+}
+
+async function loadData() {
+    const files = [
+        ["result_cw.csv", "cw"],
+        ["result_lab.csv", "lab"]
+    ];
+    for (const [url, kind] of files) {
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error("Nie udało się wczytać " + url + " (HTTP " + resp.status + ")");
+        allSessions.push(...parseCsv(await resp.text(), kind));
+    }
+    for (const [url, kind] of [["kola_cw.csv", "cw"], ["kola_lab.csv", "lab"]]) {
+        const resp = await fetch(url);
+        if (resp.ok) kolaMaps[kind] = parseKola(await resp.text());
+    }
+}
+
+function fmtDate(d) {
+    const dd = String(d.getDate()).padStart(2, "0");
+    const mm = String(d.getMonth() + 1).padStart(2, "0");
+    const yy = String(d.getFullYear()).slice(-2);
+    return `${dd}.${mm}.${yy}`;
+}
+function fmtDow(d) {
+    return d.toLocaleDateString("pl-PL", { weekday: "long" });
+}
+function daysUntil(d) {
+    return Math.round((d - todayMidnight()) / MS_DAY);
+}
+function groupLabel(group, kind) {
+    const num = group.split("_")[1];
+    return (kind === "cw" ? "Ćw. gr. " : "Lab. gr. ") + num;
+}
+function kolaBadge(s) {
+    const k = s.nr !== null ? kolaMaps[s.kind][s.nr] : undefined;
+    if (!k) return "";
+    const isHasz = /hasz/i.test(k);
+    return `<span class="kola-badge${isHasz ? " hasz" : ""}">${isHasz ? k : "📝 " + k}</span>`;
+}
+
+function renderUpcoming() {
+    const box = document.getElementById("upcoming-list");
+    const upcoming = allSessions
+        .filter(s => s.date >= todayMidnight())
+        .filter(s => filter === "all" || s.kind === filter)
+        .sort((a, b) => a.date - b.date || a.from.localeCompare(b.from))
+        .slice(0, 10);
+
+    if (!upcoming.length) {
+        box.innerHTML = "<p style='color:var(--muted);margin:0'>Brak nadchodzących zajęć 🎉</p>";
+        return;
+    }
+    box.innerHTML = upcoming.map(s => {
+        const dl = daysUntil(s.date);
+        const left = dl === 0 ? "dziś!" : dl === 1 ? "jutro" : "za " + dl + " dni";
+        const color = GROUP_COLORS[s.group] || "#555";
+        return `<div class="upcoming-item">
+            <div><strong>${fmtDate(s.date)}</strong> <span class="dow">${fmtDow(s.date)}</span></div>
+            <div>${s.from}–${s.to}</div>
+            <div><span class="badge" style="background:${color}">${groupLabel(s.group, s.kind)}</span>
+                 <span class="days-left">${left}</span></div>
+            <div>${s.topic}${kolaBadge(s)}</div>
+        </div>`;
+    }).join("");
+}
+
+function renderGrids() {
+    for (const kind of ["cw", "lab"]) {
+        const grid = document.getElementById("grid-" + kind);
+        const groups = [...new Set(allSessions.filter(s => s.kind === kind).map(s => s.group))]
+            .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+        grid.innerHTML = groups.map(g => {
+            const sessions = allSessions.filter(s => s.group === g)
+                .sort((a, b) => a.date - b.date);
+            const nextIdx = sessions.findIndex(s => s.date >= todayMidnight());
+            const color = GROUP_COLORS[g] || "#555";
+            const done = nextIdx === -1 ? sessions.length : nextIdx;
+
+            const rows = sessions.map((s, i) => {
+                const cls = i < nextIdx || nextIdx === -1 ? "past" : (i === nextIdx ? "next" : "");
+                const isPast = cls === "past";
+                if (isPast && hidePast) return "";
+                return `<tr class="${cls}">
+                    <td class="dow-cell">${fmtDate(s.date)}<span class="dow">${fmtDow(s.date)}</span>
+                        ${cls === "next" ? '<span class="next-tag">NASTĘPNE</span>' : ""}</td>
+                    <td>${s.from}–${s.to}</td>
+                    <td class="topic">${s.topic}${kolaBadge(s)}</td>
+                </tr>`;
+            }).join("");
+
+            const nextInfo = nextIdx === -1
+                ? "Wszystkie zajęcia odbyte ✅"
+                : "Najbliższe: " + fmtDate(sessions[nextIdx].date) + ", " + sessions[nextIdx].from;
+
+            return `<div class="card" data-kind="${kind}">
+                <div class="card-head" style="background:${color}">
+                    <h3>${groupLabel(g, kind)}</h3>
+                    <span class="count">${sessions.length} zajęć · odbyte: ${done}</span>
+                </div>
+                <div class="card-sub">${nextInfo}</div>
+                <table>
+                    <thead><tr><th>Data</th><th>Godz.</th><th>Temat</th></tr></thead>
+                    <tbody>${rows}</tbody>
+                </table>
+            </div>`;
+        }).join("");
+    }
+
+    // widoczność sekcji wg filtra
+    document.getElementById("sekcja-cw").classList.toggle("hidden", filter === "lab");
+    document.getElementById("sekcja-lab").classList.toggle("hidden", filter === "cw");
+}
+
+function renderAll() {
+    renderUpcoming();
+    renderGrids();
+}
+
+document.querySelectorAll(".chip").forEach(btn => {
+    btn.addEventListener("click", () => {
+        document.querySelectorAll(".chip").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        filter = btn.dataset.filter;
+        renderAll();
+    });
+});
+document.getElementById("hide-past").addEventListener("change", e => {
+    hidePast = e.target.checked;
+    renderGrids();
+});
+
+loadData()
+    .then(renderAll)
+    .catch(err => {
+        const box = document.getElementById("error-box");
+        box.classList.remove("hidden");
+        box.innerHTML = "⚠️ " + err.message +
+            "<br>Jeśli otwierasz stronę bezpośrednio z dysku (<code>file://</code>), przeglądarka blokuje wczytywanie CSV. " +
+            "Uruchom w folderze <code>wyniki</code>: <code>python3 -m http.server 8000</code> " +
+            "i otwórz <code>http://localhost:8000/plan_zajec.html</code>.";
+    });
+</script>
+</body>
+</html>
