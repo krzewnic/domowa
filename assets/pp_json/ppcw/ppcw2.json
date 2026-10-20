@@ -1,0 +1,52 @@
+{
+  "sectionTitle": " Ćwiczenia 2",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Omówienie zadań bieżących",
+          "icon": "ti-book"
+        }
+      ]
+    },
+    {
+      "title": "Wykłady",
+      "type": "description",
+      "contents": [
+        {
+          "text": "Wykład 3",
+          "description": "Składnia wyrażeń i instrukcji, złożoność obliczeniowa, operacje wejścia i wyjścia, funkcje",
+          "icon": "ti-book",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad03_folie.pdf",
+          "comment": "mbnf, instrukcje warunkowe, pętla for i while, instrukcja switch, funkcja Potega, złożoność obliczeniowa - liczenie operacji, strumienie danych > < oraz przetwarzanie potokowe |, funkcja printf, specyfikacje przekształceń, funkcja scanf, argumenty funkcji, wartość zwracana przez funkcję, deklaracja funkcji, zmienne lokalne i globalne, przesłanianie zmiennych."
+        },
+        {
+          "text": "Wykład 4",
+          "icon": "ti-book",
+          "description": "Specyfikacja funkcji, operacje wejścia i wyjścia na plikach, rekurencja, tablice i wskaźniki",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad04_folie.pdf",
+          "comment": "specyfikacja funkcji, warunki PRE i POST, operacje wejścia/wyjścia na plikach, funkcje fopen, getc, putc, fclose, fscanf, fprintf, iteracja a rekurencja, rekurencja pośrednia i bezpośrednia, wskaźniki, operatory adresu & i dereferencji *, tablice, dostęp do elementów tablicy za pomocą indeksu i za pomocą wskaźnika, zmiana wartości elementu tablicy, iterowanie po tablicy, wczytywanie danych do tablicy, napisy, tablice znaków, arytmetyka wskaźników, rzutowanie"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Algorytmy, ich zapis, ręczna symulacja, analiza złożoności",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_03.pdf"
+        }
+      ]
+    }
+  ]
+}

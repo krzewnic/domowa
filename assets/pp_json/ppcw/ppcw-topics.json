@@ -1,15 +1,19 @@
 {
     "sectionTitle": "Podstawy programowania - ćwiczenia",
-    "topics":
-    [
+    "topics": [
         {
             "title": "Ćwiczenia 0 – Zasady pracy w laboratorium. Narzędzia.",
             "json": "./assets/pp_json/ppcw/ppcw0.json"
         },
-{
-"title": "Ćwiczenia 1 - Algorytm: specyfikacja, testy",
-"json": "./assets/pp_json/ppcw/ppcw1.json",
-"hidden": false
-}
+        {
+            "title": "Ćwiczenia 1 - Algorytm: specyfikacja, testy",
+            "json": "./assets/pp_json/ppcw/ppcw1.json",
+            "hidden": false
+        },
+        {
+            "title": "Ćwiczenia 2 - Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej",
+            "json": "./assets/pp_json/ppcw/ppcw2.json",
+            "hidden": false
+        }
     ]
 }
