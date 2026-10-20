@@ -62,6 +62,19 @@
     }
     .upcoming h2 { margin: 0 0 12px; font-size: 1.1rem; }
     .upcoming-list { display: flex; flex-direction: column; gap: 6px; }
+    .day-sep {
+        display: flex; align-items: center; gap: 10px;
+        margin: 10px 0 2px;
+        color: var(--muted);
+        font-size: .75rem;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+    }
+    .day-sep::before, .day-sep::after {
+        content: "";
+        flex: 1;
+        border-top: 1px dashed var(--line);
+    }
     .upcoming-item {
         display: grid;
         grid-template-columns: 150px 90px 130px 1fr;
@@ -322,11 +335,14 @@ function renderUpcoming() {
         box.innerHTML = "<p style='color:var(--muted);margin:0'>Brak nadchodzących zajęć 🎉</p>";
         return;
     }
-    box.innerHTML = upcoming.map(s => {
+    box.innerHTML = upcoming.map((s, i) => {
         const dl = daysUntil(s.date);
         const left = dl === 0 ? "dziś!" : dl === 1 ? "jutro" : "za " + dl + " dni";
         const color = GROUP_COLORS[s.group] || "#555";
-        return `<div class="upcoming-item">
+        const sep = (i === 0 || +upcoming[i - 1].date !== +s.date)
+            ? `<div class="day-sep">${fmtDate(s.date)} · ${fmtDow(s.date)}</div>`
+            : "";
+        return `${sep}<div class="upcoming-item">
             <div><strong>${fmtDate(s.date)}</strong> <span class="dow">${fmtDow(s.date)}</span></div>
             <div>${s.from}–${s.to}</div>
             <div><span class="badge" style="background:${color}">${groupLabel(s.group, s.kind)}</span>
