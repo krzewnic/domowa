@@ -33,8 +33,14 @@
             }
         }
     ],
-    "news":[
-
+    "news": [
+        {
+            "pl": {
+                "title": "Nieobecność dnia 23.10",
+                "date": "13.10.2026",
+                "content": "Uprzejmie informuję, że dnia 23.10 nie będę obecna. Za utrudnienia i bardzo późną informację przepraszam."
+            }
+        }
     ],
     "_news": [
         {
