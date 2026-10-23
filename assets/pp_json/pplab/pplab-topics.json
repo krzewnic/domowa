@@ -20,7 +20,7 @@
         {
             "title": "Laboratorium 3 – Pętle oraz funkcje",
             "json": "./assets/pp_json/pplab/pplab-laboratorium3.json",
-            "hidden": true
+            "hidden": false
         },
         {
             "title": "Laboratorium 4 – Praca z tablicami jedno i wielowymiarowymiarowymi, K1",

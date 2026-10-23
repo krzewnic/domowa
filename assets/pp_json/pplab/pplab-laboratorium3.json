@@ -13,7 +13,7 @@
       "type": "ol",
       "contents": [
         {
-          "text": "L3",
+          "text": "Pyszności Giuseppe",
           "icon": "ti-receipt",
           "url": "https://docs.google.com/document/d/1obp4SWB1c2hyBBtNjmqjtizQtCSo_d1QPCHu0tJYp3U/edit?usp=sharing"
         }
@@ -25,7 +25,8 @@
       "contents": [
 
         {
-          "text": "Podręcznik Wikimedia rozdział 9.2, 11",
+          "text": "Podręcznik Wikimedia rozdział 11",
+          "description": "Funkcje, argumenty przekazywane z wiersza poleceń do funkcji main",
           "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
         }
       ]
@@ -35,14 +36,9 @@
       "type": "ol",
       "contents": [
         {
-          "type": "ul",
-          "title": "Trenuj nowe skille",
-          "contents": [
-            "posłużenie się instrukcją pętli w celu realizacji powtórzenia",
-            "wykorzystanie wielu różnorodnych funkcji w programie",
-            "posłużenie się instrukcją pętli w celu wielokrotnego wywołania tej samej funkcji" 
-            
-          ]
+          
+          "text": "Rozterki Giuseppe",
+          "url": "https://docs.google.com/document/d/1obp4SWB1c2hyBBtNjmqjtizQtCSo_d1QPCHu0tJYp3U/edit?tab=t.x894y1l65at2"
         }
       ]
     }
