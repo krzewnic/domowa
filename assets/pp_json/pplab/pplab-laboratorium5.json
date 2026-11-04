@@ -1,0 +1,50 @@
+{
+  "sectionTitle": "Laboratorium 4",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Praca z napisami. Rekurencja"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [ 
+        {
+          "text": "L5",
+          "icon": "ti-receipt",
+          "url": "https://docs.google.com/document/d/1CJnoljHoVaggvyED9uA583l2i7ELaLq3PX0LxOZJaig/edit?tab=t.0"
+        }
+      ]
+    },
+    {
+      "type": "ul",
+      "title": "Przydatne materiały",
+      "contents": [
+        {
+          "text": "Podręcznik Wikimedia rozdział 11.6.3",
+          "description": "Funkcje rekurencyjne",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        },
+        {
+          "text": "Podręcznik Wikimedia rozdział 18",
+          "description": "Napisy",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        } 
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "L5",
+          "icon": "ti-receipt",
+          "url": "https://docs.google.com/document/d/1CJnoljHoVaggvyED9uA583l2i7ELaLq3PX0LxOZJaig/edit?tab=t.ymdg2cnlgwqb"
+        }
+      ]
+    }
+  ]
+}

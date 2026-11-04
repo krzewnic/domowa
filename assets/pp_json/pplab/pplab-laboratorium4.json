@@ -15,6 +15,7 @@
         "Kolokwium cząstkowe K1",
         {
           "text": "L4",
+          "description": "Program antywirusowy",
           "icon": "ti-receipt",
           "url": "https://docs.google.com/document/d/1THnGIlvnjhPoO0FLopUcgEQzbgFzM6fE8oesUTW_Af8/edit?usp=sharing"
         }
@@ -25,7 +26,13 @@
       "title": "Przydatne materiały",
       "contents": [
         {
-          "text": "Podręcznik Wikimedia rozdział 16",
+          "text": "Podręcznik Wikimedia rozdział 11.6.3",
+          "description": "Funkcje rekurencyjne",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        },
+        {
+          "text": "Podręcznik Wikimedia rozdział 18",
+          "description": "Napisy",
           "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
         } 
       ]
@@ -35,14 +42,10 @@
       "type": "ol",
       "contents": [
         {
-          "type": "ul",
-          "title": "Trenuj nowe skille",
-          "contents": [
-            "wykorzystanie jednowymiarowej tablicy liczb",
-            "wykorzystanie jednowymiarowej tablicy znaków",
-            "posłużenie się funkcją operującą na tablicy",
-            "utworzenie funkcji operującej na tablicy"
-          ]
+          "text": "L4",
+          "description": "Gierka w starym stylu",
+          "icon": "ti-receipt",
+          "url": "https://docs.google.com/document/d/1THnGIlvnjhPoO0FLopUcgEQzbgFzM6fE8oesUTW_Af8/edit?tab=t.x894y1l65at2"
         }
       ]
     }

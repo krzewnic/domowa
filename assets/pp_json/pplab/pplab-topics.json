@@ -25,6 +25,11 @@
         {
             "title": "Laboratorium 4 – Praca z tablicami jedno i wielowymiarowymiarowymi, K1",
             "json": "./assets/pp_json/pplab/pplab-laboratorium4.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 5 – Praca z napisami. Rekurencja",
+            "json": "./assets/pp_json/pplab/pplab-laboratorium5.json",
             "hidden": true
         }
     ]
