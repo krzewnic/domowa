@@ -34,21 +34,27 @@
         }
     ],
     "news": [
-	{
-		"pl": {
-			"title": "Odrabianie nieobecności - laboratorium",
-			"date": "30.10.2026",
-			"content": "W związku z moją nieobecnością dnia 23.10 mają Państwo możliwość uczestniczyć w zajęcia w następujacych terminach:<ul><li>Grupa 5, PT 7:30 => wt 9:15, s.38, dnia <strong>10.11</strong> (sala jest zajęta 3.11)</li><li>Grupa 4, PT 8:20 => śr, która jest w piątek <strong>13.11</strong> o 8:15, s.38 (UWAGA na datę!) </li></ul><br>Kolokwia odbywają się w tylko w terminach regularnych (nie odbywają się podczas odróbek)."
-		}
-	},
-{
-	"pl":{
-		"title" : "Prawdopodobna data odróbki - ćwiczenia - do potwierdzenia 6.11",
-		"date": "30.10.2026",
-		"content": "<s>W związku z moją nieobecnością dnia 23.10 mają Państwo możliwość uczestniczyć w zajęciach w następującym terminie:<ul><li>Grupa 3, PT 9:15 => czt 11:15, dnia<strong>19.11</strong>, sala C5/409, temat: MBNF</li></ul></s>"
-	}
-},
-
+        {
+            "pl": {
+                "title": "Odrabianie nieobecności - ćwiczenia",
+                "date": "7.11.2026",
+                "content": "W związku z moją nieobecnością dnia 23.10 mają Państwo możliwość uczestniczyć w zajęcia w następującym terminie:<ul><li>Grupa 3, PT 9:15 => wt 11:15, dnia <strong>24.11</strong>, sala C5/409</li></ul><p>co daje następujący układ dalszych zajęć</p><ul><li>20.11 <strong>H3</strong> Algorytmy, ich zapis,[..]</li><li>24.11 Analiza poprawności konstrukcji [..]</li><li>4.12 <strong>H4, K1</strong> Sortowanie</li><li>15.01 <strong>H5, K2</strong> Listy i stosy</li><li>29.01 <strong>H6, Poprawy</strong> Drzewa binarne</li></ul><p>K1 obejmuje zadania z list ćwiczeń 1-4, K2 obejmuje zadania z list 4-6, poprawa obejmuje zadania z list 1-6.</p>"
+            }
+        },
+        {
+            "pl": {
+                "title": "Odrabianie nieobecności - laboratorium",
+                "date": "30.10.2026",
+                "content": "W związku z moją nieobecnością dnia 23.10 mają Państwo możliwość uczestniczyć w zajęcia w następujących terminach:<ul><li>Grupa 5, PT 7:30 => wt 9:15, s.38, dnia <strong>10.11</strong> (sala jest zajęta 3.11)</li><li>Grupa 4, PT 8:20 => śr, która jest w piątek <strong>13.11</strong> o 8:15, s.38 (UWAGA na datę!) </li></ul><br>Kolokwia odbywają się w tylko w terminach regularnych (nie odbywają się podczas odróbek)."
+            }
+        },
+        {
+            "pl": {
+                "title": "<s>Prawdopodobna data odróbki - ćwiczenia - do potwierdzenia 6.11</s>",
+                "date": "<s>30.10.2026</s>",
+                "content": "<s>W związku z moją nieobecnością dnia 23.10 mają Państwo możliwość uczestniczyć w zajęciach w następującym terminie:<ul><li>Grupa 3, PT 9:15 => czt 11:15, dnia<strong>19.11</strong>, sala C5/409, temat: MBNF</li></ul></s>"
+            }
+        },
         {
             "pl": {
                 "title": "Nieobecność dnia 23.10",

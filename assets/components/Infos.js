@@ -64,12 +64,12 @@ class InfoNews extends React.Component {
         return <>
             <div class="row mt-4">
                 <div class="col-6 ">
-                    <h5>{this.state.info.pl.title} </h5>
-                    <span class="font-italic font-weight-light text-muted small">{this.state.info.pl.date} </span>
+                    <h5 dangerouslySetInnerHTML={{ __html: this.state.info.pl.title }}></h5>
+                    <span class="font-italic font-weight-light text-muted small" dangerouslySetInnerHTML={{ __html: this.state.info.pl.date }}></span>
                 </div>
                 <div class="col-6">
-                    <h5>{this.state.info.en.title} </h5>
-                    <span class="font-italic font-weight-light text-muted small">{this.state.info.en.date} </span>
+                    <h5 dangerouslySetInnerHTML={{ __html: this.state.info.en.title }}></h5>
+                    <span class="font-italic font-weight-light text-muted small" dangerouslySetInnerHTML={{ __html: this.state.info.en.date }}></span>
                 </div>
             </div>
             <div class="row mt-4">
@@ -94,8 +94,8 @@ class InfoNews extends React.Component {
             if ("pl" in this.state.info) {
                 return <div class="row mt-4">
                     <div class="col-12 ">
-                        <h5>{this.state.info.pl.title}</h5>
-                        <span class="font-italic font-weight-light text-muted small">{this.state.info.pl.date} </span>
+                        <h5 dangerouslySetInnerHTML={{ __html: this.state.info.pl.title }}></h5>
+                        <span class="font-italic font-weight-light text-muted small" dangerouslySetInnerHTML={{ __html: this.state.info.pl.date }}></span>
                         <div class="mb-4" dangerouslySetInnerHTML={{ __html: this.state.info.pl.content }}></div>
                     </div>
                 </div>
@@ -136,6 +136,4 @@ class InfosMainPage extends FetchingComponent {
         }
     }
 }
-
-
 

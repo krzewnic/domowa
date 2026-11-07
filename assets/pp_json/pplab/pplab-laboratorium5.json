@@ -24,13 +24,13 @@
       "title": "Przydatne materiały",
       "contents": [
         {
-          "text": "Podręcznik Wikimedia rozdział 11.6.3",
-          "description": "Funkcje rekurencyjne",
+          "text": "Podręcznik Wikimedia rozdział 14",
+          "description": "Czytanie i pisanie do plików",
           "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
         },
         {
-          "text": "Podręcznik Wikimedia rozdział 18",
-          "description": "Napisy",
+          "text": "Podręcznik Wikimedia rozdział 11.5",
+          "description": "Argumenty wywołania programu",
           "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
         } 
       ]
