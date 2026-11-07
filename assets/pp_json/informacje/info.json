@@ -36,6 +36,13 @@
     "news": [
         {
             "pl": {
+                "title": "Kolokwia cząstkowe z laboratorium - dodatkowy termin popraw",
+                "date": "7.11.2026",
+                "content": "Istnieje możliwość poprawy kolokwiów cząstkowych z laboratorium dnia 26 listopada 2026 od godziny 11:15 w sali 38. Poprawy będą się odbywać w kolejności przybycia maksymalnie do godziny 13:00.</p>"
+            }
+        },
+        {
+            "pl": {
                 "title": "Odrabianie nieobecności - ćwiczenia",
                 "date": "7.11.2026",
                 "content": "W związku z moją nieobecnością dnia 23.10 mają Państwo możliwość uczestniczyć w zajęcia w następującym terminie:<ul><li>Grupa 3, PT 9:15 => wt 11:15, dnia <strong>24.11</strong>, sala C5/409</li></ul><p>co daje następujący układ dalszych zajęć</p><ul><li>20.11 <strong>H3</strong> Algorytmy, ich zapis,[..]</li><li>24.11 Analiza poprawności konstrukcji [..]</li><li>4.12 <strong>H4, K1</strong> Sortowanie</li><li>15.01 <strong>H5, K2</strong> Listy i stosy</li><li>29.01 <strong>H6, Poprawy</strong> Drzewa binarne</li></ul><p>K1 obejmuje zadania z list ćwiczeń 1-4, K2 obejmuje zadania z list 4-6, poprawa obejmuje zadania z list 1-6.</p>"

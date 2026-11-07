@@ -1,0 +1,52 @@
+{
+  "sectionTitle": " Ćwiczenia 3",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Omówienie zadań bieżących",
+          "icon": "ti-book"
+        }
+      ]
+    },
+    {
+      "title": "Wykłady",
+      "type": "description",
+      "contents": [
+        {
+          "text": "Wykład 5",
+          "description": "Uniksowe interpretery poleceń",
+          "icon": "ti-book",
+          "url": "https://kcir.pwr.edu.pl/~witold/unixintro/shelintro_s.pdf",
+          "comment": "praca w terminalu, polecenia, globbing, potoki |, listy poleceń, przekierowania wejścia/wyjścia, skrypty, chmod, zmienna PATH, polecenia zagnieżdżone ``, argumenty wywołania skryptu, znaki specjalne, status procesu $?, instrukcje warunkowe if oraz case, pętla while, funkcje interpretera poleceń, parametry opcjonalne interpretera poleceń, wskazywanie interpreter za pomocą #!, POSIX"
+        },
+        {
+          "text": "Wykład 6",
+          "description": "Tablice i wskaźniki cd., argumenty wywołania programu, reguły stylu programowania, asercje",
+          "comment": "tablice wielowymiarowe, zakres indeksów tablic, tablice a wskaźniki, menu programu, argumenty wywołania programu, konwencje, reguły stylu programowania, komentarze dokumentujące, asercje",
+          "icon": "ti-book",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad06_folie.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Analiza poprawności konstrukcji, wyliczanie wyrażeń ze wskaźnikami i tablicami, ręczna symulacja, opracowywanie funkcji programu",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_04.pdf"
+        }
+      ]
+    }
+  ]
+}

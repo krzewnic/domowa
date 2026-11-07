@@ -11,9 +11,21 @@
             "hidden": false
         },
         {
-            "title": "Ćwiczenia 2 - Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej",
+            "title": "Ćwiczenia 2 - Notacja MBNF, diagramy składni, drzewa wyliczania wartości wyrażeń, instrukcja pętli",
             "json": "./assets/pp_json/ppcw/ppcw2.json",
+            "hidden": false
+        },
+        {
+            "title": "Ćwiczenia 3 - Algorytmy, ich zapis, ręczna symulacja, analiza złożoności obliczeniowej",
+            "json": "./assets/pp_json/ppcw/ppcw3.json",
+            "hidden": false
+        },
+        {
+            "title": "Ćwiczenia 4 - Analiza poprawności konstrukcji, wyliczanie wyrażeń ze wskaźnikami i tablicami, ręczna symulacja, opracowywanie funkcji programu",
+            "json": "./assets/pp_json/ppcw/ppcw4.json",
             "hidden": false
         }
     ]
+
+    
 }

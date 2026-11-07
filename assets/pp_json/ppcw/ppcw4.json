@@ -1,0 +1,52 @@
+{
+  "sectionTitle": " Ćwiczenia 4",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Analiza poprawności konstrukcji, wyliczanie wyrażeń ze wskaźnikami i tablicami, ręczna symulacja, opracowywanie funkcji programu"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Omówienie zadań bieżących",
+          "icon": "ti-book"
+        }
+      ]
+    },
+    {
+      "title": "Wykłady",
+      "type": "description",
+      "contents": [
+        {
+          "text": "Wykład 7",
+          "icon": "ti-book",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad07_folie.pdf",
+          "description": "Zmienne dynamiczne, struktury, moduły programowe",
+          "comment": "zmienne statyczne, automatyczne i dynamiczne, funkcje malloc, calloc, free, struktury, funkcja typedef, struktury zawierające tablice, podział programu na moduły"
+        },
+        {
+          "text": "Wykład 8",
+          "icon": "ti-book",
+          "description": "Obsługa błędów, przeszukiwanie i sortowanie tablic",
+          "comment": "wykrywanie i sygnalizowanie błędów, błędy krytyczne i niekrytyczne, przeszukiwanie liniowe i binarne, sortowanie przez wstawianie, drzewiaste, bąbelkowe, szybkie, przez scalanie, hybrydowe",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/wyklad08_folie.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "Sortowanie.",
+          "url": "https://kcir.pwr.edu.pl/~mucha/PProg/PProg_cw_05.pdf"
+        }
+      ]
+    }
+  ]
+}
