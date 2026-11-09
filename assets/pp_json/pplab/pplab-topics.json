@@ -30,6 +30,11 @@
         {
             "title": "Laboratorium 5 – Praca z napisami. Rekurencja",
             "json": "./assets/pp_json/pplab/pplab-laboratorium5.json",
+            "hidden": false
+        },
+        {
+            "title": "Laboratorium 6 – Obsługa plików, strumienie danych, argumenty wywołania programu",
+            "json": "./assets/pp_json/pplab/pplab-laboratorium6.json",
             "hidden": true
         }
     ]

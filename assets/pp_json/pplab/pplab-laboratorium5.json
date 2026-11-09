@@ -1,5 +1,5 @@
 {
-  "sectionTitle": "Laboratorium 4",
+  "sectionTitle": "Laboratorium 5",
   "paragraphs": [
     {
       "type": "description",
@@ -32,7 +32,15 @@
           "text": "Podręcznik Wikimedia rozdział 11.5",
           "description": "Argumenty wywołania programu",
           "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
-        } 
+        },
+        {
+          "text": "Małe funkcje są piękne",
+          "url": "https://docs.google.com/presentation/d/1Ovl3aowzLu-9-MIdm2Cw2FnB6ldiN8yz_ob5P_UE3sg/edit?usp=sharing"
+        } ,
+        {
+          "text": "Argumenty wywołania programu",
+          "url": "https://docs.google.com/presentation/d/1ci-BiS19eDkFfX3Vxcpjs8jJBbaewQYB_7f8a7vBStM/edit?usp=sharing"
+        }
       ]
     },
     {

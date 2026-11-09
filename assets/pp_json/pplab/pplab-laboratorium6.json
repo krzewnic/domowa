@@ -1,0 +1,53 @@
+{
+  "sectionTitle": "Laboratorium 6",
+  "paragraphs": [
+    {
+      "type": "description",
+      "title": "Temat",
+      "contents": [
+        "Obsługa plików, strumienie danych, argumenty wywołania programu"
+      ]
+    },
+    {
+      "title": "Przebieg laboratorium",
+      "type": "ol",
+      "contents": [ 
+        {
+          "text": "L6",
+          "icon": "ti-receipt",
+          "url": "https://docs.google.com/document/d/1awZu-1tSkKbzjNGgAGmcNEy7uZOeMitskWn5QVGx8-c/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "type": "ul",
+      "title": "Przydatne materiały",
+      "contents": [
+        {
+          "text": "Podręcznik Wikimedia rozdział 14",
+          "description": "Czytanie i pisanie do plików",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        },
+        {
+          "text": "Podręcznik Wikimedia rozdział 11.5",
+          "description": "Argumenty wywołania programu",
+          "url": "https://upload.wikimedia.org/wikibooks/pl/6/6a/C.pdf"
+        },{
+          "text": "Testowanie programów",
+          "url":"https://docs.google.com/presentation/d/1kX0GY5RWeDfgLv72VTW-Ahtx1kWGCqc8S-nHQ061gys/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "title": "Zadanie domowe",
+      "type": "ol",
+      "contents": [
+        {
+          "text": "L6",
+          "icon": "ti-receipt",
+          "url": "https://docs.google.com/document/d/1awZu-1tSkKbzjNGgAGmcNEy7uZOeMitskWn5QVGx8-c/edit?tab=t.bnfxtwser5wi"
+        }
+      ]
+    }
+  ]
+}
